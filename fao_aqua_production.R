@@ -2,6 +2,7 @@ library(readxl)
 library(tidyverse)
 library(stringr)
 library(sf)
+library(rworldmap)
 source('theme_javier.R')
 
 # species names-----------
@@ -32,8 +33,11 @@ spp <-
 prod_data_all <-
   left_join(prod, country, by = 'COUNTRY') %>%
   left_join(spp, by = "SPECIES") %>%
-  mutate(Scientific_Name = fct_recode(Scientific_Name,  "Scophthalmus maximus" = "Psetta maxima"),
-         Scientific_Name = as.character(Scientific_Name))
+  mutate(
+    Scientific_Name = fct_recode(Scientific_Name,
+                                 "Scophthalmus maximus" = "Psetta maxima"),
+    Scientific_Name = as.character(Scientific_Name)
+  )
 
 write_rds(prod_data_all, 'outputs/production_data_all.RDS')
 
@@ -118,39 +122,66 @@ mean_prod <-
   mutate(ISO_N3 = as.numeric(COUNTRY)) %>% 
   write_csv("outputs/production_country_data.csv")
 
+# production_country_data <- read_csv("outputs/production_country_data.csv")
+# # join with world by contry--------
+# mean_prod_world <- 
+#   full_join(
+#   getMap(resolution = "high") %>%
+#     st_as_sf() %>%
+#     dplyr::select(ADMIN, SUBUNIT, ISO_N3) %>% 
+#     as.data.frame(),
+#   mean_prod,
+#   by = "ISO_N3"
+# )
 
-# join with world by contry--------
-mean_prod_world <- 
-  full_join(
-  getMap(resolution = "high") %>%
-    st_as_sf() %>%
-    dplyr::select(ADMIN, SUBUNIT, ISO_N3) %>% 
-    as.data.frame(),
-  mean_prod,
-  by = "ISO_N3"
-)
+# add ecoregions manually based on www.seaaroundus.org mariculture dataset-------------- 
+mean_prod_ecoreg <- read_csv('outputs/production_country_data_ecoreg_manual.csv')
 
 # get ecoregions of the world shapefile----
 eco_reg <-
   st_read('data/MEOW/meow_ecos.shp') %>%
   dplyr::select(ECOREGION)
 
-production_ecoreg_sf <-
-  mean_prod_world %>%
-  st_sf(sf_column_name = 'geometry') %>% # convert to sf  object
-  st_join(eco_reg, .) %>% # join subunit with ecoregion polygons
-  drop_na(Scientific_Name) %>% 
-  group_by(ECOREGION, Scientific_Name) %>% 
-  summarise(mean_prod = mean(mean_prod, na.rm = T)) %>% 
-  rename(Species = "Scientific_Name")
 
-st_write(production_ecoreg_sf, 'outputs/production_ecoreg_sf.geojson', delete_dsn=TRUE)
+mean_prod_ecoreg_sf <- 
+  full_join(mean_prod_ecoreg,as.data.frame(eco_reg), by = 'ECOREGION') %>% 
+  st_sf(sf_column_name = 'geometry') %>% 
+  rename(Species = "Scientific_Name") %>% 
+  drop_na(Species)
 
-production_ecoreg_data <- 
-  production_ecoreg_sf %>% 
-  dplyr::select(-geometry) %>% 
-  as.data.frame() %>% 
-  write_csv('outputs/production_ecoreg_data.csv')
+st_write(mean_prod_ecoreg_sf, 'outputs/production_ecoreg_sf.geojson', delete_dsn=TRUE)
+
+
+production_ecoreg_map <- 
+  world_map_low +
+  geom_sf(data = mean_prod_ecoreg_sf, aes(fill = mean_prod)) +
+  facet_wrap( ~ Species) +
+  scale_fill_gradientn(
+    colours = c("red", "yellow", "green", "lightblue", "darkblue"),
+    values = c(1.0, 0.5, 0.3, 0.2, 0.1, 0),
+    name = 'Mean production',
+    trans = 'log10'
+  )
+
+save_map(map = production_ecoreg_map, filename = 'catch_ecoreg_map')
+
+
+# production_ecoreg_sf <-
+#   mean_prod_ecoreg %>%
+#   st_sf(sf_column_name = 'geometry') %>% # convert to sf  object
+#   st_join(eco_reg, .) %>% # join subunit with ecoregion polygons
+#   drop_na(Scientific_Name) %>% 
+#   group_by(ECOREGION, Scientific_Name, ADMIN, SUBUNIT, ISO_N3) %>% 
+#   summarise(mean_prod = mean(mean_prod, na.rm = T)) %>% 
+#   rename(Species = "Scientific_Name")
+# 
+# st_write(production_ecoreg_sf, 'outputs/production_ecoreg_sf.geojson', delete_dsn=TRUE)
+# 
+# production_ecoreg_data <- 
+#   production_ecoreg_sf %>% 
+#   dplyr::select(-geometry) %>% 
+#   as.data.frame() %>% 
+#   write_csv('outputs/production_admin_ecoreg_data.csv')
 
 # merge with habitat suitability-------------
 all_suitability_data_ecoreg <- read_csv('outputs/all_suitability_data_ecoreg.csv')
