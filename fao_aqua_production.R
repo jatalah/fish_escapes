@@ -68,12 +68,12 @@ prod_data_all %>%
            Major_Group == 'PISCES' & 
            YEAR > 2015) %>%
   group_by(Scientific_Name,  spp_name) %>%
-  summarise(tot_quant = sum(QUANTITY),
+  summarise(mean_quant = mean(QUANTITY,na.rm = T),
             country = n_distinct(ISO3_Code)) %>%
-  filter(country > 6 &
+  filter(country > 2 &
            str_detect(Scientific_Name, " ") &
            !str_detect(Scientific_Name, "spp")) %>%
-  arrange(desc(tot_quant)) %>%
+  arrange(desc(mean_quant)) %>%
   print(n = 50)
 
 # plot times series function --------
@@ -146,7 +146,7 @@ eco_reg <-
 mean_prod_ecoreg_sf <- 
   full_join(mean_prod_ecoreg,as.data.frame(eco_reg), by = 'ECOREGION') %>% 
   st_sf(sf_column_name = 'geometry') %>% 
-  rename(Species = "Scientific_Name") %>% 
+  rename(Species = "Species") %>% 
   drop_na(Species)
 
 st_write(mean_prod_ecoreg_sf, 'outputs/production_ecoreg_sf.geojson', delete_dsn=TRUE)
@@ -165,23 +165,6 @@ production_ecoreg_map <-
 
 save_map(map = production_ecoreg_map, filename = 'catch_ecoreg_map')
 
-
-# production_ecoreg_sf <-
-#   mean_prod_ecoreg %>%
-#   st_sf(sf_column_name = 'geometry') %>% # convert to sf  object
-#   st_join(eco_reg, .) %>% # join subunit with ecoregion polygons
-#   drop_na(Scientific_Name) %>% 
-#   group_by(ECOREGION, Scientific_Name, ADMIN, SUBUNIT, ISO_N3) %>% 
-#   summarise(mean_prod = mean(mean_prod, na.rm = T)) %>% 
-#   rename(Species = "Scientific_Name")
-# 
-# st_write(production_ecoreg_sf, 'outputs/production_ecoreg_sf.geojson', delete_dsn=TRUE)
-# 
-# production_ecoreg_data <- 
-#   production_ecoreg_sf %>% 
-#   dplyr::select(-geometry) %>% 
-#   as.data.frame() %>% 
-#   write_csv('outputs/production_admin_ecoreg_data.csv')
 
 # merge with habitat suitability-------------
 all_suitability_data_ecoreg <- read_csv('outputs/all_suitability_data_ecoreg.csv')
