@@ -57,21 +57,7 @@ all_native <- st_read("outputs/native_data.geojson")
 both_dist <- rbind(all_native,all_introduced)
 
 # ggsave map function
-save_map <-
-  function(map, filename) {
-    ggsave(
-      map,
-      filename = paste0('figures/',
-                        filename,
-                        '.tiff'),
-      device = 'tiff',
-      compression = 'lzw',
-      dpi = 600,
-      units = 'cm',
-      width = 30,
-      heigh = 15
-    )
-  }
+source('save_map_func.R')
 
 # map distributions by species------------
 map_both_dist <- 

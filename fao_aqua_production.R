@@ -38,44 +38,63 @@ prod_data_all <-
                                  "Scophthalmus maximus" = "Psetta maxima"),
     Scientific_Name = as.character(Scientific_Name)
   )
-
 write_rds(prod_data_all, 'outputs/production_data_all.RDS')
 
-
-prod_data <-
-  prod_data_all %>%
-  filter(Scientific_Name %in% study_spp$Species) %>%
-  group_by(COUNTRY,
-           PRODUCTION_AREA,
-           SPECIES ,
-           YEAR,
-           spp_name ,
-           country_name,
-           Scientific_Name,
-           ENVIRONMENT,
-           ISO3_Code)
-
-write_rds(prod_data, 'outputs/production_data_all_study_spp.RDS')
-
-# summary marine production by species and country---
-marine_prod <-
-  prod_data %>%
-  dplyr::filter(ENVIRONMENT == 3)
+# 1	IN	Freshwater
+# 2	BW	Brackishwater
+# 3	MA	Marine
+# 101	AL	All environments
 
 # get top produced fish species in more than 8 countries------
-prod_data_all %>%
+top_aqua_sp <- 
+  prod_data_all %>%
   filter(ENVIRONMENT == 3,
-           Major_Group == 'PISCES' & 
-           YEAR > 2015) %>%
+         Major_Group == 'PISCES' & 
+           YEAR > 2010) %>%
   group_by(Scientific_Name,  spp_name) %>%
   summarise(mean_quant = mean(QUANTITY,na.rm = T),
             country = n_distinct(ISO3_Code)) %>%
-  filter(country > 2 &
+  filter(country > 0 &
            str_detect(Scientific_Name, " ") &
-           !str_detect(Scientific_Name, "spp")) %>%
+           !str_detect(Scientific_Name, "spp") &
+           mean_quant>500) %>%
   arrange(desc(mean_quant)) %>%
   print(n = 50)
 
+# write_csv('outputs/top_aqua_spp_2005.csv')
+
+
+sp_names <- top_aqua_sp$Scientific_Name
+# select study species and marine production only-----
+prod_data <-
+  prod_data_all %>%
+  filter(Scientific_Name %in% sp_names &
+           ENVIRONMENT == 3) %>%
+  # group_by(
+  #   COUNTRY,
+  #   PRODUCTION_AREA,
+  #   SPECIES ,
+  #   YEAR,
+  #   spp_name ,
+  #   country_name,
+  #   Scientific_Name,
+  #   ENVIRONMENT,
+  #   ISO3_Code
+  # ) %>% 
+  rename(Species = Scientific_Name) %>% 
+  # ungroup() %>% 
+  mutate(Species = fct_recode(Species, "Larimichthys crocea" = "Larimichthys croceus"))
+
+
+write_rds(prod_data, 'outputs/production_data_all_study_spp.RDS')
+
+# # view selected spp
+# prod_data_all %>% 
+#   filter(Scientific_Name == 'Lates calcarifer') %>% 
+#   group_by(country_name, ENVIRONMENT, PRODUCTION_AREA) %>%
+#   summarise(mean_quant = mean(QUANTITY,na.rm = T)) %>% 
+#   print(n = 100)
+  
 # plot times series function --------
 plot_trend <-
   function(data) {
@@ -114,34 +133,27 @@ walk2(.x = nest_production$filename,
 
 # summarise data by species and country---------
 mean_prod <-
-  marine_prod %>%
+  prod_data %>%
   filter(YEAR > 2006) %>% # latest 5 years of records
-  group_by(country_name, Scientific_Name, PRODUCTION_AREA, ENVIRONMENT,ISO3_Code, COUNTRY) %>%
+  group_by(country_name, Species, PRODUCTION_AREA, ISO3_Code, COUNTRY) %>%
   summarise(mean_prod = mean(QUANTITY, na.rm = T)) %>%
   filter(mean_prod > 0) %>% 
   mutate(ISO_N3 = as.numeric(COUNTRY)) %>% 
+  ungroup() %>% 
+  arrange(Species, PRODUCTION_AREA) %>% 
   write_csv("outputs/production_country_data.csv")
 
-# production_country_data <- read_csv("outputs/production_country_data.csv")
-# # join with world by contry--------
-# mean_prod_world <- 
-#   full_join(
-#   getMap(resolution = "high") %>%
-#     st_as_sf() %>%
-#     dplyr::select(ADMIN, SUBUNIT, ISO_N3) %>% 
-#     as.data.frame(),
-#   mean_prod,
-#   by = "ISO_N3"
-# )
-
 # add ecoregions manually based on www.seaaroundus.org mariculture dataset-------------- 
-mean_prod_ecoreg <- read_csv('outputs/production_country_data_ecoreg_manual.csv')
+mean_prod_ecoreg <-
+  read_csv('outputs/production_country_data_ecoreg_manual.csv') %>%
+  group_by(Species, country_name, PRODUCTION_AREA, mean_prod) %>%
+  mutate(n_eco = n_distinct(ECOREGION),
+         mean_prod_ecoreg = mean_prod / n_eco)
 
 # get ecoregions of the world shapefile----
 eco_reg <-
   st_read('data/MEOW/meow_ecos.shp') %>%
   dplyr::select(ECOREGION)
-
 
 mean_prod_ecoreg_sf <- 
   full_join(mean_prod_ecoreg,as.data.frame(eco_reg), by = 'ECOREGION') %>% 
@@ -151,71 +163,27 @@ mean_prod_ecoreg_sf <-
 
 st_write(mean_prod_ecoreg_sf, 'outputs/production_ecoreg_sf.geojson', delete_dsn=TRUE)
 
+mean_prod_total_ecoreg_sf <-
+  mean_prod_ecoreg %>% 
+  group_by(ECOREGION) %>% 
+  mutate(total_prod = sum(mean_prod)) %>% 
+  full_join(as.data.frame(eco_reg), by = 'ECOREGION') %>% 
+  st_sf(sf_column_name = 'geometry')%>% 
+  drop_na(Species)
 
-production_ecoreg_map <- 
+production_total_ecoreg_map <- 
   world_map_low +
-  geom_sf(data = mean_prod_ecoreg_sf, aes(fill = mean_prod)) +
-  facet_wrap( ~ Species) +
+  geom_sf(data = mean_prod_total_ecoreg_sf, aes(fill = total_prod)) +
   scale_fill_gradientn(
-    colours = c("red", "yellow", "green", "lightblue", "darkblue"),
-    values = c(1.0, 0.5, 0.3, 0.2, 0.1, 0),
-    name = 'Mean production',
-    trans = 'log10'
+    colours = rev(heat.colors(100)),
+    name = 'Total production',
+    trans = 'sqrt'
   )
+  # scale_fill_gradientn(
+  #   colours = c("red", "yellow", "green", "lightblue", "darkblue"),
+  #   values = c(1.0, 0.5, 0.3, 0.2, 0.1, 0),
+  #   name = 'Total production',
+  #   trans = 'log10'
+  # )
 
-save_map(map = production_ecoreg_map, filename = 'catch_ecoreg_map')
-
-
-# merge with habitat suitability-------------
-all_suitability_data_ecoreg <- read_csv('outputs/all_suitability_data_ecoreg.csv')
-
-suitable_production_ecoreg_data <-
-  inner_join(
-    production_ecoreg_data,
-    all_suitability_data_ecoreg,
-    by = c("Species", "ECOREGION")
-  ) %>% 
-  dplyr::filter(prob>0.3) %>%
-  dplyr::select(-geometry) %>% 
-  write_csv("outputs/suitable_production_ecoreg_data.csv")
-
-suitable_production_ecoreg_data_sf <- 
-  right_join(eco_reg %>% as.data.frame(),
-             suitable_production_ecoreg_data,
-             by = "ECOREGION") %>%
-  st_sf(sf_column_name = 'geometry')
-
-st_write(suitable_production_ecoreg_data_sf, 'outputs/suitable_production_ecoreg_data_sf.geojson', delete_dsn=TRUE)
-
-map_suitable_production <-
-  world_map_low +
-  geom_sf(data = suitable_production_ecoreg_data_sf, aes(fill = mean_prod)) +
-  facet_wrap( ~ Species) +
-  scale_fill_gradientn(
-    colours = c("red", "yellow", "green", "lightblue", "darkblue"),
-    values =  c(1.0, 0.5, 0.3, 0.2, 0.1, 0),
-    name = 'Mean production',
-    trans = 'log',
-    labels = scales::scientific
-  ) +
-  theme_bw()
-
-map_suitable_production
-
-ggsave(
-  map_suitable_production,
-  filename = 'figures/production_maps.tiff',
-  device = 'tiff',
-  compression = 'lzw',
-  dpi = 600,
-  units = 'cm',
-  width = 30,
-  heigh = 15
-)
-
-# FAO production areas------------
-fao_areas <- st_read('data/FAO areas/FAO_AREAS.shp')
-
-world_map_low +
-  geom_sf(data = fao_areas, aes(fill = F_AREA)) +
-  scale_fill_viridis_d()
+production_total_ecoreg_map

@@ -10,7 +10,7 @@ library(readxl)
 read_native <-
   function(path) {
     read_csv(paste0(
-      'C:/Users/javiera/Documents/Fish Escapes/data/FishBase/',
+      'C:/Users/javiera/Documents/fish_escapes/data/AquaMaps/',
       path
     ),
     skip = 7) %>%
@@ -31,7 +31,27 @@ all_occu <-
     read_native('tuna.csv'),
     read_native('meagre.csv'),
     read_native('turbot.csv'),
-    read_native('red_drum.csv')
+    read_native('red_drum.csv'),
+    read_native('jap_mackerel.csv'),
+    read_native('barramundi.csv'),
+    read_native('atlantic_halibut.csv'),
+    read_native('blackhead_seabream.csv'),
+    read_native('mullet.csv'),
+    read_native('red_porgy.csv'),
+    read_native('cod.csv'),
+    read_native('white_trevally.csv'),
+    read_native('chinook.csv'),
+    read_native('southern_bluefin_tuna.csv'),
+    read_native('korean_rockfish.csv'),
+    read_native('halibut.csv'),
+    read_native('jap_seabass.csv'),
+    read_native('coho.csv'),
+    read_native('amberjack.csv'),
+    read_native('pacific_tuna.csv'),
+    read_native('milkfish.csv'),
+    read_native('pompano.csv'),
+    read_native('pufferfish.csv'),
+    read_native('yellow_croaker.csv')
   ) %>% 
   write_csv('outputs/native_dist_data.csv')
 
@@ -60,4 +80,23 @@ all_native_data <-
   all_native %>%
   as.data.frame() %>%
   dplyr::select(ECOREGION, Species) %>% 
+  mutate(status = 'Native') %>% 
   write_csv('outputs/all_native_data.csv')
+
+map_native_dist <- 
+  world_map_low +
+  geom_sf(data = all_native, aes(fill = Species), alpha = .7) +
+  facet_wrap( ~ Species) +
+  scale_fill_discrete(guide = F)
+
+ggsave(
+  map_native_dist,
+  filename = 'map_native_dist.tiff',
+  device = 'tiff',
+  compression = 'lzw',
+  dpi = 300,
+  units = 'cm',
+  width = 50,
+  heigh = 30
+)
+
