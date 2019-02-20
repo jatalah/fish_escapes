@@ -45,6 +45,13 @@ write_rds(prod_data_all, 'outputs/production_data_all.RDS')
 # 3	MA	Marine
 # 101	AL	All environments
 
+
+prod_data_all %>% 
+  filter(ENVIRONMENT == 3,
+         YEAR > 2010) %>% 
+  group_by(Major_Group) %>% 
+  summarise(mean_quant = mean(VALUE,na.rm = T)/mean(QUANTITY,na.rm = T))
+
 # get top produced fish species in more than 8 countries------
 top_aqua_sp <- 
   prod_data_all %>%

@@ -26,12 +26,13 @@ all_occu <-
     read_native('seabream.csv'),
     read_native('salmon.csv'),
     read_native('cobia.csv'),
-    read_native('rabbitfish.csv'),
+    read_native('rabbitfish.csv'),# not in the top 30 species
     read_native('trout.csv'),
     read_native('tuna.csv'),
     read_native('meagre.csv'),
     read_native('turbot.csv'),
     read_native('red_drum.csv'),
+    read_native('silver_seabream.csv'),
     read_native('jap_mackerel.csv'),
     read_native('barramundi.csv'),
     read_native('atlantic_halibut.csv'),
@@ -80,6 +81,7 @@ all_native_data <-
   all_native %>%
   as.data.frame() %>%
   dplyr::select(ECOREGION, Species) %>% 
+  bind_rows(cbind(ECOREGION = "Yellow Sea", Species = "Larimichthys crocea") %>% as.data.frame()) %>% 
   mutate(status = 'Native') %>% 
   write_csv('outputs/all_native_data.csv')
 
@@ -88,6 +90,7 @@ map_native_dist <-
   geom_sf(data = all_native, aes(fill = Species), alpha = .7) +
   facet_wrap( ~ Species) +
   scale_fill_discrete(guide = F)
+
 
 ggsave(
   map_native_dist,
