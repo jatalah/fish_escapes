@@ -39,104 +39,106 @@ prod_data_all <-
     Scientific_Name = as.character(Scientific_Name)
   )
 write_rds(prod_data_all, 'outputs/production_data_all.RDS')
+prod_data_all <- read_rds('outputs/production_data_all.RDS')
 
 # 1	IN	Freshwater
 # 2	BW	Brackishwater
 # 3	MA	Marine
 # 101	AL	All environments
 
-
+# data explorations -----
 prod_data_all %>% 
   filter(ENVIRONMENT == 3,
          YEAR > 2010) %>% 
   group_by(Major_Group) %>% 
   summarise(mean_quant = mean(VALUE,na.rm = T)/mean(QUANTITY,na.rm = T))
 
+prod_data_all %>% 
+  filter(Scientific_Name == "Oreochromis niloticus" & ENVIRONMENT == 2) %>% 
+  group_by(country_name) %>% 
+  summarise(mean(QUANTITY))
+
 # get top produced fish species in more than 8 countries------
-top_aqua_sp <- 
+top_aqua_sp <-
   prod_data_all %>%
   filter(ENVIRONMENT == 3,
-         Major_Group == 'PISCES' & 
+         Major_Group == 'PISCES' &
            YEAR > 2010) %>%
   group_by(Scientific_Name,  spp_name) %>%
-  summarise(mean_quant = mean(QUANTITY,na.rm = T),
+  summarise(mean_quant = mean(QUANTITY, na.rm = T),
             country = n_distinct(ISO3_Code)) %>%
-  filter(country > 0 &
-           str_detect(Scientific_Name, " ") &
-           !str_detect(Scientific_Name, "spp") &
-           mean_quant>500) %>%
+  filter(
+    country > 0 &
+      str_detect(Scientific_Name, " ") &
+      !str_detect(Scientific_Name, "spp") &
+      mean_quant > 500
+  ) %>%
   arrange(desc(mean_quant)) %>%
+  rename(Species = "Scientific_Name") %>%
+  ungroup() %>% 
+  mutate(
+    Species = fct_recode(Species,
+      "Larimichthys crocea" = "Larimichthys croceus",
+      "Sebastes schlegelii" = "Sebastes schlegeli",
+      "Acanthopagrus schlegelii" = "Acanthopagrus schlegeli")
+  ) %>%
+  print(n = 50) %>%
+  write_csv('outputs/top_aqua_sp.csv')
+
+sp_names <- top_aqua_sp$spp_name
+sp_sci_names <- top_aqua_sp$Species
+
+# including brakish species------------
+top_aqua_sp_2 <-
+  prod_data_all %>%
+  filter(ENVIRONMENT == 3 | ENVIRONMENT == 2,
+         Major_Group == 'PISCES' &
+           YEAR > 2010) %>%
+  group_by(Scientific_Name,  spp_name) %>%
+  summarise(mean_quant = mean(QUANTITY, na.rm = T),
+            country = n_distinct(ISO3_Code)) %>%
+  filter(
+    country > 0 &
+      str_detect(Scientific_Name, " ") &
+      !str_detect(Scientific_Name, "spp") &
+      mean_quant > 500
+  ) %>%
+  arrange(desc(mean_quant)) %>% 
+  rename(Species = "Scientific_Name") %>%
+  ungroup() %>%
+  mutate(
+    Species = fct_recode(
+      Species,
+      "Larimichthys crocea" = "Larimichthys croceus",
+      "Sebastes schlegelii" = "Sebastes schlegeli",
+      "Acanthopagrus schlegelii" = "Acanthopagrus schlegeli"
+    )
+  ) %>%
   print(n = 50)
 
-# write_csv('outputs/top_aqua_spp_2005.csv')
+anti_join(top_aqua_sp_2, top_aqua_sp, by = 'Species')
+
+prod_data_all %>%
+  dplyr::filter(spp_name %in% sp_names, ENVIRONMENT == 2 &
+                  YEAR > 2010) %>%
+  group_by(country_name, Scientific_Name, PRODUCTION_AREA, ISO3_Code, COUNTRY) %>%
+  summarise(mean_prod = mean(QUANTITY, na.rm = T)) %>%
+  filter(mean_prod > 0) %>%
+  mutate(ISO_N3 = as.numeric(COUNTRY)) %>%
+  ungroup() %>%
+  arrange(Scientific_Name, PRODUCTION_AREA)
 
 
-sp_names <- top_aqua_sp$Scientific_Name
+
 # select study species and marine production only-----
 prod_data <-
   prod_data_all %>%
   filter(Scientific_Name %in% sp_names &
            ENVIRONMENT == 3) %>%
-  # group_by(
-  #   COUNTRY,
-  #   PRODUCTION_AREA,
-  #   SPECIES ,
-  #   YEAR,
-  #   spp_name ,
-  #   country_name,
-  #   Scientific_Name,
-  #   ENVIRONMENT,
-  #   ISO3_Code
-  # ) %>% 
   rename(Species = Scientific_Name) %>% 
-  # ungroup() %>% 
   mutate(Species = fct_recode(Species, "Larimichthys crocea" = "Larimichthys croceus"))
 
-
 write_rds(prod_data, 'outputs/production_data_all_study_spp.RDS')
-
-# # view selected spp
-# prod_data_all %>% 
-#   filter(Scientific_Name == 'Lates calcarifer') %>% 
-#   group_by(country_name, ENVIRONMENT, PRODUCTION_AREA) %>%
-#   summarise(mean_quant = mean(QUANTITY,na.rm = T)) %>% 
-#   print(n = 100)
-  
-# plot times series function --------
-plot_trend <-
-  function(data) {
-    data %>%
-      arrange(YEAR) %>%
-      ggplot() +
-      geom_path(aes(YEAR, QUANTITY, color = factor(PRODUCTION_AREA))) +
-      facet_wrap( ~ country_name, scales = 'free_y') +
-      ggtitle(first(data$Scientific_Name)) +
-      scale_color_viridis_d(name= 'Production Area') +
-      theme_bw()
-  }
-
-# times series plot by species and country--------- 
-nest_production <- 
-  all_prod %>% 
-  group_by(spp_name) %>% 
-  nest() %>% 
-  mutate(plots = map(.x = data, .f = plot_trend),
-         filename = paste0(spp_name, ".tiff"))
-
-# get plots one by one 
-nest_production[[3]][[1]]
-
-
-# save all plots separatedly-----
-walk2(.x = nest_production$filename,
-      .y = nest_production$plots,
-  ~ ggsave(
-    filename = paste0('figures/',.x),
-    plot = .y,
-    height = 8,
-    width = 12
-  )
-)
 
 # summarise data by species and country---------
 mean_prod <-
@@ -155,7 +157,8 @@ mean_prod_ecoreg <-
   read_csv('outputs/production_country_data_ecoreg_manual.csv') %>%
   group_by(Species, country_name, PRODUCTION_AREA, mean_prod) %>%
   mutate(n_eco = n_distinct(ECOREGION),
-         mean_prod_ecoreg = mean_prod / n_eco)
+         mean_prod_ecoreg = mean_prod / n_eco) %>% 
+  write_csv('outputs/mean_prod_ecoreg.csv')
 
 # get ecoregions of the world shapefile----
 eco_reg <-

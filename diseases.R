@@ -3,13 +3,9 @@ library(readxl)
 library(rfishbase)
 library(sf)
 
-# read study species data--------------
-study_spp <-
-  read_excel('data/fish_escapes.xlsx', sheet = 'Names')
-
 # read disease data from excel -----------------
 path_disease <-
-  "C:/Users/javiera/Documents/Fish Escapes/data/diseases.xlsx"
+  "C:/Users/javiera/Documents/fish_escapes/data/diseases.xlsx"
 
 disease_data <-
   path_disease %>%
@@ -19,8 +15,11 @@ disease_data <-
   write_csv('outputs/diseases_data.csv')
 
 disease_data %>% distinct(AGENT)
-disease_data %>% filter(str_detect(AGENT, "Phila"))
+disease_data %>% distinct(Species)
+disease_data %>% filter(str_detect(AGENT, "Rh"))
 
+
+anti_join(top_aqua_sp, by = 'Species', disease_data %>% distinct(Species))
 
 # join with farming ecoregions by species-----------
 mean_prod_ecoreg <-
@@ -64,6 +63,8 @@ map_diseases <-
     name = 'Number of diseases'
   ) +
   theme_bw()
+
+print(map_diseases)
 
 ggsave(
   map_diseases,

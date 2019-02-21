@@ -9,17 +9,18 @@ theme_set(theme_bw())
 
 # get the world map and convert into sf object----
 world_highres <- 
-  getMap(resolution = "high") %>% 
+  getMap(resolution = "high") %>%
   st_as_sf()
 
 world_map_highres <- 
   ggplot(data = world_highres) +
   geom_sf(fill = 'gray95')
 
-
 world_low <- 
   getMap(resolution = "low") %>% 
-  st_as_sf()
+  st_as_sf() %>% 
+  filter(continent!="Antartica") 
+
 
 world_map_low <- 
   ggplot(data = world_low) +

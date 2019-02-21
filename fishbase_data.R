@@ -6,6 +6,8 @@ library(readxl)
 study_spp <-
   read_excel('data/fish_escapes.xlsx', sheet = 'Names')
 
+sp_names <- top_aqua_sp$Scientific_Name
+
 # add fishbase information----------------
 fisbase_data <-
   study_spp %>%
@@ -52,36 +54,42 @@ glimpse(fisbase_traits[['stocks']][[3]])
 fisbase_traits[['ResilienceRemark']][[1]]
 
 # get growth estimates MaxLength, K and trophic level---------------
+top_aqua_sp <- 
+  read_csv('outputs/top_aqua_sp.csv')
+
 estimates <-
-  study_spp %>%
+  top_aqua_sp %>%
   mutate(estimates = map(Species, rfishbase::estimate)) %>%
   select(estimates) %>%
   flatten_df() %>%
-  select(Species, MaxLengthTL, Troph, a , K) 
+  select(Species, MaxLengthTL, Troph, a , K) %>% 
+  mutate(K = if_else(is.na(K),mean(K,na.rm=T),K),
+         a = if_else(is.na(a),mean(a,na.rm=T),a))
 
 ord <- prcomp(estimates[,c(2,3,5)], scale. = T, center = T)
 estimates$eco_pca <- ord$x[,1]
 write_csv(estimates, 'outputs/estimates_fishbase.csv')
 
-
 biplot(ord)
+ggord(ord)
 
 estimates <-
   read_csv('outputs/estimates_fishbase.csv') %>%
-  dplyr::select(Species, eco_pca) %>% 
+  # dplyr::select(Species, eco_pca) %>% 
   mutate(eco_pca = (max(eco_pca)- eco_pca) + 1)
 
 
 ecology_data_species_ecoreg <-
   estimates %>%
-  dplyr::select(Species, eco_pca) %>%
-  right_join(mean_prod_ecoreg, by = 'Species') 
+  # dplyr::select(Species, eco_pca) %>%
+  right_join(mean_prod_ecoreg, by = 'Species') %>% 
+  write_csv('outputs/ecology_data_species_ecoreg.csv')
 
 ecology_score <-
   ecology_data_species_ecoreg %>% 
   group_by(ECOREGION) %>%
-  mutate(ecol = eco_pca * sqrt(mean_prod)/1e+3) %>%
-  summarise(ecol_total = sum(ecol)) %>% 
+  # mutate(ecol = eco_pca * sqrt(mean_prod)/1e+3) %>%
+  summarise(ecol_total = mean(eco_pca)) %>% 
   right_join(eco_reg %>% as.data.frame(), by = "ECOREGION") %>%
   st_sf(sf_column_name = 'geometry')
 
@@ -93,20 +101,22 @@ world_map_low +
     colours = c("red", "yellow", "green", "lightblue", "darkblue"),
     na.value = 'gray70',
     values = c(1.0, 0.5, 0.3, 0.2, 0.1, 0),
-    name = 'Ecological score'
+    name = 'Invasiveness score'
   ) +
   theme_bw()
 
 
 # fecundity information---------
-study_spp %>%
+top_aqua_sp %>%
   mutate(fecund = map(Species, rfishbase::fecundity)) %>%
   select(fecund) %>% 
-  flatten_df()
+  flatten_df() %>% 
+  group_by(Species) %>% 
+  summarise(Fecundity = mean(FecundityMin, na.rm = T))
 
 # population growth parameter--------------------
 pop_growth <-
-  study_spp %>%
+  top_aqua_sp %>%
   mutate(popgrow = map(Species, rfishbase::popgrowth)) %>%
   select(popgrow) %>%
   flatten_df() %>%
@@ -117,11 +127,23 @@ pop_growth <-
 
 
 # 01 get diseases data from fishbase--------
+fisbase_fooditems <-
+  top_aqua_sp %>%
+  mutate(fooditems = map(Species, fooditems)) %>%
+  unnest() %>%
+  as.data.frame() %>% 
+  filter(!str_detect(Foodname, "unident")) %>% 
+  group_by(Species, Foodname) %>% 
+  summarise(first(Foodgroup))
+
+
 fisbase_diseases <-
-  study_spp %>%
+  top_aqua_sp %>%
   mutate(stocks = map(Species, ~ stocks(fields = 'Diseases'))) %>%
   unnest() %>%
   as.data.frame()
+
+
 
 fisbase_diseases <-
   all_int %>%
