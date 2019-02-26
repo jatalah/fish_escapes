@@ -189,11 +189,6 @@ production_total_ecoreg_map <-
     name = 'Total production',
     trans = 'sqrt'
   )
-  # scale_fill_gradientn(
-  #   colours = c("red", "yellow", "green", "lightblue", "darkblue"),
-  #   values = c(1.0, 0.5, 0.3, 0.2, 0.1, 0),
-  #   name = 'Total production',
-  #   trans = 'log10'
-  # )
+
 
 production_total_ecoreg_map

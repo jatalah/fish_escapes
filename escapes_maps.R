@@ -18,8 +18,7 @@ world_map_highres <-
 
 world_low <- 
   getMap(resolution = "low") %>% 
-  st_as_sf() %>% 
-  filter(continent!="Antartica") 
+  st_as_sf() 
 
 
 world_map_low <- 

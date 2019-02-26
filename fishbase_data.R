@@ -50,8 +50,17 @@ docs("stocks")
   )
 
 
-glimpse(fisbase_traits[['stocks']][[3]])
-fisbase_traits[['ResilienceRemark']][[1]]
+fecundity('Salmo salar')
+
+fecund_data <- 
+  top_aqua_sp %>%
+  mutate(fecundity = map(Species, rfishbase::fecundity)) %>%
+  select(fecundity) %>%
+  flatten_df()
+
+fecund_data %>% 
+  group_by(Species) %>% 
+  summarise(RelFecundityMean = mean(RelFecundityMean, na.rm = T))
 
 # get growth estimates MaxLength, K and trophic level---------------
 top_aqua_sp <- 
@@ -67,16 +76,21 @@ estimates <-
          a = if_else(is.na(a),mean(a,na.rm=T),a))
 
 ord <- prcomp(estimates[,c(2,3,5)], scale. = T, center = T)
-estimates$eco_pca <- ord$x[,1]
-write_csv(estimates, 'outputs/estimates_fishbase.csv')
+estimates <- 
+  estimates %>% 
+  mutate(eco_pca =  ord$x[,1]) %>% 
+  mutate(eco_pca = (eco_pca - min(eco_pca)) / (max(eco_pca) - min(eco_pca))) %>% 
+  write_csv('outputs/estimates_fishbase.csv')
 
 biplot(ord)
 ggord(ord)
 
+
+
 estimates <-
-  read_csv('outputs/estimates_fishbase.csv') %>%
+  read_csv('outputs/estimates_fishbase.csv')
+  
   # dplyr::select(Species, eco_pca) %>% 
-  mutate(eco_pca = (max(eco_pca)- eco_pca) + 1)
 
 
 ecology_data_species_ecoreg <-
