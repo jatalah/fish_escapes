@@ -63,8 +63,18 @@ plot_prod_status <-
 
 plot_prod_status
 # maps of world production by status-------------
+world_less_is <- 
+  getMap(resolution = "less islands") %>% 
+  st_as_sf()
+
+p <-
+  ggplot(data = world_less_is) +
+  geom_sf(fill = 'gray95') +
+  theme( axis.text.x=element_blank(), axis.text.y=element_blank())
+
+
 production_all_status_map <-
-  world_map_low +
+  p +
   geom_sf(data = sum_prod_all,
           aes(fill = sum_prod),
           alpha = 0.8) +
