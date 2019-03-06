@@ -7,7 +7,7 @@ library(sf)
 path_disease <-
   "C:/Users/javiera/Documents/fish_escapes/data/diseases.xlsx"
 
-disease_data <-
+disease_data_raw <-
   path_disease %>%
   excel_sheets() %>%
   set_names() %>%
@@ -18,8 +18,41 @@ disease_data %>% distinct(AGENT)
 disease_data %>% distinct(Species)
 disease_data %>% filter(str_detect(AGENT, "Rh"))
 
+# read disease data fixed manually---------
+disease_data <-
+  read_excel('outputs/diseases_data_manual.xlsx') %>%
+  mutate(type = fct_collapse(
+    TYPE,
+    Parasites =  c(
+      "Cestoda",
+      "Copepoda",
+      "Digenea",
+      "Digenea",
+      "Hirudinea",
+      "Isopod",
+      "Monogenea",
+      "Nematoda",
+      "Trematoda"
+    ),
+    Others = c(
+      "Amoeba",
+      'Ciliophora',
+      'Dinoflagellate',
+      "Fungi",
+      "Microsporidia",
+      "Myxozoa"
+    )
+  ))
 
 anti_join(top_aqua_sp, by = 'Species', disease_data %>% distinct(Species))
+disease_data %>% 
+  distinct(AGENT)
+
+disease_data %>% 
+  mutate(total_pathogens =  n_distinct(AGENT)) %>% 
+  group_by(type) %>% 
+  summarise(porp_types = n_distinct(AGENT)/first(total_pathogens)*100)
+
 
 # join with farming ecoregions by species-----------
 mean_prod_ecoreg <-

@@ -133,10 +133,8 @@ prod_data_all %>%
 # select study species and marine production only-----
 prod_data <-
   prod_data_all %>%
-  filter(Scientific_Name %in% sp_names &
-           ENVIRONMENT == 3) %>%
-  rename(Species = Scientific_Name) %>% 
-  mutate(Species = fct_recode(Species, "Larimichthys crocea" = "Larimichthys croceus"))
+  filter(Scientific_Name %in% sp_sci_names & ENVIRONMENT == 3) %>%
+  rename(Species = Scientific_Name)
 
 write_rds(prod_data, 'outputs/production_data_all_study_spp.RDS')
 
@@ -155,10 +153,13 @@ mean_prod <-
 # add ecoregions manually based on www.seaaroundus.org mariculture dataset-------------- 
 mean_prod_ecoreg <-
   read_csv('outputs/production_country_data_ecoreg_manual.csv') %>%
-  group_by(Species, country_name, PRODUCTION_AREA, mean_prod) %>%
+  group_by(Species, country_name, PRODUCTION_AREA) %>%
   mutate(n_eco = n_distinct(ECOREGION),
          mean_prod_ecoreg = mean_prod / n_eco) %>% 
   write_csv('outputs/mean_prod_ecoreg.csv')
+
+
+mean_prod_ecoreg <- read_csv('outputs/mean_prod_ecoreg_manual.csv')
 
 # get ecoregions of the world shapefile----
 eco_reg <-
@@ -192,3 +193,4 @@ production_total_ecoreg_map <-
 
 
 production_total_ecoreg_map
+

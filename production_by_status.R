@@ -1,4 +1,4 @@
-mean_prod_ecoreg <- read_csv('outputs/mean_prod_ecoreg.csv')
+mean_prod_ecoreg <- read_csv('outputs/mean_prod_ecoreg_manual.csv')
 all_native_data <- read_csv('outputs/all_native_data.csv')
 
 prod_all_status <- 
@@ -6,42 +6,44 @@ prod_all_status <-
           all_native_data,
           by = c('Species', 'ECOREGION')) %>%
   filter(!is.na(mean_prod)) %>% 
-  mutate(status = if_else(is.na(status), "Introduced", "Native"),
-         Introduced = if_else(status=="Introduced",1,0),
-         Native = if_else(status=='Native',1,0)) %>% 
+  mutate(status = ifelse(is.na(status), "Introduced", "Native"),
+         Introduced = ifelse(status=="Introduced",1,0),
+         Native = ifelse(status=='Native',1,0)) %>% 
   ungroup() %>% 
   write_csv('outputs/prod_all_status.csv')
 
 prod_all_status_sf <- 
   full_join(prod_all_status, as.data.frame(eco_reg), by = 'ECOREGION') %>% 
-  st_sf(sf_column_name = 'geometry')%>% 
+  st_sf(sf_column_name = 'geometry') %>% 
   drop_na(Species)
 
 
 sum_prod_all <- 
   prod_all_status_sf %>% 
   group_by(ECOREGION,status) %>% 
-  summarise(sum_prod = sum(mean_prod_ecoreg)) 
+  summarise(sum_prod = sum(mean_prod_ecoreg, na.rm = T)) 
 
 # Mapview-----
-mapview(prod_all_status_sf["mean_prod_ecoreg"], col.regions = sf.colors(5),legend = T)
+mapview(prod_all_status_sf["mean_prod_ecoreg"],
+        col.regions = sf.colors(5),
+        legend = T)
 
 
-x <- 
+native_pro_map <- 
   sum_prod_all %>%
   dplyr::filter(status == 'Native') %>%
   mutate(log_prod = log10(sum_prod)) %>% 
   mapview(zcol = "log_prod",col.regions = rev(heat.colors(10)))
 
 
-y <- 
+intro_pro_map <- 
   sum_prod_all %>%
   dplyr::filter(status == 'Introduced') %>%
   mutate(log_prod = log10(sum_prod)) %>% 
   mapview(zcol = "log_prod",col.regions = rev(heat.colors(10)))
 
 
-latticeview(x,y)
+latticeview(native_pro_map,intro_pro_map)
 
 all_native %>%
   dplyr::filter(Species=='Sparus aurata') %>%
@@ -63,14 +65,20 @@ plot_prod_status
 # maps of world production by status-------------
 production_all_status_map <-
   world_map_low +
-  geom_sf(data = prod_all_status_sf,
-          aes(fill = mean_prod_ecoreg),
+  geom_sf(data = sum_prod_all,
+          aes(fill = sum_prod),
           alpha = 0.8) +
- scale_fill_gradientn(colours = rev(heat.colors(20)),
+  scale_fill_gradientn(colours = rev(heat.colors(20)),
                        name = 'Mean annual \nproduction (tonnes)',
                        trans = 'log10') +
-  facet_wrap(~ status, ncol = 1) +
-  theme(legend.title.align = 0.5)
+  facet_wrap( ~ status, ncol = 1) +
+  theme_minimal(base_size = 12) +
+  theme(
+    axis.text.x = element_blank(),
+    axis.text.y = element_blank(),
+    legend.title.align = 0.5
+  ) +
+  coord_sf(ylim = c(-55, 90),  xlim = c(-160, 170))
 
 production_all_status_map
 
