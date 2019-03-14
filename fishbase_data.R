@@ -72,18 +72,32 @@ estimates <-
   select(estimates) %>%
   flatten_df() %>%
   select(Species, MaxLengthTL, Troph, a , K) %>% 
-  mutate(K = if_else(is.na(K),mean(K,na.rm=T),K),
-         a = if_else(is.na(a),mean(a,na.rm=T),a))
+  mutate(K = if_else(is.na(K),mean(K,na.rm=T)))
+
+
+library(ggord)
+estimates <- 
+  read_csv('outputs/estimates_fishbase.csv') %>%  
+  mutate(K_inv = 1/K) %>% 
+  as.data.frame()
+
 
 ord <- prcomp(estimates[,c(2,3,5)], scale. = T, center = T)
+summary(ord)
+ggord(ord,obslab = T)
+
+range_0_1 <- function(x){(x-min(x))/(max(x)-min(x))}
+
+
+
 estimates <- 
   estimates %>% 
-  mutate(eco_pca =  ord$x[,1]) %>% 
-  mutate(eco_pca = (eco_pca - min(eco_pca)) / (max(eco_pca) - min(eco_pca))) %>% 
+  mutate(eco_ind = (range_0_1(K) + range_0_1(Troph) + range_0_1(MaxLengthTL))/3) %>% 
   write_csv('outputs/estimates_fishbase.csv')
+  
+range_0_100 <- function(x){(x-min(x))/(max(x)-min(x))*100}
 
-biplot(ord)
-ggord(ord)
+ 
 
 
 

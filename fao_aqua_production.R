@@ -137,7 +137,7 @@ prod_data <-
   rename(Species = Scientific_Name)
 
 write_rds(prod_data, 'outputs/production_data_all_study_spp.RDS')
-
+prod_data <- read_rds('outputs/production_data_all_study_spp.RDS')
 # summarise data by species and country---------
 mean_prod <-
   prod_data %>%
@@ -160,7 +160,10 @@ mean_prod_ecoreg <-
 
 
 mean_prod_ecoreg <- read_csv('outputs/mean_prod_ecoreg_manual.csv')
+mean_prod_ecoreg <- distinct(mean_prod_ecoreg)
 
+mean_prod_ecoreg %>% 
+  distinct(.)
 # get ecoregions of the world shapefile----
 eco_reg <-
   st_read('data/MEOW/meow_ecos.shp') %>%

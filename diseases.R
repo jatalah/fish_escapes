@@ -1,22 +1,6 @@
 library(tidyverse)
 library(readxl)
-library(rfishbase)
 library(sf)
-
-# read disease data from excel -----------------
-path_disease <-
-  "C:/Users/javiera/Documents/fish_escapes/data/diseases.xlsx"
-
-disease_data_raw <-
-  path_disease %>%
-  excel_sheets() %>%
-  set_names() %>%
-  map_df(read_excel, path = path_disease, .id = "Species") %>% 
-  write_csv('outputs/diseases_data.csv')
-
-disease_data %>% distinct(AGENT)
-disease_data %>% distinct(Species)
-disease_data %>% filter(str_detect(AGENT, "Rh"))
 
 # read disease data fixed manually---------
 disease_data <-
@@ -29,7 +13,7 @@ disease_data <-
       "Digenea",
       "Digenea",
       "Hirudinea",
-      "Isopod",
+      "Isopoda",
       "Monogenea",
       "Nematoda",
       "Trematoda"
@@ -42,11 +26,13 @@ disease_data <-
       "Microsporidia",
       "Myxozoa"
     )
-  ))
+  )) %>% 
+  write_csv('outputs/diseases_data_all.csv')
 
-anti_join(top_aqua_sp, by = 'Species', disease_data %>% distinct(Species))
 disease_data %>% 
   distinct(AGENT)
+
+disease_data %>% distinct(AGENT)
 
 disease_data %>% 
   mutate(total_pathogens =  n_distinct(AGENT)) %>% 

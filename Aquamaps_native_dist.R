@@ -32,7 +32,7 @@ all_occu <-
     read_native('meagre.csv'),
     read_native('turbot.csv'),
     read_native('red_drum.csv'),
-    read_native('silver_seabream.csv'),
+    read_native('pagrus_major.csv'),
     read_native('jap_mackerel.csv'),
     read_native('barramundi.csv'),
     read_native('atlantic_halibut.csv'),
@@ -54,6 +54,9 @@ all_occu <-
     read_native('pufferfish.csv'),
     read_native('yellow_croaker.csv')
   ) %>% 
+  mutate(Species = fct_recode(Species, 
+                              "Scophthalmus maximus" = "Scophthalmus rhombus",
+                              "Pagrus auratus" = "Pagrus major")) %>% 
   write_csv('outputs/native_dist_data.csv')
 
 ## join native distribution data with ecoregions of the world-----
@@ -77,16 +80,40 @@ all_native <- st_read("outputs/native_data.geojson")
 
 
 # save data by ecoregions------------
+missing_sp <-
+  cbind(ECOREGION = "Yellow Sea",
+        Species = c("Larimichthys crocea",
+                    "Sparus auratus",
+                    "Acanthopagrus schlegelii",
+                    "Mugil cephalus",
+                    "Paralichthys olivaceus",
+                    "Rachycentron canadum", 
+                    "Sebastes schlegelii",
+                    "Seriola quinqueradiata",
+                    "Trachurus japonicus"
+                    
+                    )) %>%
+  as.data.frame()
+
 all_native_data <- 
   all_native %>%
   as.data.frame() %>%
   dplyr::select(ECOREGION, Species) %>% 
-  bind_rows(cbind(ECOREGION = "Yellow Sea", Species = "Larimichthys crocea") %>% as.data.frame()) %>% 
+  bind_rows(missing_sp) %>% 
   mutate(status = 'Native') %>% 
   write_csv('outputs/all_native_data.csv')
 
+world_less_is <- 
+  getMap(resolution = "less islands") %>% 
+  st_as_sf()
+
+p <-
+  ggplot(data = world_less_is) +
+  geom_sf(fill = 'gray95') +
+  theme( axis.text.x=element_blank(), axis.text.y=element_blank())
+
 map_native_dist <- 
-  world_map_low +
+  p 
   geom_sf(data = all_native, aes(fill = Species), alpha = .7) +
   facet_wrap( ~ Species) +
   scale_fill_discrete(guide = F)
