@@ -24,6 +24,23 @@ prod_all_status <-
   write_csv('outputs/prod_all_status.csv')
 
 
+
+prod_all_status %>%
+  left_join(select(as.data.frame(eco_reg), REALM, PROVINCE, ECOREGION), by = 'ECOREGION') %>%
+  select(
+    REALM,
+    PROVINCE,
+    ECOREGION,
+    everything(),
+    -ISO_N3,
+    -ISO3_Code,
+    -PRODUCTION_AREA,
+    -Introduced,
+    -Native,
+    -COUNTRY
+  ) %>% 
+write_csv('outputs/prod_all_status_ecoreg.csv')
+
 ## production maps---------------
 prod_all_status_sf <- 
   full_join(prod_all_status, as.data.frame(eco_reg), by = 'ECOREGION') %>% 
@@ -75,47 +92,6 @@ plot_prod_status <-
   scale_y_log10()
 
 plot_prod_status
-# maps of world production by status-------------
-world_less_is <- 
-  getMap(resolution = "less islands") %>% 
-  st_as_sf()
-
-p <-
-  ggplot(data = world_less_is) +
-  geom_sf(fill = 'gray95') +
-  theme( axis.text.x=element_blank(), axis.text.y=element_blank())
-
-
-production_all_status_map <-
-  p +
-  geom_sf(data = sum_prod_all,
-          aes(fill = sum_prod),
-          alpha = 0.8) +
-  scale_fill_gradientn(colours = rev(heat.colors(20)),
-                       name = 'Mean annual \nproduction (tonnes)',
-                       trans = 'log10') +
-  facet_wrap( ~ status, ncol = 1) +
-  theme_minimal(base_size = 12) +
-  theme(
-    axis.text.x = element_blank(),
-    axis.text.y = element_blank(),
-    legend.title.align = 0.5
-  ) +
-  coord_sf(ylim = c(-55, 90),  xlim = c(-160, 170))
-
-production_all_status_map
-
-# save map---
-ggsave(
-  production_all_status_map,
-  filename = "figures/production_all_status_map.tiff",
-  device = 'tiff',
-  compression = 'lzw',
-  dpi = 600,
-  units = 'cm',
-  width = 20,
-  height = 15
-)
 
 # production by status and species-----------
 plot_production_status_species <-

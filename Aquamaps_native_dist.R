@@ -83,7 +83,7 @@ all_native <- st_read("outputs/native_data.geojson")
 missing_sp <-
   cbind(ECOREGION = "Yellow Sea",
         Species = c("Larimichthys crocea",
-                    "Sparus auratus",
+                    "Pagrus auratus",
                     "Acanthopagrus schlegelii",
                     "Mugil cephalus",
                     "Paralichthys olivaceus",
@@ -91,7 +91,6 @@ missing_sp <-
                     "Sebastes schlegelii",
                     "Seriola quinqueradiata",
                     "Trachurus japonicus"
-                    
                     )) %>%
   as.data.frame()
 
@@ -129,4 +128,3 @@ ggsave(
   width = 50,
   heigh = 30
 )
-

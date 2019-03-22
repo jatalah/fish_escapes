@@ -3,11 +3,10 @@ library(sf)
 library(rworldmap)
 theme_set(theme_minimal())
 
-
-# add ecoregion polygons----------
+# 01 Read ecoregion polygons----------
 eco_reg <- st_read('data/MEOW/meow_ecos.shp')
 
-# 01 production data---------------
+# 02 Production data---------------
 prod_all_status_scores <-
   read_csv('outputs/prod_all_status.csv') %>%
   dplyr::select(Species,
@@ -26,22 +25,23 @@ prod_all_status_scores <-
   ) %>%
   write_csv('outputs/prod_all_status_scores.csv')
 
-  
-
+# convert into the long format for plotting  
 production_dat_long <-
   prod_all_status_scores %>%
   gather(key, value, c("prod_native", "prod_introduced")) %>%
   left_join(as.data.frame(eco_reg), by = 'ECOREGION') %>%
   st_sf(sf_column_name = 'geometry') %>%
   filter(value > 0) %>%
-  mutate(key = fct_recode(key, Native = "prod_native",
-                          "Non-native" = "prod_introduced"),
-         key = fct_rev(key)) %>% 
+  mutate(
+    key = fct_recode(key, "A. native" = "prod_native",
+                     "B. non-native" = "prod_introduced"),
+    key = fct_rev(key),
+    value = value/1000
+  ) %>%
   write_csv('outputs/production_dat_long.csv')
 
 
-
-# 03 disease data -------
+# 03 Disease data -------
 disease_data_ecoreg <-
   read_csv('outputs/diseases_data_species_ecoreg.csv') %>%
   group_by(ECOREGION) %>%
@@ -76,7 +76,7 @@ invasive_ecoreg <-
   mutate(invasive_score = ifelse(is.na(invasive_score), 0, invasive_score))
 
 
-# merge all data ------------
+# 05 Merge all data ------------
 score_data <-
   full_join(prod_all_status_scores,invasive_ecoreg, by = "ECOREGION") %>% 
   full_join(disease_score, by = "ECOREGION") 
@@ -86,45 +86,46 @@ range_0_100 <-
     (x - min(x, na.rm = T)) / (max(x, na.rm = T) - min(x, na.rm = T)) * 100
   }
 
+
+weights <- read_csv('outputs/score_weight.csv')
+sum(weights$mean_weight)
+
 std_scores <-
   score_data %>%
   mutate(
-    Genetic = range_0_100(genetic_score),
-    Invasive = range_0_100(invasive_score),
-    Diseases = range_0_100(pathogenic_score),
-    final_score = ((Genetic * 1) + (Invasive * 1) + (Diseases * 1)) / 3,# add expert weights
-    sq_final_score = sqrt(final_score),
-    Overall = range_0_100(sq_final_score)
+    Genetic = range_0_100(sqrt(genetic_score)),
+    Invasive = range_0_100(sqrt(invasive_score)),
+    Diseases = range_0_100(sqrt(pathogenic_score)),
+    # final_score = ((Genetic * 1.63) + (Invasive * 2) + (Diseases * 1.59)) / sum(weights$mean_weight),# add expert weights
+    Overall = (Genetic + Invasive + Diseases) / 3
   ) %>%
   left_join(select(as.data.frame(eco_reg), ECOREGION, PROVINCE, REALM), by = 'ECOREGION') %>%
   select(
-    ECOREGION,
     PROVINCE,
+    ECOREGION,
     REALM,
-    everything(),-genetic_score,-invasive_score,-pathogenic_score,-sq_final_score,-final_score
+    everything(),
+    -genetic_score,
+    -invasive_score,
+    -pathogenic_score
   ) %>%
   write_csv('outputs/std_scores.csv')
 
-
-std_scores %>% 
-  gather(key, value, Genetic:Overall) %>% 
-  ggplot(aes(value)) +
-  geom_histogram() +
-  facet_wrap(~key, scales = 'free')
-
-# add ecoregion polygons----------
-# eco_reg <- st_read('data/MEOW/meow_ecos.shp')
-
-score_data_sf <- 
-  std_scores %>% 
-  left_join(as.data.frame(eco_reg), by = 'ECOREGION') %>% 
+# add ecoregion polygons
+score_data_sf <-
+  std_scores %>%
+  select(-PROVINCE,-REALM) %>%
+  left_join(as.data.frame(eco_reg), by = 'ECOREGION') %>%
   st_sf(sf_column_name = 'geometry') %>%
-  drop_na(prod_total) %>% 
-  st_write("outputs/score_data_sf.geojson",  delete_dsn=TRUE )
+  drop_na(prod_total) %>%
+  st_write("outputs/score_data_sf.geojson",  delete_dsn = TRUE)
 
-std_scores %>% 
-  gather(key, value, genetic_score:Overall) %>% 
+std_scores %>%
+  gather(key, value, Genetic:Overall) %>%
   ggplot(aes(value)) +
   geom_histogram() +
   facet_wrap(~key, scales = 'free')
 
+std_scores %>%
+  select(Genetic, Invasive, Diseases, Overall) %>% 
+  cor(.)

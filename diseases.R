@@ -4,40 +4,49 @@ library(sf)
 
 # read disease data fixed manually---------
 disease_data <-
-  read_excel('outputs/diseases_data_manual.xlsx') %>%
+  read_excel('outputs/diseases_data_manual1.xlsx') %>%
   mutate(type = fct_collapse(
     TYPE,
     Parasites =  c(
-      "Cestoda",
       "Copepoda",
-      "Digenea",
-      "Digenea",
-      "Hirudinea",
       "Isopoda",
-      "Monogenea",
-      "Nematoda",
-      "Trematoda"
+      "Acanthocephala",
+      "Cestoda",
+      "Trematoda",
+      "Clitellata",
+      "Monogenea", # class
+      "Digenea", # class trematoda
+      "Nematoda",# Phyllum
+      "Myxozoa" # microscopic parasoite cnidarian
+      
     ),
     Others = c(
-      "Amoeba",
-      'Ciliophora',
-      'Dinoflagellate',
-      "Fungi",
+      "Amoebozoa",
+      'Ciliophora', # Phyllum
+      "Apicomplexa", # Myzozoa
+      'Dinoflagellate', #Myzozoa
       "Microsporidia",
-      "Myxozoa"
+      "Oomycetes",
+      "Protozoa" # Kingdom
     )
   )) %>% 
   write_csv('outputs/diseases_data_all.csv')
 
-disease_data %>% 
-  distinct(AGENT)
 
-disease_data %>% distinct(AGENT)
+# check taxonomy
+library(worrms)
+types <- 
+disease_data %>%
+  distinct(TYPE, type)
 
+wm_records_taxamatch(name = "Ciliophora") %>% 
+  as.data.frame() %>% 
+  select(valid_name, status, rank, kingdom, phylum, class, order)
+
+# check for duplicate entries
 disease_data %>% 
-  mutate(total_pathogens =  n_distinct(AGENT)) %>% 
-  group_by(type) %>% 
-  summarise(porp_types = n_distinct(AGENT)/first(total_pathogens)*100)
+  select(Species,AGENT) %>% 
+  filter(duplicated(.))
 
 
 # join with farming ecoregions by species-----------
