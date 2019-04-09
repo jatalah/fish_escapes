@@ -59,7 +59,7 @@ all_occu <-
                               "Pagrus auratus" = "Pagrus major")) %>% 
   write_csv('outputs/native_dist_data.csv')
 
-## join native distribution data with ecoregions of the world-----
+# join native distribution data with ecoregions of the world-----
 all_occu_sf <-
   all_occu %>%
   st_as_sf(coords = c("lon", "lat")) %>%
@@ -74,9 +74,6 @@ all_native <-
   summarise() %>%
   mutate(Status = "Native",
          Introductions = NA)
-
-st_write(all_native, "outputs/native_data.geojson",  delete_dsn=TRUE )
-all_native <- st_read("outputs/native_data.geojson")
 
 
 # save data by ecoregions------------
@@ -100,7 +97,21 @@ all_native_data <-
   dplyr::select(ECOREGION, Species) %>% 
   bind_rows(missing_sp) %>% 
   mutate(status = 'Native') %>% 
+  filter(Species!="Siganus rivulatus") %>% 
   write_csv('outputs/all_native_data.csv')
+
+
+# save distribution data as sf-----------
+all_native_data_sf <- 
+  all_native_data %>% 
+  left_join(as.data.frame(eco_reg), by = 'ECOREGION') %>%
+  st_sf(sf_column_name = 'geometry') %>% 
+  st_write("outputs/all_native_data_sf.geojson",  delete_dsn=TRUE )
+
+
+
+# map native distribution data-----------
+all_native_data_sf <- st_read("outputs/all_native_data_sf.geojson")
 
 world_less_is <- 
   getMap(resolution = "less islands") %>% 
@@ -112,15 +123,20 @@ p <-
   theme( axis.text.x=element_blank(), axis.text.y=element_blank())
 
 map_native_dist <- 
-  p 
-  geom_sf(data = all_native, aes(fill = Species), alpha = .7) +
+  p +
+  geom_sf(data = all_native_data_sf, aes(fill = Species), alpha = .7) +
   facet_wrap( ~ Species) +
-  scale_fill_discrete(guide = F)
+  scale_fill_discrete(guide = F) +
+  coord_sf(ylim = c(-55, 90),  xlim = c(-160, 170)) +
+  theme_minimal(base_size = 12) +
+  theme(
+    axis.text.x = element_blank(),
+    axis.text.y = element_blank())
 
 
 ggsave(
   map_native_dist,
-  filename = 'map_native_dist.tiff',
+  filename = 'figures/map_native_dist.tiff',
   device = 'tiff',
   compression = 'lzw',
   dpi = 300,

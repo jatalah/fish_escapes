@@ -71,7 +71,7 @@ estimates <-
   mutate(estimates = map(Species, rfishbase::estimate)) %>%
   select(estimates) %>%
   flatten_df() %>%
-  select(Species, MaxLengthTL, Troph, a , K) %>% 
+  select(Species, MaxLengthTL, Troph, K) %>% 
   mutate(K = if_else(is.na(K),mean(K,na.rm=T)))
 
 

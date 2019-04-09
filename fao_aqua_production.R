@@ -54,8 +54,8 @@ prod_data_all %>%
   summarise(mean_quant = mean(VALUE,na.rm = T)/mean(QUANTITY,na.rm = T))
 
 prod_data_all %>% 
-  filter(Scientific_Name == "Oreochromis niloticus" & ENVIRONMENT == 2) %>% 
-  group_by(country_name) %>% 
+  filter(country_name=="Turkey" & ENVIRONMENT == 3) %>% 
+  group_by(Scientific_Name) %>% 
   summarise(mean(QUANTITY))
 
 # get top produced fish species in more than 8 countries------
