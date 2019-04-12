@@ -1,3 +1,4 @@
+# load libraries---------------
 library(tidyverse)
 library(sf)
 library(rworldmap)
@@ -33,13 +34,12 @@ production_dat_long <-
   st_sf(sf_column_name = 'geometry') %>%
   filter(value > 0) %>%
   mutate(
-    key = fct_recode(key, "A. native" = "prod_native",
-                     "B. non-native" = "prod_introduced"),
+    key = fct_recode(key, "A. Native" = "prod_native",
+                     "B. Non-native" = "prod_introduced"),
     key = fct_rev(key),
     value = value/1000
   ) %>%
-  write_csv('outputs/production_dat_long.csv')
-
+  st_write("outputs/production_dat_long.geojson",  delete_dsn = TRUE)
 
 # 03 Disease data -------
 disease_data_ecoreg <-
@@ -87,17 +87,13 @@ range_0_100 <-
   }
 
 
-weights <- read_csv('outputs/score_weight.csv')
-sum(weights$mean_weight)
-
 std_scores <-
   score_data %>%
   mutate(
     Genetic = range_0_100(sqrt(genetic_score)),
     Invasive = range_0_100(sqrt(invasive_score)),
     Diseases = range_0_100(sqrt(pathogenic_score)),
-    # final_score = ((Genetic * 1.63) + (Invasive * 2) + (Diseases * 1.59)) / sum(weights$mean_weight),# add expert weights
-    Overall = (Genetic + Invasive + Diseases) / 3
+    Overall = Genetic + Invasive + Diseases
   ) %>%
   left_join(select(as.data.frame(eco_reg), ECOREGION, PROVINCE, REALM), by = 'ECOREGION') %>%
   select(
@@ -119,13 +115,3 @@ score_data_sf <-
   st_sf(sf_column_name = 'geometry') %>%
   drop_na(prod_total) %>%
   st_write("outputs/score_data_sf.geojson",  delete_dsn = TRUE)
-
-std_scores %>%
-  gather(key, value, Genetic:Overall) %>%
-  ggplot(aes(value)) +
-  geom_histogram() +
-  facet_wrap(~key, scales = 'free')
-
-std_scores %>%
-  select(Genetic, Invasive, Diseases, Overall) %>% 
-  cor(.)
