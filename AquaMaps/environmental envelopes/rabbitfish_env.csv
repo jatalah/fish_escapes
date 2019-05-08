@@ -1,0 +1,21 @@
+Mapping parameters for Siganus rivulatus (Marbled spinefoot),,,,,
+,,,,,
+"Cite AquaMaps itself as: Kaschner, K., K. Kesner-Reyes, C. Garilao, J. Rius-Barile, T. Rees, and R. Froese. 2016. AquaMaps: Predicted range maps for aquatic species. World wide web electronic publication, www.aquamaps.org, Version 08/2016. ",,,,,
+,,,,,
+Map type: Computer-generated,,,,,
+Map Option: In FAO and Bounding Box,,,,,
+FAOAreas: 51 |  61 |  71,,,,,
+Bounding Box (NSWE): ,32,-36,25,58,
+,,,,,
+Pelagic: False,,,,,
+Layer used to generate probabilities: Surface,,,,,
+,,,,,
+Species Envelope (HSPEN):,,,,,
+ ,Used,Min,Pref Min (10th),Pref Max (90th),Max
+Depth (m),1,1,4,16,30
+Temperature (°C),1,19.45,24.3,29.22,33.42
+Salinity (psu),1,29.95,35.02,39.5,40
+Primary Production,1,333,418,1537,2133.5
+Sea Ice Concentration,1,-1,0,0,0
+Distance to Land (km),0,1,4,26,107
+ ,,,,,

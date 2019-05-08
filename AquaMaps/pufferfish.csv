@@ -1,0 +1,27 @@
+Mapping parameters for Takifugu rubripes (Japanese pufferfish),,,,,,,,,,
+,,,,,,,,,,
+"Cite AquaMaps itself as: Kaschner, K., K. Kesner-Reyes, C. Garilao, J. Rius-Barile, T. Rees, and R. Froese. 2016. AquaMaps: Predicted range maps for aquatic species. World wide web electronic publication, www.aquamaps.org, Version 08/2016. ",,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Occurrence cells used for creating environmental envelope (n = 19),,,,,,,,,,
+Genus,Species,Center Lat,Center Long,C-Square,Depth,SST,Salinity,Primary Production,Sea Ice Conc.,Distance to Land
+Takifugu,rubripes,23.25,119.75,1211:239:2,79,24.59,33.95,779,0,77
+Takifugu,rubripes,24.25,120.25,1212:140:1,41,24.17,33.75,939,0,24
+Takifugu,rubripes,25.25,125.25,1212:455:1,1418,25.87,34.52,285,0,106
+Takifugu,rubripes,25.25,121.75,1212:351:2,66,23.92,34.43,871,0,15
+Takifugu,rubripes,25.25,119.75,1211:459:2,22,21.42,33.72,1628,0,25
+Takifugu,rubripes,31.25,121.25,1312:111:1,5,17,30.7,1741,0,0
+Takifugu,rubripes,34.25,135.25,1313:245:1,28,20.73,34.34,504,0,10
+Takifugu,rubripes,34.25,133.25,1313:143:1,17,20.32,34.52,405,0,19
+Takifugu,rubripes,34.25,127.25,1312:247:1,5,18.71,33.58,1191,0,22
+Takifugu,rubripes,34.75,135.25,1313:245:3,22,20.73,34.34,517,0,9
+Takifugu,rubripes,35.25,139.75,1313:459:2,172,20.45,34.43,749,0,15
+Takifugu,rubripes,35.25,139.25,1313:459:1,421,20.45,34.43,620,0,11
+Takifugu,rubripes,35.25,129.25,1312:459:1,57,18.26,33.72,739,0,14
+Takifugu,rubripes,35.75,134.25,1313:354:3,241,19.13,33.86,539,0,19
+Takifugu,rubripes,36.25,140.75,1314:360:2,150,19.95,34.2,773,0,18
+Takifugu,rubripes,37.25,126.75,1312:476:2,5,14.5,32.27,941,0,13
+Takifugu,rubripes,39.75,140.25,1314:390:3,23,14.82,33.84,687,0,4
+Takifugu,rubripes,39.75,139.75,1313:499:4,273,14.9,33.84,745,0,20
+Takifugu,rubripes,39.75,127.75,1312:497:4,44,13.45,33.59,983,0,17

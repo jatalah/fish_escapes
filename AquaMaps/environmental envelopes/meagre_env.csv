@@ -1,0 +1,21 @@
+Mapping parameters for Argyrosomus regius (Meagre),,,,,
+,,,,,
+"Cite AquaMaps itself as: Kaschner, K., K. Kesner-Reyes, C. Garilao, J. Rius-Barile, T. Rees, and R. Froese. 2016. AquaMaps: Predicted range maps for aquatic species. World wide web electronic publication, www.aquamaps.org, Version 08/2016. ",,,,,
+,,,,,
+Map type: Expert reviewed,,,,,
+Map Option: In FAO and Bounding Box,,,,,
+FAOAreas:  27 |  34 |  37 |  51 ,,,,,
+Bounding Box (NSWE): ,65,-6,-23,36,
+,,,,,
+Pelagic: False,,,,,
+Layer used to generate probabilities: Bottom,,,,,
+,,,,,
+Species Envelope (HSPEN):,,,,,
+ ,Used,Min,Pref Min (10th),Pref Max (90th),Max
+Depth (m),1,15,47,148,300
+Temperature (°C),1,7.5,16.07,27.66,28.81
+Salinity (psu),1,29.04,29.54,39.09,39.59
+Primary Production,1,350,443,3894,5697
+Sea Ice Concentration,1,0,0,0,0
+Distance to Land (km),0,4,5,96,293
+ ,,,,,

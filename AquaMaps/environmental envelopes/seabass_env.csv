@@ -1,0 +1,21 @@
+Mapping parameters for Dicentrarchus labrax (European seabass),,,,,
+,,,,,
+"Cite AquaMaps itself as: Kaschner, K., K. Kesner-Reyes, C. Garilao, J. Rius-Barile, T. Rees, and R. Froese. 2016. AquaMaps: Predicted range maps for aquatic species. World wide web electronic publication, www.aquamaps.org, Version 08/2016. ",,,,,
+,,,,,
+Map type: Team reviewed,,,,,
+Map Option: In FAO and Bounding Box,,,,,
+FAOAreas:  1 |  5 |  7 |  27 |  34 |  37 ,,,,,
+Bounding Box (NSWE): ,72,11,-19,42,
+,,,,,
+Pelagic: False,,,,,
+Layer used to generate probabilities: Bottom,,,,,
+,,,,,
+Species Envelope (HSPEN):,,,,,
+ ,Used,Min,Pref Min (10th),Pref Max (90th),Max
+Depth (m),1,10,19,55,100
+Temperature (°C),1,2.52,8.9,13.94,18.79
+Salinity (psu),1,6.12,34.15,38.21,38.88
+Primary Production,1,0,552,1863,2396
+Sea Ice Concentration,1,-0.99,0,0.03,0.13
+Distance to Land (km),0,0,1,44,358
+ ,,,,,

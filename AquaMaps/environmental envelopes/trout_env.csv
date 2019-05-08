@@ -1,0 +1,21 @@
+Mapping parameters for Oncorhynchus mykiss (Rainbow trout),,,,,
+,,,,,
+"Cite AquaMaps itself as: Kaschner, K., K. Kesner-Reyes, C. Garilao, J. Rius-Barile, T. Rees, and R. Froese. 2016. AquaMaps: Predicted range maps for aquatic species. World wide web electronic publication, www.aquamaps.org, Version 08/2016. ",,,,,
+,,,,,
+Map type: Team reviewed,,,,,
+Map Option: In FAO and Bounding Box,,,,,
+FAOAreas:  2 |  7 |  18 |  21 |  37 |  61 |  67 |  77 ,,,,,
+Bounding Box (NSWE): ,67,32,135,-117,
+,,,,,
+Pelagic: False,,,,,
+Layer used to generate probabilities: Surface,,,,,
+,,,,,
+Species Envelope (HSPEN):,,,,,
+ ,Used,Min,Pref Min (10th),Pref Max (90th),Max
+Depth (m),1,0,22,95,200
+Temperature (°C),1,0.775,5.4,15.43,23.92
+Salinity (psu),1,29.5,30.27,33.47,38.04
+Primary Production,1,235.5,871,2537,3287.5
+Sea Ice Concentration,1,-0.96,0,0.17,0.43
+Distance to Land (km),0,0,1,20,280
+ ,,,,,

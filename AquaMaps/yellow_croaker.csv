@@ -1,0 +1,38 @@
+Mapping parameters for Larimichthys crocea (Large yellow croaker),,,,,,,,,,
+,,,,,,,,,,
+"Cite AquaMaps itself as: Kaschner, K., K. Kesner-Reyes, C. Garilao, J. Rius-Barile, T. Rees, and R. Froese. 2016. AquaMaps: Predicted range maps for aquatic species. World wide web electronic publication, www.aquamaps.org, Version 08/2016. ",,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Occurrence cells used for creating environmental envelope (n = 30),,,,,,,,,,
+Genus,Species,Center Lat,Center Long,C-Square,Depth,SST,Salinity,Primary Production,Sea Ice Conc.,Distance to Land
+Larimichthys,crocea,18.25,106.25,1110:486:1,39,26.49,32.45,1166,0,14
+Larimichthys,crocea,19.25,113.25,1111:393:1,427,26.42,33.92,429,0,269
+Larimichthys,crocea,19.75,112.75,1111:392:4,130,26.32,33.94,454,0,209
+Larimichthys,crocea,20.25,111.25,1211:101:1,24,25.64,33.9,1236,0,104
+Larimichthys,crocea,20.75,113.75,1211:103:4,85,25.8,33.84,613,0,170
+Larimichthys,crocea,20.75,111.25,1211:101:3,31,25.64,33.9,1488,0,97
+Larimichthys,crocea,20.75,110.75,1211:100:4,11,25.54,33.9,1211,0,25
+Larimichthys,crocea,21.25,113.25,1211:113:1,50,25.18,33.61,1043,0,97
+Larimichthys,crocea,21.25,111.75,1211:111:2,22,25.25,33.9,988,0,85
+Larimichthys,crocea,21.25,110.25,1211:110:1,1,25.18,33.9,795,0,5
+Larimichthys,crocea,21.25,109.25,1210:219:1,10,25.16,32.66,592,0,25
+Larimichthys,crocea,22.25,120.25,1212:120:1,721,26.32,34.09,785,0,97
+Larimichthys,crocea,22.25,114.25,1211:124:1,10,24.72,33.79,1385,0,22
+Larimichthys,crocea,22.25,113.75,1211:123:2,8,24.71,33.61,2126,0,23
+Larimichthys,crocea,22.75,120.25,1212:120:3,179,26.32,34.09,737,0,15
+Larimichthys,crocea,23.25,116.75,1211:236:2,19,24.72,34,1352,0,18
+Larimichthys,crocea,23.75,119.75,1211:239:4,42,24.59,33.95,1087,0,25
+Larimichthys,crocea,23.75,117.75,1211:237:4,25,24.68,33.9,1433,0,24
+Larimichthys,crocea,24.25,120.75,1212:140:2,11,24.17,33.72,650,0,3
+Larimichthys,crocea,24.25,120.25,1212:140:1,41,24.17,33.75,939,0,24
+Larimichthys,crocea,24.25,118.25,1211:248:1,20,22.83,33.9,1398,0,24
+Larimichthys,crocea,24.75,121.75,1212:141:4,251,25.05,34.5,719,0,8
+Larimichthys,crocea,24.75,120.25,1212:140:3,65,24.17,33.72,1071,0,76
+Larimichthys,crocea,25.25,121.75,1212:351:2,66,23.92,34.43,871,0,15
+Larimichthys,crocea,25.25,121.25,1212:351:1,78,23.92,33.72,1081,0,19
+Larimichthys,crocea,25.25,119.75,1211:459:2,22,21.42,33.72,1628,0,25
+Larimichthys,crocea,26.25,119.75,1211:469:2,12,20.58,33.56,1891,0,17
+Larimichthys,crocea,26.75,120.75,1212:360:4,42,22,33.56,1672,0,89
+Larimichthys,crocea,34.75,135.25,1313:245:3,22,20.73,34.34,517,0,9
+Larimichthys,crocea,36.25,140.75,1314:360:2,150,19.95,34.2,773,0,18

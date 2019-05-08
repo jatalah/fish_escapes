@@ -1,0 +1,42 @@
+Mapping parameters for Siganus rivulatus (Marbled spinefoot),,,,,,,,,,
+,,,,,,,,,,
+"Cite AquaMaps itself as: Kaschner, K., K. Kesner-Reyes, C. Garilao, J. Rius-Barile, T. Rees, and R. Froese. 2016. AquaMaps: Predicted range maps for aquatic species. World wide web electronic publication, www.aquamaps.org, Version 08/2016. ",,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Occurrence cells used for creating environmental envelope (n = 34),,,,,,,,,,
+Genus,Species,Center Lat,Center Long,C-Square,Depth,SST,Salinity,Primary Production,Sea Ice Conc.,Distance to Land
+Siganus,rivulatus,-29.75,31.25,3203:391:3,167,23.94,35.34,874,0,20
+Siganus,rivulatus,-29.25,31.75,3203:391:2,74,23.94,35.34,1236,0,22
+Siganus,rivulatus,-26.25,32.75,3203:362:2,15,24.73,35.16,1491,0,8
+Siganus,rivulatus,-25.75,32.75,3203:352:4,23,24.88,35.16,1175,0,14
+Siganus,rivulatus,-25.25,32.75,3203:352:2,8,24.88,35.16,1018,0,1
+Siganus,rivulatus,-19.25,35.75,3103:495:2,4,26.37,34.9,1687,0,22
+Siganus,rivulatus,-18.75,49.25,3104:489:3,385,26.37,34.91,622,0,17
+Siganus,rivulatus,-14.25,40.75,3104:140:2,475,27.49,34.97,650,0,18
+Siganus,rivulatus,-11.75,43.25,3104:113:3,1392,27.45,35.02,333,0,22
+Siganus,rivulatus,-4.75,55.25,3005:245:3,101,28.09,35.13,430,0,27
+Siganus,rivulatus,10.25,51.25,1105:101:1,72,26.82,35.15,1536,0,26
+Siganus,rivulatus,11.75,43.25,1104:113:3,275,28.47,36.38,1386,0,22
+Siganus,rivulatus,12.75,45.25,1104:225:3,433,28.4,36.34,1223,0,26
+Siganus,rivulatus,15.25,40.25,1104:350:1,14,29.12,37.27,1537,0,22
+Siganus,rivulatus,15.75,40.25,1104:350:3,6,29.12,37.27,1902,0,25
+Siganus,rivulatus,15.75,39.75,1103:459:4,15,29.1,37.27,1058,0,26
+Siganus,rivulatus,15.75,39.25,1103:459:3,9,29.1,37.27,871,0,4
+Siganus,rivulatus,16.25,41.75,1104:361:2,561,29.22,37.75,1104,0,107
+Siganus,rivulatus,16.75,42.75,1104:362:4,13,29.22,37.75,973,0,11
+Siganus,rivulatus,16.75,41.75,1104:361:4,46,29.22,37.75,1048,0,25
+Siganus,rivulatus,20.75,37.25,1203:207:3,82,28.36,39.18,945,0,16
+Siganus,rivulatus,22.75,38.75,1203:228:4,227,27.75,39.04,606,0,25
+Siganus,rivulatus,24.75,35.25,1203:245:3,188,26.39,39.49,510,0,21
+Siganus,rivulatus,25.75,50.25,1205:350:3,27,26.69,39.5,1070,0,15
+Siganus,rivulatus,26.25,51.25,1205:361:1,9,26.78,39.36,1104,0,21
+Siganus,rivulatus,26.25,50.25,1205:360:1,10,26.51,39.5,918,0,18
+Siganus,rivulatus,26.25,34.25,1203:364:1,370,25.19,38.88,529,0,13
+Siganus,rivulatus,26.75,50.25,1205:360:3,17,26.51,39.5,1093,0,24
+Siganus,rivulatus,27.25,33.75,1203:373:2,40,24.47,38.63,720,0,10
+Siganus,rivulatus,27.75,34.25,1203:374:3,778,24.77,38.63,536,0,20
+Siganus,rivulatus,28.25,35.25,1203:485:1,4,24.82,38.63,418,0,3
+Siganus,rivulatus,28.25,33.75,1203:383:2,53,24.62,38.63,442,0,7
+Siganus,rivulatus,29.25,34.75,1203:394:2,416,24.3,38.63,335,0,11
+Siganus,rivulatus,29.75,34.75,1203:394:4,20,24.3,38.63,388,0,1

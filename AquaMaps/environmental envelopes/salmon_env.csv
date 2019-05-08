@@ -1,0 +1,21 @@
+Mapping parameters for Salmo salar (Atlantic salmon),,,,,
+,,,,,
+"Cite AquaMaps itself as: Kaschner, K., K. Kesner-Reyes, C. Garilao, J. Rius-Barile, T. Rees, and R. Froese. 2016. AquaMaps: Predicted range maps for aquatic species. World wide web electronic publication, www.aquamaps.org, Version 08/2016. ",,,,,
+,,,,,
+Map type: Expert reviewed,,,,,
+Map Option: In FAO and Bounding Box,,,,,
+FAOAreas:  2 |  5 |  7 |  18 |  21 |  27 |  37 ,,,,,
+Bounding Box (NSWE): ,72,37,-77,61,
+,,,,,
+Pelagic: False,,,,,
+Layer used to generate probabilities: Bottom,,,,,
+,,,,,
+Species Envelope (HSPEN):,,,,,
+ ,Used,Min,Pref Min (10th),Pref Max (90th),Max
+Depth (m),1,0,23,10,210
+Temperature (°C),1,-0.82,2.17,11.57,20.23
+Salinity (psu),1,0,0,35.15,37.88
+Primary Production,1,0,583,1849,2708
+Sea Ice Concentration,1,0,0,0.32,0.68
+Distance to Land (km),0,0,1,16,317
+ ,,,,,

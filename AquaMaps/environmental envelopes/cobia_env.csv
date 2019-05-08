@@ -1,0 +1,21 @@
+Mapping parameters for Rachycentron canadum (Cobia),,,,,
+,,,,,
+"Cite AquaMaps itself as: Kaschner, K., K. Kesner-Reyes, C. Garilao, J. Rius-Barile, T. Rees, and R. Froese. 2016. AquaMaps: Predicted range maps for aquatic species. World wide web electronic publication, www.aquamaps.org, Version 08/2016. ",,,,,
+,,,,,
+Map type: Team reviewed,,,,,
+Map Option: In FAO and Bounding Box,,,,,
+FAOAreas:  21 |  31 |  34 |  41 |  47 |  51 |  57 |  61 |  71 ,,,,,
+Bounding Box (NSWE): ,47,-37,-98,166,
+,,,,,
+Pelagic: False,,,,,
+Layer used to generate probabilities: Surface,,,,,
+,,,,,
+Species Envelope (HSPEN):,,,,,
+ ,Used,Min,Pref Min (10th),Pref Max (90th),Max
+Depth (m),1,0,155,515,1200
+Temperature (°C),1,9.08,21.75,28.78,29.42
+Salinity (psu),1,28.69,32.66,35.9,39.5
+Primary Production,1,0,421,1679,3830
+Sea Ice Concentration,1,-1,0,0,0
+Distance to Land (km),0,0,9,172,620
+ ,,,,,

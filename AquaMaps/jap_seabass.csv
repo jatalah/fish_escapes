@@ -1,0 +1,45 @@
+Mapping parameters for Lateolabrax japonicus (Japanese seabass),,,,,,,,,,
+,,,,,,,,,,
+"Cite AquaMaps itself as: Kaschner, K., K. Kesner-Reyes, C. Garilao, J. Rius-Barile, T. Rees, and R. Froese. 2016. AquaMaps: Predicted range maps for aquatic species. World wide web electronic publication, www.aquamaps.org, Version 08/2016. ",,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Occurrence cells used for creating environmental envelope (n = 37),,,,,,,,,,
+Genus,Species,Center Lat,Center Long,C-Square,Depth,SST,Salinity,Primary Production,Sea Ice Conc.,Distance to Land
+Lateolabrax,japonicus,10.75,108.25,1110:208:3,22,27.79,33.2,501,0,25
+Lateolabrax,japonicus,18.25,106.25,1110:486:1,39,26.49,32.45,1166,0,14
+Lateolabrax,japonicus,22.25,120.25,1212:120:1,721,26.32,34.09,785,0,97
+Lateolabrax,japonicus,22.25,114.25,1211:124:1,10,24.72,33.79,1385,0,22
+Lateolabrax,japonicus,22.75,120.25,1212:120:3,179,26.32,34.09,737,0,15
+Lateolabrax,japonicus,23.25,116.75,1211:236:2,19,24.72,34,1352,0,18
+Lateolabrax,japonicus,23.75,119.75,1211:239:4,42,24.59,33.95,1087,0,25
+Lateolabrax,japonicus,24.25,120.75,1212:140:2,11,24.17,33.72,650,0,3
+Lateolabrax,japonicus,24.25,120.25,1212:140:1,41,24.17,33.75,939,0,24
+Lateolabrax,japonicus,24.25,118.25,1211:248:1,20,22.83,33.9,1398,0,24
+Lateolabrax,japonicus,25.25,121.75,1212:351:2,66,23.92,34.43,871,0,15
+Lateolabrax,japonicus,25.25,119.75,1211:459:2,22,21.42,33.72,1628,0,25
+Lateolabrax,japonicus,26.75,120.75,1212:360:4,42,22,33.56,1672,0,89
+Lateolabrax,japonicus,29.75,121.75,1212:391:4,6,18.8,32.65,2200,0,7
+Lateolabrax,japonicus,30.25,122.25,1312:102:1,5,17.92,31.43,2245,0,20
+Lateolabrax,japonicus,31.25,122.25,1312:112:1,11,17.16,30.7,2211,0,95
+Lateolabrax,japonicus,32.75,129.75,1312:229:4,49,22,34.18,452,0,20
+Lateolabrax,japonicus,33.25,135.75,1313:235:2,1738,21.85,34.34,483,0,88
+Lateolabrax,japonicus,33.25,133.25,1313:133:1,61,21.59,34.52,481,0,13
+Lateolabrax,japonicus,33.25,131.75,1313:131:2,30,21.32,33.86,340,0,12
+Lateolabrax,japonicus,33.75,135.75,1313:235:4,70,21.85,34.34,648,0,3
+Lateolabrax,japonicus,34.25,135.25,1313:245:1,28,20.73,34.34,504,0,10
+Lateolabrax,japonicus,34.25,127.25,1312:247:1,5,18.71,33.58,1191,0,22
+Lateolabrax,japonicus,34.75,139.25,1313:249:3,468,21.2,34.43,713,0,20
+Lateolabrax,japonicus,34.75,138.25,1313:248:3,221,21.46,34.43,826,0,14
+Lateolabrax,japonicus,34.75,135.25,1313:245:3,22,20.73,34.34,517,0,9
+Lateolabrax,japonicus,34.75,134.75,1313:144:4,13,20.48,33.86,555,0,13
+Lateolabrax,japonicus,35.25,139.75,1313:459:2,172,20.45,34.43,749,0,15
+Lateolabrax,japonicus,35.75,140.25,1314:350:3,47,20.55,34.47,611,0,2
+Lateolabrax,japonicus,35.75,139.75,1313:459:4,38,20.45,34.43,629,0,4
+Lateolabrax,japonicus,35.75,134.75,1313:354:4,162,19.13,33.86,579,0,14
+Lateolabrax,japonicus,35.75,134.25,1313:354:3,241,19.13,33.86,539,0,19
+Lateolabrax,japonicus,36.25,140.75,1314:360:2,150,19.95,34.2,773,0,18
+Lateolabrax,japonicus,38.75,139.75,1313:489:4,101,15.43,33.75,800,0,10
+Lateolabrax,japonicus,39.25,119.25,1311:499:1,52,12.24,29.77,1670,0.02,17
+Lateolabrax,japonicus,39.75,127.75,1312:497:4,44,13.45,33.59,983,0,17
+Lateolabrax,japonicus,58.75,162.75,1516:382:4,19,3.81,32.63,686,0.33,11

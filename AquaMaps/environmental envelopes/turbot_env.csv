@@ -1,0 +1,21 @@
+Mapping parameters for Scophthalmus maximus (Turbot),,,,,
+,,,,,
+"Cite AquaMaps itself as: Kaschner, K., K. Kesner-Reyes, C. Garilao, J. Rius-Barile, T. Rees, and R. Froese. 2016. AquaMaps: Predicted range maps for aquatic species. World wide web electronic publication, www.aquamaps.org, Version 08/2016. ",,,,,
+,,,,,
+Map type: Team reviewed,,,,,
+Map Option: In FAO and Bounding Box,,,,,
+FAOAreas:  27 |  34 |  37 ,,,,,
+Bounding Box (NSWE): ,70,30,-23,36,
+,,,,,
+Pelagic: False,,,,,
+Layer used to generate probabilities: Surface,,,,,
+,,,,,
+Species Envelope (HSPEN):,,,,,
+ ,Used,Min,Pref Min (10th),Pref Max (90th),Max
+Depth (m),1,20,25,46,70
+Temperature (°C),1,6.7,8.91,12.49,21.91
+Salinity (psu),1,5.61,7.26,35.22,39.11
+Primary Production,1,322,644,1806,2798.5
+Sea Ice Concentration,1,-0.988273912,0,0.03,0.25
+Distance to Land (km),0,1,9,188,334
+ ,,,,,

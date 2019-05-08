@@ -1,0 +1,21 @@
+Mapping parameters for Sparus aurata (Gilthead seabream),,,,,
+,,,,,
+"Cite AquaMaps itself as: Kaschner, K., K. Kesner-Reyes, C. Garilao, J. Rius-Barile, T. Rees, and R. Froese. 2016. AquaMaps: Predicted range maps for aquatic species. World wide web electronic publication, www.aquamaps.org, Version 08/2016. ",,,,,
+,,,,,
+Map type: Team reviewed,,,,,
+Map Option: In FAO and Bounding Box,,,,,
+FAOAreas:  27 |  34 |  37 ,,,,,
+Bounding Box (NSWE): ,62,15,-17,43,
+,,,,,
+Pelagic: False,,,,,
+Layer used to generate probabilities: Surface,,,,,
+,,,,,
+Species Envelope (HSPEN):,,,,,
+ ,Used,Min,Pref Min (10th),Pref Max (90th),Max
+Depth (m),1,1,1,30,150
+Temperature (°C),1,9.5,13.98,20.78,24.33
+Salinity (psu),1,16.5,35.09,38.43,39.58
+Primary Production,1,138,349,1411,2613
+Sea Ice Concentration,1,-1,0,0,0.02
+Distance to Land (km),0,2,5,137,358
+ ,,,,,

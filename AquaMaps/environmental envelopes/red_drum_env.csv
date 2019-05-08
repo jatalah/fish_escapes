@@ -1,0 +1,21 @@
+Mapping parameters for Sciaenops ocellatus (Red drum),,,,,
+,,,,,
+"Cite AquaMaps itself as: Kaschner, K., K. Kesner-Reyes, C. Garilao, J. Rius-Barile, T. Rees, and R. Froese. 2016. AquaMaps: Predicted range maps for aquatic species. World wide web electronic publication, www.aquamaps.org, Version 08/2016. ",,,,,
+,,,,,
+Map type: Computer-generated,,,,,
+Map Option: In FAO and Bounding Box,,,,,
+FAOAreas: 21 |  31,,,,,
+Bounding Box (NSWE): ,43,0,,,
+,,,,,
+Pelagic: False,,,,,
+Layer used to generate probabilities: Surface,,,,,
+,,,,,
+Species Envelope (HSPEN):,,,,,
+ ,Used,Min,Pref Min (10th),Pref Max (90th),Max
+Depth (m),1,10,14,31,50
+Temperature (°C),1,11.77,15.44,26.1,30.3
+Salinity (psu),1,29.52,32.63,36.08,39.52
+Primary Production,1,372,716,1949,3160
+Sea Ice Concentration,1,-1,0,0,0.01
+Distance to Land (km),0,0,3,89,146
+ ,,,,,
