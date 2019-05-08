@@ -1,0 +1,327 @@
+REALM,PROVINCE,ECOREGION,country_name,Species,mean_prod,n_eco,mean_prod_ecoreg,status
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,East China Sea,Taiwan Province of China,Acanthopagrus schlegelii,0.875,3,0.291666667,Native
+Central Indo-Pacific,South China Sea,Southern China,Taiwan Province of China,Acanthopagrus schlegelii,0.875,3,0.291666667,Native
+Central Indo-Pacific,South Kuroshio,South Kuroshio,Taiwan Province of China,Acanthopagrus schlegelii,0.875,3,0.291666667,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Yellow Sea,"Korea, Republic of",Acanthopagrus schlegelii,1539.5,3,513.1666667,Native
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,East China Sea,"Korea, Republic of",Acanthopagrus schlegelii,1539.5,3,513.1666667,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Sea of Japan/East Sea,"Korea, Republic of",Acanthopagrus schlegelii,1539.5,3,513.1666667,Native
+Temperate Northern Atlantic,Mediterranean Sea,Adriatic Sea,Croatia,Argyrosomus regius,51.61528571,1,51.61528571,Native
+Temperate Northern Atlantic,Mediterranean Sea,Aegean Sea,Cyprus,Argyrosomus regius,26.93285714,1,26.93285714,Native
+Temperate Northern Atlantic,Mediterranean Sea,Western Mediterranean,France,Argyrosomus regius,468.72,1,468.72,Native
+Temperate Northern Atlantic,Mediterranean Sea,Aegean Sea,Greece,Argyrosomus regius,708.62,1,708.62,Native
+Temperate Northern Atlantic,Mediterranean Sea,Western Mediterranean,Italy,Argyrosomus regius,54.375,1,54.375,Native
+Temperate Northern Atlantic,Lusitanian,South European Atlantic Shelf,Portugal,Argyrosomus regius,27.6746,1,27.6746,Native
+Temperate Northern Atlantic,Lusitanian,South European Atlantic Shelf,Spain,Argyrosomus regius,15.683,1,15.683,Native
+Temperate Northern Atlantic,Mediterranean Sea,Alboran Sea,Spain,Argyrosomus regius,1061.4367,2,530.71835,Native
+Temperate Northern Atlantic,Mediterranean Sea,Western Mediterranean,Spain,Argyrosomus regius,1061.4367,2,530.71835,Native
+Temperate Northern Atlantic,Mediterranean Sea,Tunisian Plateau/Gulf of Sidra,Tunisia,Argyrosomus regius,40,1,40,Native
+Temperate Northern Atlantic,Mediterranean Sea,Aegean Sea,Turkey,Argyrosomus regius,2848.333333,2,1424.166667,Native
+Temperate Northern Atlantic,Mediterranean Sea,Levantine Sea,Turkey,Argyrosomus regius,2848.333333,2,1424.166667,Native
+Central Indo-Pacific,Western Coral Triangle,Palawan/North Borneo,Brunei Darussalam,Chanos chanos,0.8,1,0.8,Native
+Central Indo-Pacific,Sunda Shelf,Malacca Strait,Indonesia,Chanos chanos,162.684,7,23.24057143,Introduced
+Western Indo-Pacific,Andaman,Western Sumatra,Indonesia,Chanos chanos,162.684,7,23.24057143,Introduced
+Central Indo-Pacific,Sunda Shelf,Sunda Shelf/Java Sea,Indonesia,Chanos chanos,162.684,7,23.24057143,Introduced
+Central Indo-Pacific,Java Transitional,Southern Java,Indonesia,Chanos chanos,162.684,7,23.24057143,Native
+Central Indo-Pacific,Western Coral Triangle,Sulawesi Sea/Makassar Strait,Indonesia,Chanos chanos,162.684,7,23.24057143,Introduced
+Central Indo-Pacific,Western Coral Triangle,Lesser Sunda,Indonesia,Chanos chanos,162.684,7,23.24057143,Native
+Central Indo-Pacific,Western Coral Triangle,Banda Sea,Indonesia,Chanos chanos,162.684,7,23.24057143,Native
+Central Indo-Pacific,Tropical Northwestern Pacific,West Caroline Islands,Palau,Chanos chanos,18.29,1,18.29,Native
+Central Indo-Pacific,Western Coral Triangle,Eastern Philippines,Philippines,Chanos chanos,102289,2,51144.5,Native
+Central Indo-Pacific,Western Coral Triangle,Sulawesi Sea/Makassar Strait,Philippines,Chanos chanos,102289,2,51144.5,Introduced
+Central Indo-Pacific,Sunda Shelf,Malacca Strait,Singapore,Chanos chanos,1615.8152,1,1615.8152,Introduced
+Eastern Indo-Pacific,"Marshall, Gilbert and Ellis Islands",Gilbert/Ellis Islands,Tuvalu,Chanos chanos,2.333333333,1,2.333333333,Native
+Temperate Northern Atlantic,Mediterranean Sea,Adriatic Sea,Albania,Dicentrarchus labrax,172.74,2,86.37,Native
+Temperate Northern Atlantic,Mediterranean Sea,Ionian Sea,Albania,Dicentrarchus labrax,172.74,2,86.37,Native
+Temperate Northern Atlantic,Mediterranean Sea,Adriatic Sea,Bosnia and Herzegovina,Dicentrarchus labrax,84.9375,1,84.9375,Native
+Temperate Northern Atlantic,Mediterranean Sea,Adriatic Sea,Croatia,Dicentrarchus labrax,3216.7134,1,3216.7134,Native
+Temperate Northern Atlantic,Mediterranean Sea,Aegean Sea,Cyprus,Dicentrarchus labrax,1247,1,1247,Native
+Temperate Northern Atlantic,Lusitanian,South European Atlantic Shelf,France,Dicentrarchus labrax,1191.025,2,595.5125,Native
+Temperate Northern Atlantic,Northern European Seas,North Sea,France,Dicentrarchus labrax,1191.025,2,595.5125,Native
+Temperate Northern Atlantic,Mediterranean Sea,Western Mediterranean,France,Dicentrarchus labrax,1526.62,1,1526.62,Native
+Temperate Northern Atlantic,Mediterranean Sea,Aegean Sea,Greece,Dicentrarchus labrax,36157.97,1,36157.97,Native
+Temperate Northern Atlantic,Mediterranean Sea,Levantine Sea,Israel,Dicentrarchus labrax,26.75,1,26.75,Native
+Temperate Northern Atlantic,Mediterranean Sea,Western Mediterranean,Italy,Dicentrarchus labrax,3335.894,3,1111.964667,Native
+Temperate Northern Atlantic,Mediterranean Sea,Ionian Sea,Italy,Dicentrarchus labrax,3335.894,3,1111.964667,Native
+Temperate Northern Atlantic,Mediterranean Sea,Adriatic Sea,Italy,Dicentrarchus labrax,3335.894,3,1111.964667,Native
+Western Indo-Pacific,Somali/Arabian,Arabian (Persian) Gulf,Kuwait,Dicentrarchus labrax,0.215,1,0.215,Introduced
+Temperate Northern Atlantic,Mediterranean Sea,Tunisian Plateau/Gulf of Sidra,Libya,Dicentrarchus labrax,32,1,32,Native
+Temperate Northern Atlantic,Mediterranean Sea,Ionian Sea,Malta,Dicentrarchus labrax,88.9612,1,88.9612,Native
+Western Indo-Pacific,Western Indian Ocean,Mascarene Islands,Mauritius,Dicentrarchus labrax,118.8333333,1,118.8333333,Introduced
+Temperate Northern Atlantic,Mediterranean Sea,Adriatic Sea,Montenegro,Dicentrarchus labrax,56.9,1,56.9,Native
+Temperate Northern Atlantic,Mediterranean Sea,Alboran Sea,Morocco,Dicentrarchus labrax,100.77,1,100.77,Native
+Temperate Northern Atlantic,Lusitanian,South European Atlantic Shelf,Portugal,Dicentrarchus labrax,360.0343,1,360.0343,Native
+Western Indo-Pacific,Red Sea and Gulf of Aden,Northern and Central Red Sea,Saudi Arabia,Dicentrarchus labrax,300,2,150,Introduced
+Western Indo-Pacific,Red Sea and Gulf of Aden,Southern Red Sea,Saudi Arabia,Dicentrarchus labrax,300,2,150,Introduced
+Temperate Northern Atlantic,Mediterranean Sea,Adriatic Sea,Slovenia,Dicentrarchus labrax,53.54,1,53.54,Native
+Temperate Northern Atlantic,Lusitanian,South European Atlantic Shelf,Spain,Dicentrarchus labrax,619.9325625,1,619.9325625,Native
+Temperate Northern Atlantic,Lusitanian,Azores Canaries Madeira,Spain,Dicentrarchus labrax,4172.342667,1,4172.342667,Native
+Temperate Northern Atlantic,Mediterranean Sea,Alboran Sea,Spain,Dicentrarchus labrax,9548.92465,2,4774.462325,Native
+Temperate Northern Atlantic,Mediterranean Sea,Western Mediterranean,Spain,Dicentrarchus labrax,9548.92465,2,4774.462325,Native
+Western Indo-Pacific,Somali/Arabian,Arabian (Persian) Gulf,United Arab Emirates,Dicentrarchus labrax,166.6666667,2,83.33333335,Introduced
+Western Indo-Pacific,Somali/Arabian,Gulf of Oman,United Arab Emirates,Dicentrarchus labrax,166.6666667,2,83.33333335,Introduced
+Temperate Northern Atlantic,Mediterranean Sea,Aegean Sea,Turkey,Dicentrarchus labrax,59962.15,3,57803.5126,Native
+Temperate Northern Atlantic,Mediterranean Sea,Levantine Sea,Turkey,Dicentrarchus labrax,59962.15,3,599.6215,Native
+Temperate Northern Atlantic,Black Sea,Black Sea,Turkey,Dicentrarchus labrax,59962.15,3,1559.0159,Native
+Temperate Northern Atlantic,Northern European Seas,Celtic Seas,United Kingdom,Dicentrarchus labrax,222.2222222,1,222.2222222,Native
+Temperate Northern Atlantic,Northern European Seas,North Sea,Denmark,Gadus morhua,2.5,1,2.5,Native
+Temperate Northern Atlantic,Northern European Seas,South and West Iceland,Iceland,Gadus morhua,878.6,1,878.6,Native
+Temperate Northern Atlantic,Northern European Seas,Northern Norway and Finnmark,Norway,Gadus morhua,10223.552,2,4697.350152,Native
+Temperate Northern Atlantic,Northern European Seas,Southern Norway,Norway,Gadus morhua,10223.552,2,5516.5303,Native
+Temperate Northern Atlantic,Northern European Seas,Celtic Seas,United Kingdom,Gadus morhua,977.9,1,977.9,Native
+Temperate Northern Atlantic,Northern European Seas,South and West Iceland,Iceland,Hippoglossus hippoglossus,26.35555556,1,26.35555556,Introduced
+Temperate Northern Atlantic,Northern European Seas,Northern Norway and Finnmark,Norway,Hippoglossus hippoglossus,1692.761,2,913.3975497,Native
+Temperate Northern Atlantic,Northern European Seas,Southern Norway,Norway,Hippoglossus hippoglossus,1692.761,2,1391.544257,Native
+Temperate Northern Atlantic,Northern European Seas,Celtic Seas,United Kingdom,Hippoglossus hippoglossus,108.21,1,108.21,Native
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,East China Sea,China,Larimichthys crocea,100224,3,73604.75411,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Yellow Sea,China,Larimichthys crocea,100224,3,204.272752,Native
+Central Indo-Pacific,South China Sea,Southern China,China,Larimichthys crocea,100224,3,11031.97635,Native
+Central Indo-Pacific,South China Sea,Gulf of Tonkin,China,Larimichthys crocea,100224,3,15382.99679,Native
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,East China Sea,China,Lateolabrax japonicus,115693.8,3,37002.07098,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Yellow Sea,China,Lateolabrax japonicus,115693.8,3,24550.89855,Native
+Central Indo-Pacific,South China Sea,Southern China,China,Lateolabrax japonicus,115693.8,3,43672.39761,Native
+Central Indo-Pacific,South China Sea,Gulf of Tonkin,China,Lateolabrax japonicus,115693.8,3,10468.43285,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Yellow Sea,"Korea, Republic of",Lateolabrax japonicus,1798.2,3,599.4,Native
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,East China Sea,"Korea, Republic of",Lateolabrax japonicus,1798.2,3,599.4,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Sea of Japan/East Sea,"Korea, Republic of",Lateolabrax japonicus,1798.2,3,599.4,Native
+Central Indo-Pacific,Western Coral Triangle,Palawan/North Borneo,Brunei Darussalam,Lates calcarifer,48.23,1,48.23,Native
+Western Indo-Pacific,Andaman,Andaman Sea Coral Coast,Myanmar,Lates calcarifer,165.1542294,2,82.5771147,Native
+Western Indo-Pacific,Bay of Bengal,Northern Bay of Bengal,Myanmar,Lates calcarifer,165.1542294,2,82.5771147,Native
+Central Indo-Pacific,Sunda Shelf,Gulf of Thailand,Cambodia,Lates calcarifer,147.7777778,1,147.7777778,Native
+Western Indo-Pacific,West and South Indian Shelf,South India and Sri Lanka,Sri Lanka,Lates calcarifer,11.647,1,11.647,Native
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,East China Sea,Taiwan Province of China,Lates calcarifer,0.666666667,3,0.222222222,Native
+Central Indo-Pacific,South China Sea,Southern China,Taiwan Province of China,Lates calcarifer,0.666666667,3,0.222222222,Native
+Central Indo-Pacific,South Kuroshio,South Kuroshio,Taiwan Province of China,Lates calcarifer,0.666666667,3,0.222222222,Native
+Central Indo-Pacific,Sunda Shelf,Malacca Strait,Indonesia,Lates calcarifer,2040.2215,7,291.4602143,Native
+Western Indo-Pacific,Andaman,Western Sumatra,Indonesia,Lates calcarifer,2040.2215,7,291.4602143,Introduced
+Central Indo-Pacific,Sunda Shelf,Sunda Shelf/Java Sea,Indonesia,Lates calcarifer,2040.2215,7,291.4602143,Native
+Central Indo-Pacific,Java Transitional,Southern Java,Indonesia,Lates calcarifer,2040.2215,7,291.4602143,Native
+Central Indo-Pacific,Western Coral Triangle,Sulawesi Sea/Makassar Strait,Indonesia,Lates calcarifer,2040.2215,7,291.4602143,Introduced
+Central Indo-Pacific,Western Coral Triangle,Lesser Sunda,Indonesia,Lates calcarifer,2040.2215,7,291.4602143,Native
+Central Indo-Pacific,Western Coral Triangle,Banda Sea,Indonesia,Lates calcarifer,2040.2215,7,291.4602143,Introduced
+Western Indo-Pacific,Somali/Arabian,Arabian (Persian) Gulf,Kuwait,Lates calcarifer,0.25,1,0.25,Introduced
+Western Indo-Pacific,Red Sea and Gulf of Aden,Southern Red Sea,Saudi Arabia,Lates calcarifer,1207,2,603.5,Introduced
+Western Indo-Pacific,Red Sea and Gulf of Aden,Northern and Central Red Sea,Saudi Arabia,Lates calcarifer,1207,2,603.5,Introduced
+Central Indo-Pacific,Sunda Shelf,Malacca Strait,Singapore,Lates calcarifer,440.8723,1,440.8723,Native
+Temperate Northern Atlantic,Mediterranean Sea,Ionian Sea,Greece,Mugil cephalus,47.68222222,2,47.68222222,Native
+Temperate Northern Atlantic,Mediterranean Sea,Ionian Sea,Italy,Mugil cephalus,6,1,6,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Yellow Sea,"Korea, Republic of",Mugil cephalus,5556.8,3,1852.266667,Native
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,East China Sea,"Korea, Republic of",Mugil cephalus,5556.8,3,1852.266667,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Sea of Japan/East Sea,"Korea, Republic of",Mugil cephalus,5556.8,3,1852.266667,Introduced
+Western Indo-Pacific,Red Sea and Gulf of Aden,Southern Red Sea,Saudi Arabia,Mugil cephalus,38.2,2,19.1,Native
+Western Indo-Pacific,Red Sea and Gulf of Aden,Northern and Central Red Sea,Saudi Arabia,Mugil cephalus,38.2,2,19.1,Native
+Central Indo-Pacific,Sunda Shelf,Malacca Strait,Singapore,Mugil cephalus,416.594,1,416.594,Introduced
+Temperate South America,Magellanic,Chiloense,Chile,Oncorhynchus kisutch,126122.1,2,63061.05,Introduced
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Northeastern Honshu,Japan,Oncorhynchus kisutch,11891.8,4,11853.91273,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Sea of Japan/East Sea,Japan,Oncorhynchus kisutch,11891.8,4,37.88159628,Introduced
+Temperate Northern Pacific,Cold Temperate Northeast Pacific,North American Pacific Fijordland,Canada,Oncorhynchus mykiss,200,5,40,Native
+Temperate Northern Pacific,Cold Temperate Northeast Pacific,"Oregon, Washington, Vancouver Coast and Shelf",Canada,Oncorhynchus mykiss,200,5,40,Native
+Temperate Northern Atlantic,Cold Temperate Northwest Atlantic,Gulf of Maine/Bay of Fundy,Canada,Oncorhynchus mykiss,200,5,40,Introduced
+Temperate Northern Atlantic,Cold Temperate Northwest Atlantic,Scotian Shelf,Canada,Oncorhynchus mykiss,200,5,40,Introduced
+Temperate Northern Pacific,Cold Temperate Northeast Pacific,Puget Trough/Georgia Basin,Canada,Oncorhynchus mykiss,200,5,40,Native
+Temperate South America,Magellanic,Channels and Fjords of Southern Chile,Chile,Oncorhynchus mykiss,158339.1,2,44334.948,Introduced
+Temperate South America,Magellanic,Chiloense,Chile,Oncorhynchus mykiss,158339.1,2,114004.152,Introduced
+Temperate Northern Atlantic,Mediterranean Sea,Adriatic Sea,Croatia,Oncorhynchus mykiss,2.084875,1,2.084875,Introduced
+Temperate Northern Atlantic,Northern European Seas,North Sea,Denmark,Oncorhynchus mykiss,10453.928,1,10453.928,Introduced
+Temperate Northern Atlantic,Northern European Seas,Faroe Plateau,Faroe Islands,Oncorhynchus mykiss,5351.4,1,5351.4,Introduced
+Temperate Northern Atlantic,Lusitanian,South European Atlantic Shelf,France,Oncorhynchus mykiss,29.8,2,14.9,Introduced
+Temperate Northern Atlantic,Northern European Seas,North Sea,France,Oncorhynchus mykiss,29.8,2,14.9,Introduced
+Temperate Northern Atlantic,Northern European Seas,Celtic Seas,Ireland,Oncorhynchus mykiss,472.7714286,1,472.7714286,Introduced
+Temperate Northern Atlantic,Northern European Seas,Northern Norway and Finnmark,Norway,Oncorhynchus mykiss,72523.549,2,13970.8633,Introduced
+Temperate Northern Atlantic,Northern European Seas,Southern Norway,Norway,Oncorhynchus mykiss,72523.549,2,58552.6857,Introduced
+Temperate Northern Atlantic,Lusitanian,South European Atlantic Shelf,Spain,Oncorhynchus mykiss,5.225,1,5.225,Introduced
+Temperate Northern Atlantic,Northern European Seas,Baltic Sea,Sweden,Oncorhynchus mykiss,2411.2,1,2411.2,Introduced
+Temperate Northern Atlantic,Mediterranean Sea,Aegean Sea,Turkey,Oncorhynchus mykiss,4952.82,3,79.40392786,Introduced
+Temperate Northern Atlantic,Black Sea,Black Sea,Turkey,Oncorhynchus mykiss,4952.82,3,4873.416072,Introduced
+Temperate Northern Atlantic,Northern European Seas,Celtic Seas,United Kingdom,Oncorhynchus mykiss,2474.9,1,2474.9,Introduced
+Temperate South America,Magellanic,Chiloense,Chile,Oncorhynchus tshawytscha,698.7,2,349.35,Introduced
+Temperate Australasia,Southern New Zealand,Central New Zealand,New Zealand,Oncorhynchus tshawytscha,11113.7,1,11113.7,Introduced
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,East China Sea,Taiwan Province of China,Pagrus auratus,60,3,20,Native
+Central Indo-Pacific,South China Sea,Southern China,Taiwan Province of China,Pagrus auratus,60,3,20,Native
+Central Indo-Pacific,South Kuroshio,South Kuroshio,Taiwan Province of China,Pagrus auratus,60,3,20,Native
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,Central Kuroshio Current,Japan,Pagrus auratus,64378.9,4,57727.23737,Native
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,East China Sea,Japan,Pagrus auratus,64378.9,4,5923.763429,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Sea of Japan/East Sea,Japan,Pagrus auratus,64378.9,4,645.2723677,Introduced
+Central Indo-Pacific,South Kuroshio,South Kuroshio,Japan,Pagrus auratus,64378.9,4,82.62683371,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Yellow Sea,"Korea, Republic of",Pagrus auratus,5484.2,3,1828.066667,Native
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,East China Sea,"Korea, Republic of",Pagrus auratus,5484.2,3,1828.066667,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Sea of Japan/East Sea,"Korea, Republic of",Pagrus auratus,5484.2,3,1828.066667,Introduced
+Temperate Northern Atlantic,Mediterranean Sea,Ionian Sea,Greece,Pagrus pagrus,1035.88,2,517.94,Introduced
+Temperate Northern Atlantic,Mediterranean Sea,Aegean Sea,Greece,Pagrus pagrus,1035.88,2,517.94,Native
+Temperate Northern Atlantic,Mediterranean Sea,Ionian Sea,Turkey,Pagrus pagrus,158,1,158,Introduced
+Temperate Northern Atlantic,Northern European Seas,Baltic Sea,Germany,Paralichthys olivaceus,0.25,1,0.25,Introduced
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,Central Kuroshio Current,Japan,Paralichthys olivaceus,3394.9,4,321.3368329,Native
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,East China Sea,Japan,Paralichthys olivaceus,3394.9,4,3023.20682,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Northeastern Honshu,Japan,Paralichthys olivaceus,3394.9,4,1.89591544,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Sea of Japan/East Sea,Japan,Paralichthys olivaceus,3394.9,4,48.46043202,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Yellow Sea,"Korea, Republic of",Paralichthys olivaceus,42983.4,3,14327.8,Native
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,East China Sea,"Korea, Republic of",Paralichthys olivaceus,42983.4,3,14327.8,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Sea of Japan/East Sea,"Korea, Republic of",Paralichthys olivaceus,42983.4,3,14327.8,Native
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,Central Kuroshio Current,Japan,Pseudocaranx dentex,3101.3,4,12405.2,Native
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,East China Sea,Japan,Pseudocaranx dentex,3101.3,4,12405.2,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Northeastern Honshu,Japan,Pseudocaranx dentex,3101.3,4,12405.2,Native
+Central Indo-Pacific,South Kuroshio,South Kuroshio,Japan,Pseudocaranx dentex,3101.3,4,12405.2,Native
+Tropical Atlantic,Tropical Northwestern Atlantic,Bahamian,Bahamas,Rachycentron canadum,21.66666667,1,21.66666667,Native
+Tropical Atlantic,Tropical Northwestern Atlantic,Western Caribbean,Belize,Rachycentron canadum,121.6714286,1,121.6714286,Native
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,East China Sea,China,Rachycentron canadum,33914.8,3,12932.63009,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Yellow Sea,China,Rachycentron canadum,33914.8,3,11304.93333,Native
+Central Indo-Pacific,South China Sea,Southern China,China,Rachycentron canadum,33914.8,3,11304.93333,Native
+Central Indo-Pacific,South China Sea,Gulf of Tonkin,China,Rachycentron canadum,33914.8,3,11304.93333,Native
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,East China Sea,Taiwan Province of China,Rachycentron canadum,1577.673123,3,525.891041,Native
+Central Indo-Pacific,South China Sea,Southern China,Taiwan Province of China,Rachycentron canadum,1577.673123,3,525.891041,Native
+Central Indo-Pacific,South Kuroshio,South Kuroshio,Taiwan Province of China,Rachycentron canadum,1577.673123,3,525.891041,Native
+Tropical Eastern Pacific,Tropical East Pacific,Panama Bight,Colombia,Rachycentron canadum,112.1666667,2,56.08333335,Native
+Tropical Atlantic,Tropical Northwestern Atlantic,Southwestern Caribbean,Colombia,Rachycentron canadum,112.1666667,2,56.08333335,Native
+Western Indo-Pacific,Western Indian Ocean,Western and Northern Madagascar,Mayotte,Rachycentron canadum,4,1,4,Native
+Tropical Atlantic,Tropical Northwestern Atlantic,Greater Antilles,Dominican Republic,Rachycentron canadum,100,1,100,Native
+Tropical Eastern Pacific,Tropical East Pacific,Panama Bight,Ecuador,Rachycentron canadum,34.73,2,17.365,Native
+Tropical Eastern Pacific,Tropical East Pacific,Guayaquil,Ecuador,Rachycentron canadum,34.73,2,17.365,Introduced
+Tropical Atlantic,Tropical Northwestern Atlantic,Eastern Caribbean,Martinique,Rachycentron canadum,10.125,1,10.125,Native
+Tropical Atlantic,Tropical Northwestern Atlantic,Southern Caribbean,Bonaire/S.Eustatius/Saba,Rachycentron canadum,0.116666667,1,0.116666667,Native
+Tropical Atlantic,Tropical Northwestern Atlantic,Southwestern Caribbean,Panama,Rachycentron canadum,562.9,1,562.9,Native
+Tropical Atlantic,Tropical Northwestern Atlantic,Greater Antilles,Puerto Rico,Rachycentron canadum,11,1,11,Native
+Central Indo-Pacific,Sunda Shelf,Malacca Strait,Singapore,Rachycentron canadum,1.879214286,1,1.879214286,Native
+Central Indo-Pacific,Sunda Shelf,Southern Vietnam,Viet Nam,Rachycentron canadum,2954.666667,2,1477.333334,Native
+Central Indo-Pacific,South China Sea,Gulf of Tonkin,Viet Nam,Rachycentron canadum,2954.666667,2,1477.333334,Native
+Temperate Australasia,Southeast Australian Shelf,Bassian,Australia,Salmo salar,38227.8367,1,38227.8367,Introduced
+Arctic,Arctic,Northern Grand Banks - Southern Labrador,Canada,Salmo salar,29922.4,3,9974.133333,Native
+Temperate Northern Atlantic,Cold Temperate Northwest Atlantic,Gulf of St. Lawrence - Eastern Scotian Shelf,Canada,Salmo salar,29922.4,3,9974.133333,Native
+Temperate Northern Atlantic,Cold Temperate Northwest Atlantic,Southern Grand Banks - South Newfoundland,Canada,Salmo salar,29922.4,3,9974.133333,Native
+Temperate Northern Pacific,Cold Temperate Northeast Pacific,North American Pacific Fijordland,Canada,Salmo salar,76496.9,5,15299.38,Introduced
+Temperate Northern Pacific,Cold Temperate Northeast Pacific,"Oregon, Washington, Vancouver Coast and Shelf",Canada,Salmo salar,76496.9,5,15299.38,Introduced
+Temperate Northern Atlantic,Cold Temperate Northwest Atlantic,Gulf of Maine/Bay of Fundy,Canada,Salmo salar,76496.9,5,15299.38,Native
+Temperate Northern Atlantic,Cold Temperate Northwest Atlantic,Scotian Shelf,Canada,Salmo salar,76496.9,5,15299.38,Native
+Temperate Northern Pacific,Cold Temperate Northeast Pacific,Puget Trough/Georgia Basin,Canada,Salmo salar,76496.9,5,15299.38,Introduced
+Temperate South America,Magellanic,Channels and Fjords of Southern Chile,Chile,Salmo salar,394379.1,2,59156.865,Introduced
+Temperate South America,Magellanic,Chiloense,Chile,Salmo salar,394379.1,2,335222.235,Introduced
+Temperate Northern Atlantic,Northern European Seas,Faroe Plateau,Faroe Islands,Salmo salar,62078.5,1,62078.5,Native
+Temperate Northern Atlantic,Lusitanian,South European Atlantic Shelf,France,Salmo salar,667,2,1.558110111,Native
+Temperate Northern Atlantic,Northern European Seas,North Sea,France,Salmo salar,667,2,246.0363039,Native
+Temperate Northern Atlantic,Northern European Seas,South and West Iceland,Iceland,Salmo salar,100.3333333,1,100.3333333,Native
+Temperate Northern Atlantic,Northern European Seas,Celtic Seas,Ireland,Salmo salar,11958.55,1,11958.55,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Sea of Japan/East Sea,"Korea, Dem. People's Rep",Salmo salar,13.88888889,1,13.88888889,Introduced
+Temperate Northern Atlantic,Northern European Seas,Northern Norway and Finnmark,Norway,Salmo salar,1054496.75,2,679419.2958,Native
+Temperate Northern Atlantic,Northern European Seas,Southern Norway,Norway,Salmo salar,1054496.75,2,851359.5601,Native
+Temperate Northern Atlantic,Black Sea,Black Sea,Russian Federation,Salmo salar,8937.1,4,2234.275,Introduced
+Arctic,Arctic,White Sea,Russian Federation,Salmo salar,8937.1,4,2234.275,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Sea of Okhotsk,Russian Federation,Salmo salar,8937.1,4,2234.275,Introduced
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Sea of Japan/East Sea,Russian Federation,Salmo salar,8937.1,4,2234.275,Introduced
+Temperate Northern Atlantic,Lusitanian,South European Atlantic Shelf,Spain,Salmo salar,20.9947,1,20.9947,Native
+Temperate Northern Atlantic,Northern European Seas,Baltic Sea,Sweden,Salmo salar,1.666666667,1,1.666666667,Native
+Temperate Northern Atlantic,Northern European Seas,Celtic Seas,United Kingdom,Salmo salar,155714.678,1,155714.678,Native
+Temperate Northern Pacific,Cold Temperate Northeast Pacific,"Oregon, Washington, Vancouver Coast and Shelf",United States of America,Salmo salar,17170.3,3,5723.433333,Introduced
+Temperate Northern Pacific,Cold Temperate Northeast Pacific,Northern California,United States of America,Salmo salar,17170.3,3,5723.433333,Introduced
+Temperate Northern Atlantic,Cold Temperate Northwest Atlantic,Gulf of Maine/Bay of Fundy,United States of America,Salmo salar,17170.3,3,5723.433333,Native
+Temperate Northern Atlantic,Northern European Seas,Celtic Seas,France,Salmo salar,667,2,419.405586,Native
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,East China Sea,China,Sciaenops ocellatus,60190.3,3,22952.18857,Introduced
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Yellow Sea,China,Sciaenops ocellatus,60190.3,3,3831.756672,Introduced
+Central Indo-Pacific,South China Sea,Southern China,China,Sciaenops ocellatus,60190.3,3,27907.8118,Introduced
+Western Indo-Pacific,Western Indian Ocean,Western and Northern Madagascar,Mayotte,Sciaenops ocellatus,84.92,1,84.92,Introduced
+Tropical Atlantic,Tropical Northwestern Atlantic,Eastern Caribbean,Guadeloupe,Sciaenops ocellatus,6.79,1,6.79,Introduced
+Temperate Northern Atlantic,Mediterranean Sea,Levantine Sea,Israel,Sciaenops ocellatus,60.5,1,60.5,Introduced
+Tropical Atlantic,Tropical Northwestern Atlantic,Eastern Caribbean,Martinique,Sciaenops ocellatus,44.81,1,44.81,Introduced
+Western Indo-Pacific,Western Indian Ocean,Mascarene Islands,Mauritius,Sciaenops ocellatus,413.55,1,413.55,Introduced
+Tropical Atlantic,Tropical Northwestern Atlantic,Southern Gulf of Mexico,Mexico,Sciaenops ocellatus,147.262375,1,147.262375,Native
+Western Indo-Pacific,Western Indian Ocean,Mascarene Islands,Reunion,Sciaenops ocellatus,50,1,50,Introduced
+Temperate Northern Atlantic,Warm Temperate Northwest Atlantic,Northern Gulf of Mexico,United States of America,Sciaenops ocellatus,1424.1,1,1424.1,Native
+Central Indo-Pacific,South China Sea,Gulf of Tonkin,China,Sciaenops ocellatus,60190.3,3,5498.542967,Introduced
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,East China Sea,China,Scophthalmus maximus,56500,2,28250,Introduced
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Yellow Sea,China,Scophthalmus maximus,56500,2,28250,Introduced
+Temperate Northern Atlantic,Mediterranean Sea,Adriatic Sea,Croatia,Scophthalmus maximus,2.729666667,1,2.729666667,Native
+Temperate Northern Atlantic,Northern European Seas,North Sea,Denmark,Scophthalmus maximus,6.6375,1,6.6375,Native
+Temperate Northern Atlantic,Lusitanian,South European Atlantic Shelf,France,Scophthalmus maximus,477.16,1,465.8595848,Native
+Temperate Northern Atlantic,Northern European Seas,Baltic Sea,Germany,Scophthalmus maximus,15,2,7.5,Native
+Temperate Northern Atlantic,Northern European Seas,North Sea,Germany,Scophthalmus maximus,15,2,7.5,Native
+Temperate Northern Atlantic,Northern European Seas,South and West Iceland,Iceland,Scophthalmus maximus,37.88888889,1,37.88888889,Native
+Temperate Northern Atlantic,Lusitanian,South European Atlantic Shelf,Portugal,Scophthalmus maximus,2245.2021,1,2245.2021,Native
+Temperate Northern Atlantic,Black Sea,Black Sea,Romania,Scophthalmus maximus,6.175555556,1,6.175555556,Native
+Temperate Northern Atlantic,Lusitanian,South European Atlantic Shelf,Spain,Scophthalmus maximus,7334.5908,1,7334.5908,Native
+Temperate Northern Atlantic,Mediterranean Sea,Western Mediterranean,Spain,Scophthalmus maximus,3,1,3,Native
+Temperate Northern Atlantic,Northern European Seas,Celtic Seas,United Kingdom,Scophthalmus maximus,20.825,1,20.825,Native
+Temperate Northern Atlantic,Northern European Seas,Celtic Seas,Channel Islands,Scophthalmus maximus,2.04,1,2.04,Native
+Temperate Northern Atlantic,Northern European Seas,Celtic Seas,France,Scophthalmus maximus,477.16,1,11.30041523,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Yellow Sea,"Korea, Republic of",Sebastes schlegelii,24807.8,3,8269.266667,Native
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,East China Sea,"Korea, Republic of",Sebastes schlegelii,24807.8,3,8269.266667,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Sea of Japan/East Sea,"Korea, Republic of",Sebastes schlegelii,24807.8,3,8269.266667,Native
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,Central Kuroshio Current,Japan,Seriola quinqueradiata,148134.6,4,136262.5643,Native
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,East China Sea,Japan,Seriola quinqueradiata,148134.6,4,11144.68118,Native
+Central Indo-Pacific,South Kuroshio,South Kuroshio,Japan,Seriola quinqueradiata,148134.6,4,3.131539254,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Sea of Japan/East Sea,Japan,Seriola quinqueradiata,148134.6,4,724.2229391,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Yellow Sea,"Korea, Republic of",Seriola quinqueradiata,187.2,3,62.4,Native
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,East China Sea,"Korea, Republic of",Seriola quinqueradiata,187.2,3,62.4,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Sea of Japan/East Sea,"Korea, Republic of",Seriola quinqueradiata,187.2,3,62.4,Native
+Temperate Northern Atlantic,Mediterranean Sea,Adriatic Sea,Albania,Sparus aurata,395.48,2,197.74,Native
+Temperate Northern Atlantic,Mediterranean Sea,Ionian Sea,Albania,Sparus aurata,395.48,2,197.74,Native
+Western Indo-Pacific,Somali/Arabian,Arabian (Persian) Gulf,Bahrain,Sparus aurata,1.2044,1,1.2044,Introduced
+Temperate Northern Atlantic,Mediterranean Sea,Adriatic Sea,Bosnia and Herzegovina,Sparus aurata,96.74444444,1,96.74444444,Native
+Temperate Northern Atlantic,Mediterranean Sea,Adriatic Sea,Croatia,Sparus aurata,2625.0319,1,2625.0319,Native
+Temperate Northern Atlantic,Mediterranean Sea,Aegean Sea,Cyprus,Sparus aurata,3028,1,3028,Native
+Tropical Atlantic,Tropical Northwestern Atlantic,Greater Antilles,Dominican Republic,Sparus aurata,350,1,350,Introduced
+Temperate Northern Atlantic,Lusitanian,South European Atlantic Shelf,France,Sparus aurata,697.325,2,348.6625,Native
+Temperate Northern Atlantic,Northern European Seas,North Sea,France,Sparus aurata,697.325,2,348.6625,Native
+Temperate Northern Atlantic,Mediterranean Sea,Western Mediterranean,France,Sparus aurata,748.03,1,748.03,Native
+Temperate Northern Atlantic,Mediterranean Sea,Aegean Sea,Greece,Sparus aurata,52539.02,1,52539.02,Native
+Temperate Northern Atlantic,Mediterranean Sea,Levantine Sea,Israel,Sparus aurata,1808.4,1,1808.4,Native
+Temperate Northern Atlantic,Mediterranean Sea,Western Mediterranean,Italy,Sparus aurata,4182.886,3,1394.295333,Native
+Temperate Northern Atlantic,Mediterranean Sea,Ionian Sea,Italy,Sparus aurata,4182.886,3,1394.295333,Native
+Temperate Northern Atlantic,Mediterranean Sea,Adriatic Sea,Italy,Sparus aurata,4182.886,3,1394.295333,Native
+Western Indo-Pacific,Somali/Arabian,Arabian (Persian) Gulf,Kuwait,Sparus aurata,18.65,1,18.65,Introduced
+Temperate Northern Atlantic,Mediterranean Sea,Tunisian Plateau/Gulf of Sidra,Libya,Sparus aurata,21,1,21,Native
+Temperate Northern Atlantic,Mediterranean Sea,Ionian Sea,Malta,Sparus aurata,1990.7813,1,1990.7813,Native
+Temperate Northern Atlantic,Mediterranean Sea,Adriatic Sea,Montenegro,Sparus aurata,50,1,50,Native
+Temperate Northern Atlantic,Mediterranean Sea,Alboran Sea,Morocco,Sparus aurata,17.485,1,17.485,Native
+Western Indo-Pacific,Somali/Arabian,Gulf of Oman,Oman,Sparus aurata,34,2,17,Introduced
+Western Indo-Pacific,Somali/Arabian,Western Arabian Sea,Oman,Sparus aurata,34,2,17,Introduced
+Temperate Northern Atlantic,Lusitanian,South European Atlantic Shelf,Portugal,Sparus aurata,977.2208,1,977.2208,Native
+Western Indo-Pacific,Red Sea and Gulf of Aden,Northern and Central Red Sea,Saudi Arabia,Sparus aurata,1487.8,2,743.9,Introduced
+Western Indo-Pacific,Red Sea and Gulf of Aden,Southern Red Sea,Saudi Arabia,Sparus aurata,1487.8,2,743.9,Introduced
+Temperate Northern Atlantic,Lusitanian,South European Atlantic Shelf,Spain,Sparus aurata,1152.268333,1,1152.268333,Native
+Temperate Northern Atlantic,Lusitanian,Azores Canaries Madeira,Spain,Sparus aurata,2611.248667,1,2611.248667,Native
+Temperate Northern Atlantic,Mediterranean Sea,Alboran Sea,Spain,Sparus aurata,14640.25795,2,7320.128975,Native
+Temperate Northern Atlantic,Mediterranean Sea,Western Mediterranean,Spain,Sparus aurata,14640.25795,2,7320.128975,Native
+Western Indo-Pacific,Somali/Arabian,Arabian (Persian) Gulf,United Arab Emirates,Sparus aurata,307.7,2,153.85,Introduced
+Western Indo-Pacific,Somali/Arabian,Gulf of Oman,United Arab Emirates,Sparus aurata,307.7,2,153.85,Introduced
+Temperate Northern Atlantic,Mediterranean Sea,Aegean Sea,Turkey,Sparus aurata,37229.11,3,35888.86204,Native
+Temperate Northern Atlantic,Mediterranean Sea,Levantine Sea,Turkey,Sparus aurata,37229.11,3,1340.24796,Native
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,East China Sea,China,Takifugu rubripes,17053.1,3,5684.366667,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Yellow Sea,China,Takifugu rubripes,17053.1,3,5684.366667,Native
+Central Indo-Pacific,South China Sea,Southern China,China,Takifugu rubripes,17053.1,3,5684.366667,Native
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,Central Kuroshio Current,Japan,Takifugu rubripes,4273.1,4,1068.275,Native
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,East China Sea,Japan,Takifugu rubripes,4273.1,4,1068.275,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Northeastern Honshu,Japan,Takifugu rubripes,4273.1,4,1068.275,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Sea of Japan/East Sea,Japan,Takifugu rubripes,4273.1,4,1068.275,Native
+Central Indo-Pacific,South China Sea,Southern China,"Korea, Dem. People's Rep",Takifugu rubripes,7.222222222,1,7.222222222,Native
+Temperate Australasia,Southwest Australian Shelf,South Australian Gulfs,Australia,Thunnus maccoyii,6797.0632,1,6797.0632,Native
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,Central Kuroshio Current,Japan,Thunnus orientalis,12597.2,4,3149.3,Native
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,East China Sea,Japan,Thunnus orientalis,12597.2,4,3149.3,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Northeastern Honshu,Japan,Thunnus orientalis,12597.2,4,3149.3,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Sea of Japan/East Sea,Japan,Thunnus orientalis,12597.2,4,3149.3,Native
+Temperate Northern Pacific,Warm Temperate Northeast Pacific,Southern California Bight,Mexico,Thunnus orientalis,4511.347181,1,4511.347181,Native
+Temperate Northern Atlantic,Mediterranean Sea,Adriatic Sea,Croatia,Thunnus thynnus,1575.5,1,1575.5,Native
+Temperate Northern Atlantic,Mediterranean Sea,Aegean Sea,Cyprus,Thunnus thynnus,50,1,50,Native
+Temperate Northern Atlantic,Mediterranean Sea,Ionian Sea,Greece,Thunnus thynnus,67.5,1,55.5189525,Native
+Temperate Northern Atlantic,Mediterranean Sea,Aegean Sea,Greece,Thunnus thynnus,67.5,1,11.98098,Native
+Temperate Northern Atlantic,Mediterranean Sea,Western Mediterranean,Italy,Thunnus thynnus,361.06,3,120.3533333,Native
+Temperate Northern Atlantic,Mediterranean Sea,Ionian Sea,Italy,Thunnus thynnus,361.06,3,120.3533333,Native
+Temperate Northern Atlantic,Mediterranean Sea,Adriatic Sea,Italy,Thunnus thynnus,361.06,3,120.3533333,Native
+Temperate Northern Atlantic,Mediterranean Sea,Ionian Sea,Malta,Thunnus thynnus,1630.8,1,1630.8,Native
+Temperate Northern Atlantic,Mediterranean Sea,Alboran Sea,Morocco,Thunnus thynnus,70,1,70,Native
+Temperate Northern Atlantic,Lusitanian,South European Atlantic Shelf,Portugal,Thunnus thynnus,25,1,25,Native
+Temperate Northern Atlantic,Mediterranean Sea,Alboran Sea,Spain,Thunnus thynnus,590.5,2,295.25,Native
+Temperate Northern Atlantic,Mediterranean Sea,Western Mediterranean,Spain,Thunnus thynnus,590.5,2,295.25,Native
+Temperate Northern Atlantic,Mediterranean Sea,Tunisian Plateau/Gulf of Sidra,Tunisia,Thunnus thynnus,304.6,1,304.6,Native
+Temperate Northern Atlantic,Mediterranean Sea,Aegean Sea,Turkey,Thunnus thynnus,545,3,181.6666667,Native
+Temperate Northern Atlantic,Mediterranean Sea,Levantine Sea,Turkey,Thunnus thynnus,545,3,181.6666667,Native
+Central Indo-Pacific,Western Coral Triangle,Palawan/North Borneo,Brunei Darussalam,Trachinotus blochii,9.77,1,9.77,Native
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,East China Sea,China,Trachinotus blochii,89100,3,29700,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Yellow Sea,China,Trachinotus blochii,89100,3,29700,Introduced
+Central Indo-Pacific,South China Sea,Southern China,China,Trachinotus blochii,89100,3,29700,Native
+Central Indo-Pacific,South China Sea,Southern China,"China, Hong Kong SAR",Trachinotus blochii,62,1,62,Native
+Central Indo-Pacific,Western Coral Triangle,Eastern Philippines,Philippines,Trachinotus blochii,202.6666667,2,101.3333334,Native
+Central Indo-Pacific,Western Coral Triangle,Sulawesi Sea/Makassar Strait,Philippines,Trachinotus blochii,202.6666667,2,101.3333334,Introduced
+Central Indo-Pacific,Sunda Shelf,Malacca Strait,Singapore,Trachinotus blochii,108.4564,1,108.4564,Native
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,Central Kuroshio Current,Japan,Trachurus japonicus,1215.2,4,1173.313478,Native
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,East China Sea,Japan,Trachurus japonicus,1215.2,4,39.02318567,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Sea of Japan/East Sea,Japan,Trachurus japonicus,1215.2,4,2.863336475,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Yellow Sea,"Korea, Republic of",Trachurus japonicus,14.33333333,3,4.777777777,Native
+Temperate Northern Pacific,Warm Temperate Northwest Pacific,East China Sea,"Korea, Republic of",Trachurus japonicus,14.33333333,3,4.777777777,Native
+Temperate Northern Pacific,Cold Temperate Northwest Pacific,Sea of Japan/East Sea,"Korea, Republic of",Trachurus japonicus,14.33333333,3,4.777777777,Native

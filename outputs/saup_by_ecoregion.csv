@@ -1,0 +1,218 @@
+ECOREGION,Species,country_name,ecoreg_ratio
+Adriatic Sea,Dicentrarchus labrax,Albania,0.4062588390608637
+Adriatic Sea,Sparus aurata,Albania,0.3139800373120653
+Adriatic Sea,Thunnus thynnus,Croatia,1
+Aegean Sea,Dicentrarchus labrax,Greece,1
+Aegean Sea,Mugil cephalus,Greece,0.5769346582354712
+Aegean Sea,Oncorhynchus mykiss,Turkey,0.01603206412825651
+Aegean Sea,Pagrus pagrus,Greece,0.6526232114467408
+Aegean Sea,Sparus aurata,Greece,1
+Aegean Sea,Thunnus thynnus,Greece,0.17749674583422706
+Alboran Sea,Argyrosomus regius,Spain,0.5978391356542617
+Alboran Sea,Dicentrarchus labrax,Spain,0.40950916453037084
+Alboran Sea,Oncorhynchus mykiss,Spain,1
+Alboran Sea,Sparus aurata,Spain,0.6317957631231448
+Alboran Sea,Thunnus thynnus,Spain,0.48516660473182216
+Andaman Sea Coral Coast,Lates calcarifer,Thailand,0.19235947492426791
+Arabian (Persian) Gulf,Dicentrarchus labrax,Kuwait,1
+Arabian (Persian) Gulf,Sparus aurata,Kuwait,1
+Arafura Sea,Chanos chanos,Indonesia,3.2680868743654345e-5
+Araucanian,Oncorhynchus mykiss,Chile,0.007206514570673851
+Araucanian,Salmo salar,Chile,3.185281128518912e-4
+Azores Canaries Madeira,Argyrosomus regius,Spain,0.4021608643457383
+Azores Canaries Madeira,Dicentrarchus labrax,Spain,0.20087951700130477
+Azores Canaries Madeira,Sparus aurata,Spain,0.3682042368768552
+Azores Canaries Madeira,Thunnus thynnus,Spain,1.5483711135885048e-4
+Baltic Sea,Oncorhynchus mykiss,Finland,1
+Banda Sea,Chanos chanos,Indonesia,0.34899019861805375
+Banda Sea,Lates calcarifer,Indonesia,0.20695894614520605
+Bassian,Oncorhynchus mykiss,Australia,0.4479413066852192
+Bassian,Salmo salar,Australia,0.9955767367149438
+Bismarck Sea,Lates calcarifer,Papua New Guinea,0.5
+Black Sea,Dicentrarchus labrax,Turkey,1
+Black Sea,Oncorhynchus mykiss,Turkey,0.9839679358717435
+Black Sea,Salmo salar,Russian Federation,0.4225352112676056
+Celtic Seas,Dicentrarchus labrax,France,0.00927684553660281
+Celtic Seas,Gadus morhua,United Kingdom,1
+Celtic Seas,Hippoglossus hippoglossus,United Kingdom,1
+Celtic Seas,Oncorhynchus mykiss,France,0.9742366114594055
+Celtic Seas,Salmo salar,France,0.6287939819470096
+Celtic Seas,Scophthalmus maximus,France,0.02368265409005002
+Central Chile,Oncorhynchus mykiss,Chile,3.52672730286476e-5
+Central Chile,Paralichthys olivaceus,Chile,1
+Central Chile,Scophthalmus maximus,Chile,0.9935064935064936
+Central Kuroshio Current,Pagrus auratus,Japan,0.896679461279885
+Central Kuroshio Current,Paralichthys olivaceus,Japan,0.09465281241972687
+Central Kuroshio Current,Seriola quinqueradiata,Japan,0.9198564301794505
+Central Kuroshio Current,Trachurus japonicus,Japan,0.9655311700552041
+Central New Zealand,Oncorhynchus tshawytscha,New Zealand,0.8236237918783665
+Channels and Fjords of Southern Chile,Oncorhynchus kisutch,Chile,0.014638147670998794
+Channels and Fjords of Southern Chile,Oncorhynchus mykiss,Chile,0.014950502382304295
+Channels and Fjords of Southern Chile,Salmo salar,Chile,0.013848284299436703
+Chiloense,Oncorhynchus kisutch,Chile,0.9853618523290012
+Chiloense,Oncorhynchus mykiss,Chile,0.9778077157739933
+Chiloense,Oncorhynchus tshawytscha,Chile,1
+Chiloense,Salmo salar,Chile,0.9858331875877114
+Chiloense,Scophthalmus maximus,Chile,0.006493506493506494
+East China Sea,Acanthopagrus schlegelii,Korea (South),0.5949102077294924
+East China Sea,Chanos chanos,Taiwan,0.03687111034345026
+East China Sea,Larimichthys crocea,China,0.7344024795121713
+East China Sea,Lateolabrax japonicus,China,0.31982760514023534
+East China Sea,Pagrus auratus,Japan,0.09201405163520861
+East China Sea,Paralichthys olivaceus,Japan,0.8905142477405169
+East China Sea,Rachycentron canadum,China,0.013183081870756432
+East China Sea,Sciaenops ocellatus,China,0.3813270338426865
+East China Sea,Sebastes schlegelii,Korea (South),0.5
+East China Sea,Seriola quinqueradiata,Japan,0.0752334780638714
+East China Sea,Trachurus japonicus,Japan,0.03211256227278848
+Eastern Caribbean,Sciaenops ocellatus,Martinique (France),1
+Eastern Philippines,Chanos chanos,Philippines,0.807548299306943
+Faroe Plateau,Oncorhynchus mykiss,Faeroe Isl. (Denmark),1
+Faroe Plateau,Salmo salar,Faeroe Isl. (Denmark),1
+Gilbert/Ellis Islands,Chanos chanos,Tuvalu,1
+Greater Antilles,Dicentrarchus labrax,Dominican Republic,1
+Greater Antilles,Sparus aurata,Dominican Republic,1
+Guayaquil,Sciaenops ocellatus,Ecuador,1
+Gulf of Maine/Bay of Fundy,Salmo salar,USA,0.6297246906704763
+Gulf of Oman,Dicentrarchus labrax,Oman,1
+Gulf of Oman,Sparus aurata,Oman,1
+Gulf of Papua,Lates calcarifer,Papua New Guinea,0.5
+Gulf of St. Lawrence - Eastern Scotian Shelf,Gadus morhua,Canada,0.006423982869379015
+Gulf of St. Lawrence - Eastern Scotian Shelf,Hippoglossus hippoglossus,Canada,1
+Gulf of St. Lawrence - Eastern Scotian Shelf,Oncorhynchus mykiss,Canada,0.5121957787364215
+Gulf of St. Lawrence - Eastern Scotian Shelf,Salmo salar,Canada,0.3287376843711671
+Gulf of Thailand,Lates calcarifer,Thailand,0.807640525075732
+Gulf of Tonkin,Larimichthys crocea,China,0.1534861589116811
+Gulf of Tonkin,Lateolabrax japonicus,China,0.09048395722596046
+Gulf of Tonkin,Rachycentron canadum,China,0.2696020885491503
+Gulf of Tonkin,Sciaenops ocellatus,China,0.0913526426484866
+Halmahera,Chanos chanos,Indonesia,0.00993372714158078
+Halmahera,Lates calcarifer,Indonesia,2.2011055160351615e-4
+Houtman,Lates calcarifer,Australia,0.0584674978816124
+Houtman,Salmo salar,Australia,7.991610136866281e-4
+Ionian Sea,Argyrosomus regius,Italy,1
+Ionian Sea,Dicentrarchus labrax,Albania,0.5937411609391364
+Ionian Sea,Mugil cephalus,Greece,0.4230653417645287
+Ionian Sea,Pagrus pagrus,Greece,0.34737678855325915
+Ionian Sea,Sparus aurata,Albania,0.6860199626879346
+Ionian Sea,Thunnus thynnus,Greece,0.8225032541657729
+Lesser Sunda,Chanos chanos,Indonesia,0.012852572352091515
+Lesser Sunda,Lates calcarifer,Indonesia,0.01650829137026371
+Levantine Sea,Dicentrarchus labrax,Israel,0.8345572718831772
+Levantine Sea,Sciaenops ocellatus,Israel,0.6802919708029197
+Levantine Sea,Sparus aurata,Israel,0.30970287680010794
+Levantine Sea,Thunnus thynnus,Cyprus,1
+Malacca Strait,Chanos chanos,Malaysia,1
+Malacca Strait,Lates calcarifer,Malaysia,0.9368619405139712
+Malacca Strait,Mugil cephalus,Singapore,1
+Malacca Strait,Trachinotus blochii,Singapore,1
+Manning-Hawkesbury,Lates calcarifer,Australia,0.03982568696283743
+Manning-Hawkesbury,Oncorhynchus mykiss,Australia,0.05756751628612991
+Manning-Hawkesbury,Salmo salar,Australia,5.575541955953219e-5
+Mascarene Islands,Sciaenops ocellatus,Réunion (France),1
+North American Pacific Fijordland,Oncorhynchus kisutch,Canada,1
+North American Pacific Fijordland,Oncorhynchus tshawytscha,Canada,1
+North American Pacific Fijordland,Salmo salar,Canada,0.6495806488951019
+North Sea,Dicentrarchus labrax,Germany,1
+North Sea,Gadus morhua,Norway,9.46006669347019e-4
+North Sea,Oncorhynchus mykiss,Denmark,1
+North Sea,Paralichthys olivaceus,Germany,1
+North Sea,Salmo salar,France,0.3688700208854018
+North Sea,Scophthalmus maximus,Netherlands,1
+Northeastern Honshu,Oncorhynchus kisutch,Japan,0.9968144775156834
+Northeastern Honshu,Paralichthys olivaceus,Japan,5.584598781207342e-4
+Northern and Central Red Sea,Dicentrarchus labrax,Israel,0.1654427281168228
+Northern and Central Red Sea,Sciaenops ocellatus,Israel,0.3197080291970803
+Northern and Central Red Sea,Sparus aurata,Israel,0.6902971231998921
+Northern Grand Banks - Southern Labrador,Gadus morhua,Canada,0.9935760171306209
+Northern Grand Banks - Southern Labrador,Oncorhynchus mykiss,Canada,0.48780422126357853
+Northern Grand Banks - Southern Labrador,Salmo salar,Canada,0.02168166673373105
+Northern Gulf of Mexico,Sciaenops ocellatus,USA,1
+Northern Norway and Finnmark,Gadus morhua,Norway,0.45946361421848025
+Northern Norway and Finnmark,Hippoglossus hippoglossus,Norway,0.17794404684450227
+Northern Norway and Finnmark,Oncorhynchus mykiss,Norway,0.19263899093453482
+Northern Norway and Finnmark,Salmo salar,Norway,0.3556933240619649
+"Oregon, Washington, Vancouver Coast and Shelf",Salmo salar,USA,0.37027530932952374
+Palawan/North Borneo,Chanos chanos,Philippines,0.12749065811040183
+Palawan/North Borneo,Lates calcarifer,Malaysia,0.06313805948602884
+Papua,Chanos chanos,Indonesia,0.0021845903798642786
+Saharan Upwelling,Dicentrarchus labrax,Morocco,1
+Saharan Upwelling,Sparus aurata,Morocco,1
+Sea of Japan/East Sea,Oncorhynchus kisutch,Japan,0.0031855224843166763
+Sea of Japan/East Sea,Pagrus auratus,Japan,0.010023041208888576
+Sea of Japan/East Sea,Paralichthys olivaceus,Japan,0.01427447996163547
+Sea of Japan/East Sea,Salmo salar,Russian Federation,0.14084507042253522
+Sea of Japan/East Sea,Sebastes schlegelii,Korea (South),0.16666666666666666
+Sea of Japan/East Sea,Seriola quinqueradiata,Japan,0.004888951933473562
+Sea of Japan/East Sea,Trachurus japonicus,Japan,0.0023562676720075403
+Sea of Okhotsk,Salmo salar,Russian Federation,0.014084507042253521
+Society Islands,Lates calcarifer,French Polynesia (France),1
+South and West Iceland,Dicentrarchus labrax,Iceland,1
+South and West Iceland,Gadus morhua,Iceland,1
+South and West Iceland,Hippoglossus hippoglossus,Iceland,1
+South and West Iceland,Salmo salar,Iceland,1
+South and West Iceland,Scophthalmus maximus,Iceland,1
+South Australian Gulfs,Lates calcarifer,Australia,0.13920832828955335
+South Australian Gulfs,Oncorhynchus mykiss,Australia,0.010878502308519387
+South Australian Gulfs,Salmo salar,Australia,0.00356834685181006
+South Australian Gulfs,Thunnus maccoyii,Australia,1
+South European Atlantic Shelf,Dicentrarchus labrax,Spain,0.3896113184683244
+South European Atlantic Shelf,Oncorhynchus mykiss,France,0.02576338854059449
+South European Atlantic Shelf,Salmo salar,France,0.0023359971675886294
+South European Atlantic Shelf,Scophthalmus maximus,France,0.97631734590995
+South European Atlantic Shelf,Sparus aurata,Portugal,1
+South European Atlantic Shelf,Thunnus thynnus,Spain,0.514678558156819
+South Kuroshio,Acanthopagrus schlegelii,Taiwan,1
+South Kuroshio,Chanos chanos,Taiwan,0.17061322307804414
+South Kuroshio,Lateolabrax japonicus,Taiwan,1
+South Kuroshio,Pagrus auratus,Japan,0.0012834458760178703
+South Kuroshio,Pagrus pagrus,Taiwan,0.5
+South Kuroshio,Rachycentron canadum,Taiwan,1
+South Kuroshio,Seriola quinqueradiata,Japan,2.1139823204483694e-5
+South New Zealand,Oncorhynchus tshawytscha,New Zealand,0.1763762081216335
+Southern California Bight,Thunnus orientalis,Mexico,1
+Southern Caribbean,Rachycentron canadum,Netherlands Antilles,1
+Southern China,Acanthopagrus schlegelii,Hong Kong (China),1
+Southern China,Chanos chanos,Taiwan,0.7925156665785057
+Southern China,Larimichthys crocea,China,0.11007319953948447
+Southern China,Lateolabrax japonicus,China,0.3774826102290064
+Southern China,Lates calcarifer,Hong Kong (China),1
+Southern China,Pagrus auratus,Hong Kong (China),1
+Southern China,Pagrus pagrus,Taiwan,0.5
+Southern China,Rachycentron canadum,China,0.7171584703423279
+Southern China,Sciaenops ocellatus,China,0.4636596228336124
+Southern China,Trachinotus blochii,Hong Kong (China),1
+Southern Java,Chanos chanos,Indonesia,0.31217603794932053
+Southern Java,Lates calcarifer,Indonesia,0.24399254645249766
+Southern Norway,Gadus morhua,Norway,0.5395903791121728
+Southern Norway,Hippoglossus hippoglossus,Norway,0.8220559531554977
+Southern Norway,Oncorhynchus mykiss,Norway,0.8073610090654653
+Southern Norway,Salmo salar,Norway,0.6443066759380351
+Southern Red Sea,Dicentrarchus labrax,Saudi Arabia,1
+Southern Red Sea,Mugil cephalus,Saudi Arabia,1
+Southern Vietnam,Rachycentron canadum,Viet Nam,1
+Sulawesi Sea/Makassar Strait,Chanos chanos,Philippines,0.06496104258265505
+Sunda Shelf/Java Sea,Chanos chanos,Indonesia,0.28627435454249095
+Sunda Shelf/Java Sea,Lates calcarifer,Indonesia,0.49614860483358453
+Tunisian Plateau/Gulf of Sidra,Dicentrarchus labrax,Tunisia,1
+Tunisian Plateau/Gulf of Sidra,Sparus aurata,Tunisia,1
+Tunisian Plateau/Gulf of Sidra,Thunnus thynnus,Libya,1
+Tweed-Moreton,Lates calcarifer,Australia,0.7624984868659969
+Tweed-Moreton,Oncorhynchus mykiss,Australia,0.4836126747201316
+Western and Northern Madagascar,Sciaenops ocellatus,Mayotte (France),1
+Western Caribbean,Rachycentron canadum,Belize,1
+Western Mediterranean,Argyrosomus regius,France,1
+Western Mediterranean,Dicentrarchus labrax,France,0.9907231544633971
+Western Mediterranean,Sparus aurata,Algeria,1
+Western Mediterranean,Thunnus thynnus,Italy,1
+Western Sumatra,Chanos chanos,Indonesia,0.0275558381478546
+Western Sumatra,Lates calcarifer,Indonesia,0.03617150064684448
+White Sea,Salmo salar,Russian Federation,0.4225352112676056
+Yellow Sea,Acanthopagrus schlegelii,Korea (South),0.40508979227050756
+Yellow Sea,Larimichthys crocea,China,0.0020381620366631994
+Yellow Sea,Lateolabrax japonicus,China,0.2122058274047978
+Yellow Sea,Pagrus auratus,Korea (South),1
+Yellow Sea,Paralichthys olivaceus,Korea (South),1
+Yellow Sea,Rachycentron canadum,China,5.635923776532927e-5
+Yellow Sea,Sciaenops ocellatus,China,0.06366070067521445
+Yellow Sea,Sebastes schlegelii,Korea (South),0.3333333333333333

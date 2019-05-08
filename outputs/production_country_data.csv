@@ -1,0 +1,187 @@
+country_name,Species,PRODUCTION_AREA,ISO3_Code,COUNTRY,mean_prod,ISO_N3
+Portugal,Argyrosomus regius,27,PRT,620,27.6746,620
+Spain,Argyrosomus regius,27,ESP,724,15.683,724
+Croatia,Argyrosomus regius,37,HRV,191,51.61528571428571,191
+Cyprus,Argyrosomus regius,37,CYP,196,26.93285714285714,196
+France,Argyrosomus regius,37,FRA,250,468.72,250
+Greece,Argyrosomus regius,37,GRC,300,708.62,300
+Italy,Argyrosomus regius,37,ITA,380,54.375,380
+Spain,Argyrosomus regius,37,ESP,724,1061.4367,724
+Tunisia,Argyrosomus regius,37,TUN,788,40,788
+Turkey,Argyrosomus regius,37,TUR,792,2848.3333333333335,792
+Brunei Darussalam,Chanos chanos,71,BRN,096,0.8,96
+Indonesia,Chanos chanos,71,IDN,360,162.684,360
+Palau,Chanos chanos,71,PLW,585,18.29,585
+Philippines,Chanos chanos,71,PHL,608,102289,608
+Singapore,Chanos chanos,71,SGP,702,1615.8152,702
+Tuvalu,Chanos chanos,71,TUV,798,2.3333333333333335,798
+France,Dicentrarchus labrax,27,FRA,250,1191.025,250
+Kuwait,Dicentrarchus labrax,27,KWT,414,0.215,414
+Portugal,Dicentrarchus labrax,27,PRT,620,360.0343,620
+Spain,Dicentrarchus labrax,27,ESP,724,619.9325625,724
+United Kingdom,Dicentrarchus labrax,27,GBR,826,222.22222222222223,826
+Spain,Dicentrarchus labrax,34,ESP,724,4172.342666666666,724
+Albania,Dicentrarchus labrax,37,ALB,008,172.74,8
+Bosnia and Herzegovina,Dicentrarchus labrax,37,BIH,070,84.9375,70
+Croatia,Dicentrarchus labrax,37,HRV,191,3216.7134,191
+Cyprus,Dicentrarchus labrax,37,CYP,196,1247,196
+France,Dicentrarchus labrax,37,FRA,250,1526.62,250
+Greece,Dicentrarchus labrax,37,GRC,300,36157.97,300
+Israel,Dicentrarchus labrax,37,ISR,376,26.75,376
+Italy,Dicentrarchus labrax,37,ITA,380,3335.894,380
+Libya,Dicentrarchus labrax,37,LBY,434,32,434
+Malta,Dicentrarchus labrax,37,MLT,470,88.9612,470
+Montenegro,Dicentrarchus labrax,37,MNE,499,56.9,499
+Morocco,Dicentrarchus labrax,37,MAR,504,100.77,504
+Slovenia,Dicentrarchus labrax,37,SVN,705,53.54,705
+Spain,Dicentrarchus labrax,37,ESP,724,9548.92465,724
+Turkey,Dicentrarchus labrax,37,TUR,792,59962.15,792
+Mauritius,Dicentrarchus labrax,51,MUS,480,118.83333333333333,480
+United Arab Emirates,Dicentrarchus labrax,51,ARE,784,166.66666666666666,784
+Denmark,Gadus morhua,27,DNK,208,2.5,208
+Iceland,Gadus morhua,27,ISL,352,878.6,352
+Norway,Gadus morhua,27,NOR,578,10223.552,578
+United Kingdom,Gadus morhua,27,GBR,826,977.9,826
+Iceland,Hippoglossus hippoglossus,27,ISL,352,26.355555555555554,352
+Norway,Hippoglossus hippoglossus,27,NOR,578,1692.761,578
+United Kingdom,Hippoglossus hippoglossus,27,GBR,826,108.21,826
+China,Lateolabrax japonicus,61,CHN,156,115693.8,156
+"Korea, Republic of",Lateolabrax japonicus,61,KOR,410,1798.2,410
+Kuwait,Lates calcarifer,51,KWT,414,0.25,414
+Saudi Arabia,Lates calcarifer,51,SAU,682,1207,682
+Myanmar,Lates calcarifer,57,MMR,104,165.15422944444444,104
+Sri Lanka,Lates calcarifer,57,LKA,144,11.647,144
+Taiwan Province of China,Lates calcarifer,61,TWN,158,0.6666666666666666,158
+Brunei Darussalam,Lates calcarifer,71,BRN,096,48.23,96
+Cambodia,Lates calcarifer,71,KHM,116,147.77777777777777,116
+Indonesia,Lates calcarifer,71,IDN,360,2040.2214999999999,360
+Singapore,Lates calcarifer,71,SGP,702,440.8723,702
+Greece,Mugil cephalus,37,GRC,300,47.68222222222222,300
+Italy,Mugil cephalus,37,ITA,380,6,380
+Saudi Arabia,Mugil cephalus,51,SAU,682,38.2,682
+"Korea, Republic of",Mugil cephalus,61,KOR,410,5556.8,410
+Singapore,Mugil cephalus,71,SGP,702,416.594,702
+Japan,Oncorhynchus kisutch,61,JPN,392,11891.8,392
+Chile,Oncorhynchus kisutch,87,CHL,152,126122.1,152
+Denmark,Oncorhynchus mykiss,27,DNK,208,10453.928,208
+Faroe Islands,Oncorhynchus mykiss,27,FRO,234,5351.4,234
+France,Oncorhynchus mykiss,27,FRA,250,29.8,250
+Ireland,Oncorhynchus mykiss,27,IRL,372,472.77142857142854,372
+Norway,Oncorhynchus mykiss,27,NOR,578,72523.549,578
+Spain,Oncorhynchus mykiss,27,ESP,724,5.225,724
+Sweden,Oncorhynchus mykiss,27,SWE,752,2411.2,752
+United Kingdom,Oncorhynchus mykiss,27,GBR,826,2474.9,826
+Croatia,Oncorhynchus mykiss,37,HRV,191,2.084875,191
+Turkey,Oncorhynchus mykiss,37,TUR,792,4952.82,792
+Canada,Oncorhynchus mykiss,67,CAN,124,200,124
+Chile,Oncorhynchus mykiss,87,CHL,152,158339.1,152
+New Zealand,Oncorhynchus tshawytscha,81,NZL,554,11113.7,554
+Chile,Oncorhynchus tshawytscha,87,CHL,152,698.7,152
+Japan,Pagrus auratus,61,JPN,392,64378.9,392
+"Korea, Republic of",Pagrus auratus,61,KOR,410,5484.2,410
+Taiwan Province of China,Pagrus auratus,61,TWN,158,60,158
+Greece,Pagrus pagrus,37,GRC,300,1035.8799999999999,300
+Turkey,Pagrus pagrus,37,TUR,792,158,792
+Germany,Paralichthys olivaceus,27,DEU,276,0.25,276
+Japan,Paralichthys olivaceus,61,JPN,392,3394.9,392
+"Korea, Republic of",Paralichthys olivaceus,61,KOR,410,42983.4,410
+Japan,Pseudocaranx dentex,61,JPN,392,3101.3,392
+Bahamas,Rachycentron canadum,31,BHS,044,21.666666666666668,44
+Belize,Rachycentron canadum,31,BLZ,084,121.67142857142858,84
+Bonaire/S.Eustatius/Saba,Rachycentron canadum,31,BES,535,0.11666666666666665,535
+Colombia,Rachycentron canadum,31,COL,170,112.16666666666667,170
+Dominican Republic,Rachycentron canadum,31,DOM,214,100,214
+Martinique,Rachycentron canadum,31,MTQ,474,10.125,474
+Panama,Rachycentron canadum,31,PAN,591,562.9,591
+Puerto Rico,Rachycentron canadum,31,PRI,630,11,630
+Mayotte,Rachycentron canadum,51,MYT,175,4,175
+China,Rachycentron canadum,61,CHN,156,33914.8,156
+Taiwan Province of China,Rachycentron canadum,61,TWN,158,1577.673123,158
+Singapore,Rachycentron canadum,71,SGP,702,1.8792142857142857,702
+Viet Nam,Rachycentron canadum,71,VNM,704,2954.6666666666665,704
+Ecuador,Rachycentron canadum,87,ECU,218,34.730000000000004,218
+Canada,Salmo salar,21,CAN,124,29922.4,124
+United States of America,Salmo salar,21,USA,840,17170.3,840
+Faroe Islands,Salmo salar,27,FRO,234,62078.5,234
+France,Salmo salar,27,FRA,250,667,250
+Iceland,Salmo salar,27,ISL,352,100.33333333333333,352
+Ireland,Salmo salar,27,IRL,372,11958.55,372
+Norway,Salmo salar,27,NOR,578,1054496.75,578
+Russian Federation,Salmo salar,27,RUS,643,8937.1,643
+Spain,Salmo salar,27,ESP,724,20.9947,724
+Sweden,Salmo salar,27,SWE,752,1.6666666666666667,752
+United Kingdom,Salmo salar,27,GBR,826,155714.678,826
+"Korea, Dem. People's Rep",Salmo salar,61,PRK,408,13.88888888888889,408
+Canada,Salmo salar,67,CAN,124,76496.9,124
+Australia,Salmo salar,81,AUS,036,38227.8367,36
+Chile,Salmo salar,87,CHL,152,394379.1,152
+Guadeloupe,Sciaenops ocellatus,31,GLP,312,6.79,312
+Martinique,Sciaenops ocellatus,31,MTQ,474,44.81,474
+Mexico,Sciaenops ocellatus,31,MEX,484,147.262375,484
+United States of America,Sciaenops ocellatus,31,USA,840,1424.1,840
+Israel,Sciaenops ocellatus,37,ISR,376,60.5,376
+Mauritius,Sciaenops ocellatus,51,MUS,480,413.55,480
+Mayotte,Sciaenops ocellatus,51,MYT,175,84.92,175
+Réunion,Sciaenops ocellatus,51,REU,638,50,638
+China,Sciaenops ocellatus,61,CHN,156,60190.3,156
+Channel Islands,Scophthalmus maximus,27,NA,830,2.04,830
+Denmark,Scophthalmus maximus,27,DNK,208,6.6375,208
+France,Scophthalmus maximus,27,FRA,250,477.15999999999997,250
+Germany,Scophthalmus maximus,27,DEU,276,15,276
+Iceland,Scophthalmus maximus,27,ISL,352,37.888888888888886,352
+Portugal,Scophthalmus maximus,27,PRT,620,2245.2021,620
+Spain,Scophthalmus maximus,27,ESP,724,7334.5908,724
+United Kingdom,Scophthalmus maximus,27,GBR,826,20.825,826
+Croatia,Scophthalmus maximus,37,HRV,191,2.7296666666666667,191
+Romania,Scophthalmus maximus,37,ROU,642,6.1755555555555555,642
+Spain,Scophthalmus maximus,37,ESP,724,3,724
+China,Scophthalmus maximus,61,CHN,156,56500,156
+Japan,Seriola quinqueradiata,61,JPN,392,148134.6,392
+"Korea, Republic of",Seriola quinqueradiata,61,KOR,410,187.2,410
+France,Sparus aurata,27,FRA,250,697.325,250
+Portugal,Sparus aurata,27,PRT,620,977.2208,620
+Spain,Sparus aurata,27,ESP,724,1152.2683333333334,724
+Dominican Republic,Sparus aurata,31,DOM,214,350,214
+Spain,Sparus aurata,34,ESP,724,2611.248666666667,724
+Albania,Sparus aurata,37,ALB,008,395.48,8
+Bosnia and Herzegovina,Sparus aurata,37,BIH,070,96.74444444444444,70
+Croatia,Sparus aurata,37,HRV,191,2625.0319,191
+Cyprus,Sparus aurata,37,CYP,196,3028,196
+France,Sparus aurata,37,FRA,250,748.03,250
+Greece,Sparus aurata,37,GRC,300,52539.020000000004,300
+Israel,Sparus aurata,37,ISR,376,1808.4,376
+Italy,Sparus aurata,37,ITA,380,4182.886,380
+Libya,Sparus aurata,37,LBY,434,21,434
+Malta,Sparus aurata,37,MLT,470,1990.7813,470
+Montenegro,Sparus aurata,37,MNE,499,50,499
+Morocco,Sparus aurata,37,MAR,504,17.485,504
+Spain,Sparus aurata,37,ESP,724,14640.25795,724
+Turkey,Sparus aurata,37,TUR,792,37229.11,792
+Bahrain,Sparus aurata,51,BHR,048,1.2044,48
+Kuwait,Sparus aurata,51,KWT,414,18.65,414
+Oman,Sparus aurata,51,OMN,512,34,512
+Saudi Arabia,Sparus aurata,51,SAU,682,1487.8,682
+United Arab Emirates,Sparus aurata,51,ARE,784,307.7,784
+China,Takifugu rubripes,61,CHN,156,17053.1,156
+Japan,Takifugu rubripes,61,JPN,392,4273.1,392
+"Korea, Dem. People's Rep",Takifugu rubripes,61,PRK,408,7.222222222222222,408
+Australia,Thunnus maccoyii,57,AUS,036,6797.0632,36
+Japan,Thunnus orientalis,61,JPN,392,12597.2,392
+Mexico,Thunnus orientalis,77,MEX,484,4511.347181,484
+Portugal,Thunnus thynnus,27,PRT,620,25,620
+Morocco,Thunnus thynnus,34,MAR,504,70,504
+Croatia,Thunnus thynnus,37,HRV,191,1575.5,191
+Cyprus,Thunnus thynnus,37,CYP,196,50,196
+Greece,Thunnus thynnus,37,GRC,300,67.5,300
+Italy,Thunnus thynnus,37,ITA,380,361.06,380
+Malta,Thunnus thynnus,37,MLT,470,1630.8,470
+Spain,Thunnus thynnus,37,ESP,724,590.5,724
+Tunisia,Thunnus thynnus,37,TUN,788,304.6,788
+Turkey,Thunnus thynnus,37,TUR,792,545,792
+China,Trachinotus blochii,61,CHN,156,89100,156
+"China, Hong Kong SAR",Trachinotus blochii,61,HKG,344,62,344
+Brunei Darussalam,Trachinotus blochii,71,BRN,096,9.77,96
+Philippines,Trachinotus blochii,71,PHL,608,202.66666666666666,608
+Singapore,Trachinotus blochii,71,SGP,702,108.4564,702
+Japan,Trachurus japonicus,61,JPN,392,1215.2,392
+"Korea, Republic of",Trachurus japonicus,61,KOR,410,14.333333333333334,410

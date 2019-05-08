@@ -1,0 +1,327 @@
+country_name,Species,PRODUCTION_AREA,ISO3_Code,COUNTRY,mean_prod,ISO_N3,ECOREGION,n_eco,mean_prod_ecoreg
+Taiwan Province of China,Acanthopagrus schlegelii,61,TWN,158,0.875,158,East China Sea,3,0.291666667
+Taiwan Province of China,Acanthopagrus schlegelii,61,TWN,158,0.875,158,Southern China,3,0.291666667
+Taiwan Province of China,Acanthopagrus schlegelii,61,TWN,158,0.875,158,South Kuroshio,3,0.291666667
+"Korea, Republic of",Acanthopagrus schlegelii,61,KOR,410,1539.5,410,Yellow Sea,3,513.1666667
+"Korea, Republic of",Acanthopagrus schlegelii,61,KOR,410,1539.5,410,East China Sea,3,513.1666667
+"Korea, Republic of",Acanthopagrus schlegelii,61,KOR,410,1539.5,410,Sea of Japan/East Sea,3,513.1666667
+Croatia,Argyrosomus regius,37,HRV,191,51.61528571,191,Adriatic Sea,1,51.61528571
+Cyprus,Argyrosomus regius,37,CYP,196,26.93285714,196,Aegean Sea,1,26.93285714
+France,Argyrosomus regius,37,FRA,250,468.72,250,Western Mediterranean,1,468.72
+Greece,Argyrosomus regius,37,GRC,300,708.62,300,Aegean Sea,1,708.62
+Italy,Argyrosomus regius,37,ITA,380,54.375,380,Western Mediterranean,1,54.375
+Portugal,Argyrosomus regius,27,PRT,620,27.6746,620,South European Atlantic Shelf,1,27.6746
+Spain,Argyrosomus regius,27,ESP,724,15.683,724,South European Atlantic Shelf,1,15.683
+Spain,Argyrosomus regius,37,ESP,724,1061.4367,724,Alboran Sea,2,530.71835
+Spain,Argyrosomus regius,37,ESP,724,1061.4367,724,Western Mediterranean,2,530.71835
+Tunisia,Argyrosomus regius,37,TUN,788,40,788,Tunisian Plateau/Gulf of Sidra,1,40
+Turkey,Argyrosomus regius,37,TUR,792,2848.333333,792,Aegean Sea,2,1424.166667
+Turkey,Argyrosomus regius,37,TUR,792,2848.333333,792,Levantine Sea,2,1424.166667
+Brunei Darussalam,Chanos chanos,71,BRN,96,0.8,96,Palawan/North Borneo,1,0.8
+Indonesia,Chanos chanos,71,IDN,360,162.684,360,Malacca Strait,7,23.24057143
+Indonesia,Chanos chanos,71,IDN,360,162.684,360,Western Sumatra,7,23.24057143
+Indonesia,Chanos chanos,71,IDN,360,162.684,360,Sunda Shelf/Java Sea,7,23.24057143
+Indonesia,Chanos chanos,71,IDN,360,162.684,360,Southern Java,7,23.24057143
+Indonesia,Chanos chanos,71,IDN,360,162.684,360,Sulawesi Sea/Makassar Strait,7,23.24057143
+Indonesia,Chanos chanos,71,IDN,360,162.684,360,Lesser Sunda,7,23.24057143
+Indonesia,Chanos chanos,71,IDN,360,162.684,360,Banda Sea,7,23.24057143
+Palau,Chanos chanos,71,PLW,585,18.29,585,West Caroline Islands,1,18.29
+Philippines,Chanos chanos,71,PHL,608,102289,608,Eastern Philippines,2,51144.5
+Philippines,Chanos chanos,71,PHL,608,102289,608,Sulawesi Sea/Makassar Strait,2,51144.5
+Singapore,Chanos chanos,71,SGP,702,1615.8152,702,Malacca Strait,1,1615.8152
+Tuvalu,Chanos chanos,71,TUV,798,2.333333333,798,Gilbert/Ellis Islands,1,2.333333333
+Albania,Dicentrarchus labrax,37,ALB,8,172.74,8,Adriatic Sea,2,86.37
+Albania,Dicentrarchus labrax,37,ALB,8,172.74,8,Ionian Sea,2,86.37
+Bosnia and Herzegovina,Dicentrarchus labrax,37,BIH,70,84.9375,70,Adriatic Sea,1,84.9375
+Croatia,Dicentrarchus labrax,37,HRV,191,3216.7134,191,Adriatic Sea,1,3216.7134
+Cyprus,Dicentrarchus labrax,37,CYP,196,1247,196,Aegean Sea,1,1247
+France,Dicentrarchus labrax,27,FRA,250,1191.025,250,South European Atlantic Shelf,2,595.5125
+France,Dicentrarchus labrax,27,FRA,250,1191.025,250,North Sea,2,595.5125
+France,Dicentrarchus labrax,37,FRA,250,1526.62,250,Western Mediterranean,1,1526.62
+Greece,Dicentrarchus labrax,37,GRC,300,36157.97,300,Aegean Sea,1,36157.97
+Israel,Dicentrarchus labrax,37,ISR,376,26.75,376,Levantine Sea,1,26.75
+Italy,Dicentrarchus labrax,37,ITA,380,3335.894,380,Western Mediterranean,3,1111.964667
+Italy,Dicentrarchus labrax,37,ITA,380,3335.894,380,Ionian Sea,3,1111.964667
+Italy,Dicentrarchus labrax,37,ITA,380,3335.894,380,Adriatic Sea,3,1111.964667
+Kuwait,Dicentrarchus labrax,27,KWT,414,0.215,414,Arabian (Persian) Gulf,1,0.215
+Libya,Dicentrarchus labrax,37,LBY,434,32,434,Tunisian Plateau/Gulf of Sidra,1,32
+Malta,Dicentrarchus labrax,37,MLT,470,88.9612,470,Ionian Sea,1,88.9612
+Mauritius,Dicentrarchus labrax,51,MUS,480,118.8333333,480,Mascarene Islands,1,118.8333333
+Montenegro,Dicentrarchus labrax,37,MNE,499,56.9,499,Adriatic Sea,1,56.9
+Morocco,Dicentrarchus labrax,37,MAR,504,100.77,504,Alboran Sea,1,100.77
+Portugal,Dicentrarchus labrax,27,PRT,620,360.0343,620,South European Atlantic Shelf,1,360.0343
+Saudi Arabia,Dicentrarchus labrax,51,SAU,682,300,682,Northern and Central Red Sea,2,150
+Saudi Arabia,Dicentrarchus labrax,51,SAU,682,300,682,Southern Red Sea,2,150
+Slovenia,Dicentrarchus labrax,37,SVN,705,53.54,705,Adriatic Sea,1,53.54
+Spain,Dicentrarchus labrax,27,ESP,724,619.9325625,724,South European Atlantic Shelf,1,619.9325625
+Spain,Dicentrarchus labrax,34,ESP,724,4172.342667,724,Azores Canaries Madeira,1,4172.342667
+Spain,Dicentrarchus labrax,37,ESP,724,9548.92465,724,Alboran Sea,2,4774.462325
+Spain,Dicentrarchus labrax,37,ESP,724,9548.92465,724,Western Mediterranean,2,4774.462325
+United Arab Emirates,Dicentrarchus labrax,51,ARE,784,166.6666667,784,Arabian (Persian) Gulf,2,83.33333335
+United Arab Emirates,Dicentrarchus labrax,51,ARE,784,166.6666667,784,Gulf of Oman,2,83.33333335
+Turkey,Dicentrarchus labrax,37,TUR,792,59962.15,792,Aegean Sea,3,57803.5126
+Turkey,Dicentrarchus labrax,37,TUR,792,59962.15,792,Levantine Sea,3,599.6215
+Turkey,Dicentrarchus labrax,37,TUR,792,59962.15,792,Black Sea,3,1559.0159
+United Kingdom,Dicentrarchus labrax,27,GBR,826,222.2222222,826,Celtic Seas,1,222.2222222
+Denmark,Gadus morhua,27,DNK,208,2.5,208,North Sea,1,2.5
+Iceland,Gadus morhua,27,ISL,352,878.6,352,South and West Iceland,1,878.6
+Norway,Gadus morhua,27,NOR,578,10223.552,578,Northern Norway and Finnmark,2,4697.350152
+Norway,Gadus morhua,27,NOR,578,10223.552,578,Southern Norway,2,5516.5303
+United Kingdom,Gadus morhua,27,GBR,826,977.9,826,Celtic Seas,1,977.9
+Iceland,Hippoglossus hippoglossus,27,ISL,352,26.35555556,352,South and West Iceland,1,26.35555556
+Norway,Hippoglossus hippoglossus,27,NOR,578,1692.761,578,Northern Norway and Finnmark,2,913.3975497
+Norway,Hippoglossus hippoglossus,27,NOR,578,1692.761,578,Southern Norway,2,1391.544257
+United Kingdom,Hippoglossus hippoglossus,27,GBR,826,108.21,826,Celtic Seas,1,108.21
+China,Larimichthys crocea,61,CHN,156,100224,156,East China Sea,3,73604.75411
+China,Larimichthys crocea,61,CHN,156,100224,156,Yellow Sea,3,204.272752
+China,Larimichthys crocea,61,CHN,156,100224,156,Southern China,3,11031.97635
+China,Larimichthys crocea,61,CHN,156,100224,156,Gulf of Tonkin,3,15382.99679
+China,Lateolabrax japonicus,61,CHN,156,115693.8,156,East China Sea,3,37002.07098
+China,Lateolabrax japonicus,61,CHN,156,115693.8,156,Yellow Sea,3,24550.89855
+China,Lateolabrax japonicus,61,CHN,156,115693.8,156,Southern China,3,43672.39761
+China,Lateolabrax japonicus,61,CHN,156,115693.8,156,Gulf of Tonkin,3,10468.43285
+"Korea, Republic of",Lateolabrax japonicus,61,KOR,410,1798.2,410,Yellow Sea,3,599.4
+"Korea, Republic of",Lateolabrax japonicus,61,KOR,410,1798.2,410,East China Sea,3,599.4
+"Korea, Republic of",Lateolabrax japonicus,61,KOR,410,1798.2,410,Sea of Japan/East Sea,3,599.4
+Brunei Darussalam,Lates calcarifer,71,BRN,96,48.23,96,Palawan/North Borneo,1,48.23
+Myanmar,Lates calcarifer,57,MMR,104,165.1542294,104,Andaman Sea Coral Coast,2,82.5771147
+Myanmar,Lates calcarifer,57,MMR,104,165.1542294,104,Northern Bay of Bengal,2,82.5771147
+Cambodia,Lates calcarifer,71,KHM,116,147.7777778,116,Gulf of Thailand,1,147.7777778
+Sri Lanka,Lates calcarifer,57,LKA,144,11.647,144,South India and Sri Lanka,1,11.647
+Taiwan Province of China,Lates calcarifer,61,TWN,158,0.666666667,158,East China Sea,3,0.222222222
+Taiwan Province of China,Lates calcarifer,61,TWN,158,0.666666667,158,Southern China,3,0.222222222
+Taiwan Province of China,Lates calcarifer,61,TWN,158,0.666666667,158,South Kuroshio,3,0.222222222
+Indonesia,Lates calcarifer,71,IDN,360,2040.2215,360,Malacca Strait,7,291.4602143
+Indonesia,Lates calcarifer,71,IDN,360,2040.2215,360,Western Sumatra,7,291.4602143
+Indonesia,Lates calcarifer,71,IDN,360,2040.2215,360,Sunda Shelf/Java Sea,7,291.4602143
+Indonesia,Lates calcarifer,71,IDN,360,2040.2215,360,Southern Java,7,291.4602143
+Indonesia,Lates calcarifer,71,IDN,360,2040.2215,360,Sulawesi Sea/Makassar Strait,7,291.4602143
+Indonesia,Lates calcarifer,71,IDN,360,2040.2215,360,Lesser Sunda,7,291.4602143
+Indonesia,Lates calcarifer,71,IDN,360,2040.2215,360,Banda Sea,7,291.4602143
+Kuwait,Lates calcarifer,51,KWT,414,0.25,414,Arabian (Persian) Gulf,1,0.25
+Saudi Arabia,Lates calcarifer,51,SAU,682,1207,682,Southern Red Sea,2,603.5
+Saudi Arabia,Lates calcarifer,51,SAU,682,1207,682,Northern and Central Red Sea,2,603.5
+Singapore,Lates calcarifer,71,SGP,702,440.8723,702,Malacca Strait,1,440.8723
+Greece,Mugil cephalus,37,GRC,300,47.68222222,300,Ionian Sea,2,47.68222222
+Italy,Mugil cephalus,37,ITA,380,6,380,Ionian Sea,1,6
+"Korea, Republic of",Mugil cephalus,61,KOR,410,5556.8,410,Yellow Sea,3,1852.266667
+"Korea, Republic of",Mugil cephalus,61,KOR,410,5556.8,410,East China Sea,3,1852.266667
+"Korea, Republic of",Mugil cephalus,61,KOR,410,5556.8,410,Sea of Japan/East Sea,3,1852.266667
+Saudi Arabia,Mugil cephalus,51,SAU,682,38.2,682,Southern Red Sea,2,19.1
+Saudi Arabia,Mugil cephalus,51,SAU,682,38.2,682,Northern and Central Red Sea,2,19.1
+Singapore,Mugil cephalus,71,SGP,702,416.594,702,Malacca Strait,1,416.594
+Chile,Oncorhynchus kisutch,87,CHL,152,126122.1,152,Chiloense,2,63061.05
+Japan,Oncorhynchus kisutch,61,JPN,392,11891.8,392,Northeastern Honshu,4,11853.91273
+Japan,Oncorhynchus kisutch,61,JPN,392,11891.8,392,Sea of Japan/East Sea,4,37.88159628
+Canada,Oncorhynchus mykiss,67,CAN,124,200,124,North American Pacific Fijordland,5,40
+Canada,Oncorhynchus mykiss,67,CAN,124,200,124,"Oregon, Washington, Vancouver Coast and Shelf",5,40
+Canada,Oncorhynchus mykiss,67,CAN,124,200,124,Gulf of Maine/Bay of Fundy,5,40
+Canada,Oncorhynchus mykiss,67,CAN,124,200,124,Scotian Shelf,5,40
+Canada,Oncorhynchus mykiss,67,CAN,124,200,124,Puget Trough/Georgia Basin,5,40
+Chile,Oncorhynchus mykiss,87,CHL,152,158339.1,152,Channels and Fjords of Southern Chile,2,44334.948
+Chile,Oncorhynchus mykiss,87,CHL,152,158339.1,152,Chiloense,2,114004.152
+Croatia,Oncorhynchus mykiss,37,HRV,191,2.084875,191,Adriatic Sea,1,2.084875
+Denmark,Oncorhynchus mykiss,27,DNK,208,10453.928,208,North Sea,1,10453.928
+Faroe Islands,Oncorhynchus mykiss,27,FRO,234,5351.4,234,Faroe Plateau,1,5351.4
+France,Oncorhynchus mykiss,27,FRA,250,29.8,250,South European Atlantic Shelf,2,14.9
+France,Oncorhynchus mykiss,27,FRA,250,29.8,250,North Sea,2,14.9
+Ireland,Oncorhynchus mykiss,27,IRL,372,472.7714286,372,Celtic Seas,1,472.7714286
+Norway,Oncorhynchus mykiss,27,NOR,578,72523.549,578,Northern Norway and Finnmark,2,13970.8633
+Norway,Oncorhynchus mykiss,27,NOR,578,72523.549,578,Southern Norway,2,58552.6857
+Spain,Oncorhynchus mykiss,27,ESP,724,5.225,724,South European Atlantic Shelf,1,5.225
+Sweden,Oncorhynchus mykiss,27,SWE,752,2411.2,752,Baltic Sea,1,2411.2
+Turkey,Oncorhynchus mykiss,37,TUR,792,4952.82,792,Aegean Sea,3,79.40392786
+Turkey,Oncorhynchus mykiss,37,TUR,792,4952.82,792,Black Sea,3,4873.416072
+United Kingdom,Oncorhynchus mykiss,27,GBR,826,2474.9,826,Celtic Seas,1,2474.9
+Chile,Oncorhynchus tshawytscha,87,CHL,152,698.7,152,Chiloense,2,349.35
+New Zealand,Oncorhynchus tshawytscha,81,NZL,554,11113.7,554,Central New Zealand,1,11113.7
+Taiwan Province of China,Pagrus auratus,61,TWN,158,60,158,East China Sea,3,20
+Taiwan Province of China,Pagrus auratus,61,TWN,158,60,158,Southern China,3,20
+Taiwan Province of China,Pagrus auratus,61,TWN,158,60,158,South Kuroshio,3,20
+Japan,Pagrus auratus,61,JPN,392,64378.9,392,Central Kuroshio Current,4,57727.23737
+Japan,Pagrus auratus,61,JPN,392,64378.9,392,East China Sea,4,5923.763429
+Japan,Pagrus auratus,61,JPN,392,64378.9,392,Sea of Japan/East Sea,4,645.2723677
+Japan,Pagrus auratus,61,JPN,392,64378.9,392,South Kuroshio,4,82.62683371
+"Korea, Republic of",Pagrus auratus,61,KOR,410,5484.2,410,Yellow Sea,3,1828.066667
+"Korea, Republic of",Pagrus auratus,61,KOR,410,5484.2,410,East China Sea,3,1828.066667
+"Korea, Republic of",Pagrus auratus,61,KOR,410,5484.2,410,Sea of Japan/East Sea,3,1828.066667
+Greece,Pagrus pagrus,37,GRC,300,1035.88,300,Ionian Sea,2,517.94
+Greece,Pagrus pagrus,37,GRC,300,1035.88,300,Aegean Sea,2,517.94
+Turkey,Pagrus pagrus,37,TUR,792,158,792,Ionian Sea,1,158
+Germany,Paralichthys olivaceus,27,DEU,276,0.25,276,Baltic Sea,1,0.25
+Japan,Paralichthys olivaceus,61,JPN,392,3394.9,392,Central Kuroshio Current,4,321.3368329
+Japan,Paralichthys olivaceus,61,JPN,392,3394.9,392,East China Sea,4,3023.20682
+Japan,Paralichthys olivaceus,61,JPN,392,3394.9,392,Northeastern Honshu,4,1.89591544
+Japan,Paralichthys olivaceus,61,JPN,392,3394.9,392,Sea of Japan/East Sea,4,48.46043202
+"Korea, Republic of",Paralichthys olivaceus,61,KOR,410,42983.4,410,Yellow Sea,3,14327.8
+"Korea, Republic of",Paralichthys olivaceus,61,KOR,410,42983.4,410,East China Sea,3,14327.8
+"Korea, Republic of",Paralichthys olivaceus,61,KOR,410,42983.4,410,Sea of Japan/East Sea,3,14327.8
+Japan,Pseudocaranx dentex,61,JPN,392,3101.3,392,Central Kuroshio Current,4,12405.2
+Japan,Pseudocaranx dentex,61,JPN,392,3101.3,392,East China Sea,4,12405.2
+Japan,Pseudocaranx dentex,61,JPN,392,3101.3,392,Northeastern Honshu,4,12405.2
+Japan,Pseudocaranx dentex,61,JPN,392,3101.3,392,South Kuroshio,4,12405.2
+Bahamas,Rachycentron canadum,31,BHS,44,21.66666667,44,Bahamian,1,21.66666667
+Belize,Rachycentron canadum,31,BLZ,84,121.6714286,84,Western Caribbean,1,121.6714286
+China,Rachycentron canadum,61,CHN,156,33914.8,156,East China Sea,3,12932.63009
+China,Rachycentron canadum,61,CHN,156,33914.8,156,Yellow Sea,3,11304.93333
+China,Rachycentron canadum,61,CHN,156,33914.8,156,Southern China,3,11304.93333
+China,Rachycentron canadum,61,CHN,156,33914.8,156,Gulf of Tonkin,3,11304.93333
+Taiwan Province of China,Rachycentron canadum,61,TWN,158,1577.673123,158,East China Sea,3,525.891041
+Taiwan Province of China,Rachycentron canadum,61,TWN,158,1577.673123,158,Southern China,3,525.891041
+Taiwan Province of China,Rachycentron canadum,61,TWN,158,1577.673123,158,South Kuroshio,3,525.891041
+Colombia,Rachycentron canadum,31,COL,170,112.1666667,170,Panama Bight,2,56.08333335
+Colombia,Rachycentron canadum,31,COL,170,112.1666667,170,Southwestern Caribbean,2,56.08333335
+Mayotte,Rachycentron canadum,51,MYT,175,4,175,Western and Northern Madagascar,1,4
+Dominican Republic,Rachycentron canadum,31,DOM,214,100,214,Greater Antilles,1,100
+Ecuador,Rachycentron canadum,87,ECU,218,34.73,218,Panama Bight,2,17.365
+Ecuador,Rachycentron canadum,87,ECU,218,34.73,218,Guayaquil,2,17.365
+Martinique,Rachycentron canadum,31,MTQ,474,10.125,474,Eastern Caribbean,1,10.125
+Bonaire/S.Eustatius/Saba,Rachycentron canadum,31,BES,535,0.116666667,535,Southern Caribbean,1,0.116666667
+Panama,Rachycentron canadum,31,PAN,591,562.9,591,Southwestern Caribbean,1,562.9
+Puerto Rico,Rachycentron canadum,31,PRI,630,11,630,Greater Antilles,1,11
+Singapore,Rachycentron canadum,71,SGP,702,1.879214286,702,Malacca Strait,1,1.879214286
+Viet Nam,Rachycentron canadum,71,VNM,704,2954.666667,704,Southern Vietnam,2,1477.333334
+Viet Nam,Rachycentron canadum,71,VNM,704,2954.666667,704,Gulf of Tonkin,2,1477.333334
+Australia,Salmo salar,81,AUS,36,38227.8367,36,Bassian,1,38227.8367
+Canada,Salmo salar,21,CAN,124,29922.4,124,Northern Grand Banks - Southern Labrador,3,9974.133333
+Canada,Salmo salar,21,CAN,124,29922.4,124,Gulf of St. Lawrence - Eastern Scotian Shelf,3,9974.133333
+Canada,Salmo salar,21,CAN,124,29922.4,124,Southern Grand Banks - South Newfoundland,3,9974.133333
+Canada,Salmo salar,67,CAN,124,76496.9,124,North American Pacific Fijordland,5,15299.38
+Canada,Salmo salar,67,CAN,124,76496.9,124,"Oregon, Washington, Vancouver Coast and Shelf",5,15299.38
+Canada,Salmo salar,67,CAN,124,76496.9,124,Gulf of Maine/Bay of Fundy,5,15299.38
+Canada,Salmo salar,67,CAN,124,76496.9,124,Scotian Shelf,5,15299.38
+Canada,Salmo salar,67,CAN,124,76496.9,124,Puget Trough/Georgia Basin,5,15299.38
+Chile,Salmo salar,87,CHL,152,394379.1,152,Channels and Fjords of Southern Chile,2,59156.865
+Chile,Salmo salar,87,CHL,152,394379.1,152,Chiloense,2,335222.235
+Faroe Islands,Salmo salar,27,FRO,234,62078.5,234,Faroe Plateau,1,62078.5
+France,Salmo salar,27,FRA,250,667,250,South European Atlantic Shelf,2,1.558110111
+France,Salmo salar,27,FRA,250,667,250,North Sea,2,246.0363039
+Iceland,Salmo salar,27,ISL,352,100.3333333,352,South and West Iceland,1,100.3333333
+Ireland,Salmo salar,27,IRL,372,11958.55,372,Celtic Seas,1,11958.55
+"Korea, Dem. People's Rep",Salmo salar,61,PRK,408,13.88888889,408,Sea of Japan/East Sea,1,13.88888889
+Norway,Salmo salar,27,NOR,578,1054496.75,578,Northern Norway and Finnmark,2,679419.2958
+Norway,Salmo salar,27,NOR,578,1054496.75,578,Southern Norway,2,851359.5601
+Russian Federation,Salmo salar,27,RUS,643,8937.1,643,Black Sea,4,2234.275
+Russian Federation,Salmo salar,27,RUS,643,8937.1,643,White Sea,4,2234.275
+Russian Federation,Salmo salar,27,RUS,643,8937.1,643,Sea of Okhotsk,4,2234.275
+Russian Federation,Salmo salar,27,RUS,643,8937.1,643,Sea of Japan/East Sea,4,2234.275
+Spain,Salmo salar,27,ESP,724,20.9947,724,South European Atlantic Shelf,1,20.9947
+Sweden,Salmo salar,27,SWE,752,1.666666667,752,Baltic Sea,1,1.666666667
+United Kingdom,Salmo salar,27,GBR,826,155714.678,826,Celtic Seas,1,155714.678
+United States of America,Salmo salar,21,USA,840,17170.3,840,"Oregon, Washington, Vancouver Coast and Shelf",3,5723.433333
+United States of America,Salmo salar,21,USA,840,17170.3,840,Northern California,3,5723.433333
+United States of America,Salmo salar,21,USA,840,17170.3,840,Gulf of Maine/Bay of Fundy,3,5723.433333
+France,Salmo salar,27,FRA,250,667,250,Celtic Seas,2,419.405586
+China,Sciaenops ocellatus,61,CHN,156,60190.3,156,East China Sea,3,22952.18857
+China,Sciaenops ocellatus,61,CHN,156,60190.3,156,Yellow Sea,3,3831.756672
+China,Sciaenops ocellatus,61,CHN,156,60190.3,156,Southern China,3,27907.8118
+Mayotte,Sciaenops ocellatus,51,MYT,175,84.92,175,Western and Northern Madagascar,1,84.92
+Guadeloupe,Sciaenops ocellatus,31,GLP,312,6.79,312,Eastern Caribbean,1,6.79
+Israel,Sciaenops ocellatus,37,ISR,376,60.5,376,Levantine Sea,1,60.5
+Martinique,Sciaenops ocellatus,31,MTQ,474,44.81,474,Eastern Caribbean,1,44.81
+Mauritius,Sciaenops ocellatus,51,MUS,480,413.55,480,Mascarene Islands,1,413.55
+Mexico,Sciaenops ocellatus,31,MEX,484,147.262375,484,Southern Gulf of Mexico,1,147.262375
+Reunion,Sciaenops ocellatus,51,REU,638,50,638,Mascarene Islands,1,50
+United States of America,Sciaenops ocellatus,31,USA,840,1424.1,840,Northern Gulf of Mexico,1,1424.1
+China,Sciaenops ocellatus,61,CHN,156,60190.3,156,Gulf of Tonkin,3,5498.542967
+China,Scophthalmus maximus,61,CHN,156,56500,156,East China Sea,2,28250
+China,Scophthalmus maximus,61,CHN,156,56500,156,Yellow Sea,2,28250
+Croatia,Scophthalmus maximus,37,HRV,191,2.729666667,191,Adriatic Sea,1,2.729666667
+Denmark,Scophthalmus maximus,27,DNK,208,6.6375,208,North Sea,1,6.6375
+France,Scophthalmus maximus,27,FRA,250,477.16,250,South European Atlantic Shelf,1,465.8595848
+Germany,Scophthalmus maximus,27,DEU,276,15,276,Baltic Sea,2,7.5
+Germany,Scophthalmus maximus,27,DEU,276,15,276,North Sea,2,7.5
+Iceland,Scophthalmus maximus,27,ISL,352,37.88888889,352,South and West Iceland,1,37.88888889
+Portugal,Scophthalmus maximus,27,PRT,620,2245.2021,620,South European Atlantic Shelf,1,2245.2021
+Romania,Scophthalmus maximus,37,ROU,642,6.175555556,642,Black Sea,1,6.175555556
+Spain,Scophthalmus maximus,27,ESP,724,7334.5908,724,South European Atlantic Shelf,1,7334.5908
+Spain,Scophthalmus maximus,37,ESP,724,3,724,Western Mediterranean,1,3
+United Kingdom,Scophthalmus maximus,27,GBR,826,20.825,826,Celtic Seas,1,20.825
+Channel Islands,Scophthalmus maximus,27,NA,830,2.04,830,Celtic Seas,1,2.04
+France,Scophthalmus maximus,27,FRA,250,477.16,250,Celtic Seas,1,11.30041523
+"Korea, Republic of",Sebastes schlegelii,61,KOR,410,24807.8,410,Yellow Sea,3,8269.266667
+"Korea, Republic of",Sebastes schlegelii,61,KOR,410,24807.8,410,East China Sea,3,8269.266667
+"Korea, Republic of",Sebastes schlegelii,61,KOR,410,24807.8,410,Sea of Japan/East Sea,3,8269.266667
+Japan,Seriola quinqueradiata,61,JPN,392,148134.6,392,Central Kuroshio Current,4,136262.5643
+Japan,Seriola quinqueradiata,61,JPN,392,148134.6,392,East China Sea,4,11144.68118
+Japan,Seriola quinqueradiata,61,JPN,392,148134.6,392,South Kuroshio,4,3.131539254
+Japan,Seriola quinqueradiata,61,JPN,392,148134.6,392,Sea of Japan/East Sea,4,724.2229391
+"Korea, Republic of",Seriola quinqueradiata,61,KOR,410,187.2,410,Yellow Sea,3,62.4
+"Korea, Republic of",Seriola quinqueradiata,61,KOR,410,187.2,410,East China Sea,3,62.4
+"Korea, Republic of",Seriola quinqueradiata,61,KOR,410,187.2,410,Sea of Japan/East Sea,3,62.4
+Albania,Sparus aurata,37,ALB,8,395.48,8,Adriatic Sea,2,197.74
+Albania,Sparus aurata,37,ALB,8,395.48,8,Ionian Sea,2,197.74
+Bahrain,Sparus aurata,51,BHR,48,1.2044,48,Arabian (Persian) Gulf,1,1.2044
+Bosnia and Herzegovina,Sparus aurata,37,BIH,70,96.74444444,70,Adriatic Sea,1,96.74444444
+Croatia,Sparus aurata,37,HRV,191,2625.0319,191,Adriatic Sea,1,2625.0319
+Cyprus,Sparus aurata,37,CYP,196,3028,196,Aegean Sea,1,3028
+Dominican Republic,Sparus aurata,31,DOM,214,350,214,Greater Antilles,1,350
+France,Sparus aurata,27,FRA,250,697.325,250,South European Atlantic Shelf,2,348.6625
+France,Sparus aurata,27,FRA,250,697.325,250,North Sea,2,348.6625
+France,Sparus aurata,37,FRA,250,748.03,250,Western Mediterranean,1,748.03
+Greece,Sparus aurata,37,GRC,300,52539.02,300,Aegean Sea,1,52539.02
+Israel,Sparus aurata,37,ISR,376,1808.4,376,Levantine Sea,1,1808.4
+Italy,Sparus aurata,37,ITA,380,4182.886,380,Western Mediterranean,3,1394.295333
+Italy,Sparus aurata,37,ITA,380,4182.886,380,Ionian Sea,3,1394.295333
+Italy,Sparus aurata,37,ITA,380,4182.886,380,Adriatic Sea,3,1394.295333
+Kuwait,Sparus aurata,51,KWT,414,18.65,414,Arabian (Persian) Gulf,1,18.65
+Libya,Sparus aurata,37,LBY,434,21,434,Tunisian Plateau/Gulf of Sidra,1,21
+Malta,Sparus aurata,37,MLT,470,1990.7813,470,Ionian Sea,1,1990.7813
+Montenegro,Sparus aurata,37,MNE,499,50,499,Adriatic Sea,1,50
+Morocco,Sparus aurata,37,MAR,504,17.485,504,Alboran Sea,1,17.485
+Oman,Sparus aurata,51,OMN,512,34,512,Gulf of Oman,2,17
+Oman,Sparus aurata,51,OMN,512,34,512,Western Arabian Sea,2,17
+Portugal,Sparus aurata,27,PRT,620,977.2208,620,South European Atlantic Shelf,1,977.2208
+Saudi Arabia,Sparus aurata,51,SAU,682,1487.8,682,Northern and Central Red Sea,2,743.9
+Saudi Arabia,Sparus aurata,51,SAU,682,1487.8,682,Southern Red Sea,2,743.9
+Spain,Sparus aurata,27,ESP,724,1152.268333,724,South European Atlantic Shelf,1,1152.268333
+Spain,Sparus aurata,34,ESP,724,2611.248667,724,Azores Canaries Madeira,1,2611.248667
+Spain,Sparus aurata,37,ESP,724,14640.25795,724,Alboran Sea,2,7320.128975
+Spain,Sparus aurata,37,ESP,724,14640.25795,724,Western Mediterranean,2,7320.128975
+United Arab Emirates,Sparus aurata,51,ARE,784,307.7,784,Arabian (Persian) Gulf,2,153.85
+United Arab Emirates,Sparus aurata,51,ARE,784,307.7,784,Gulf of Oman,2,153.85
+Turkey,Sparus aurata,37,TUR,792,37229.11,792,Aegean Sea,3,35888.86204
+Turkey,Sparus aurata,37,TUR,792,37229.11,792,Levantine Sea,3,1340.24796
+China,Takifugu rubripes,61,CHN,156,17053.1,156,East China Sea,3,5684.366667
+China,Takifugu rubripes,61,CHN,156,17053.1,156,Yellow Sea,3,5684.366667
+China,Takifugu rubripes,61,CHN,156,17053.1,156,Southern China,3,5684.366667
+Japan,Takifugu rubripes,61,JPN,392,4273.1,392,Central Kuroshio Current,4,1068.275
+Japan,Takifugu rubripes,61,JPN,392,4273.1,392,East China Sea,4,1068.275
+Japan,Takifugu rubripes,61,JPN,392,4273.1,392,Northeastern Honshu,4,1068.275
+Japan,Takifugu rubripes,61,JPN,392,4273.1,392,Sea of Japan/East Sea,4,1068.275
+"Korea, Dem. People's Rep",Takifugu rubripes,61,PRK,408,7.222222222,408,Southern China,1,7.222222222
+Australia,Thunnus maccoyii,57,AUS,36,6797.0632,36,South Australian Gulfs,1,6797.0632
+Japan,Thunnus orientalis,61,JPN,392,12597.2,392,Central Kuroshio Current,4,3149.3
+Japan,Thunnus orientalis,61,JPN,392,12597.2,392,East China Sea,4,3149.3
+Japan,Thunnus orientalis,61,JPN,392,12597.2,392,Northeastern Honshu,4,3149.3
+Japan,Thunnus orientalis,61,JPN,392,12597.2,392,Sea of Japan/East Sea,4,3149.3
+Mexico,Thunnus orientalis,77,MEX,484,4511.347181,484,Southern California Bight,1,4511.347181
+Croatia,Thunnus thynnus,37,HRV,191,1575.5,191,Adriatic Sea,1,1575.5
+Cyprus,Thunnus thynnus,37,CYP,196,50,196,Aegean Sea,1,50
+Greece,Thunnus thynnus,37,GRC,300,67.5,300,Ionian Sea,1,55.5189525
+Greece,Thunnus thynnus,37,GRC,300,67.5,300,Aegean Sea,1,11.98098
+Italy,Thunnus thynnus,37,ITA,380,361.06,380,Western Mediterranean,3,120.3533333
+Italy,Thunnus thynnus,37,ITA,380,361.06,380,Ionian Sea,3,120.3533333
+Italy,Thunnus thynnus,37,ITA,380,361.06,380,Adriatic Sea,3,120.3533333
+Malta,Thunnus thynnus,37,MLT,470,1630.8,470,Ionian Sea,1,1630.8
+Morocco,Thunnus thynnus,34,MAR,504,70,504,Alboran Sea,1,70
+Portugal,Thunnus thynnus,27,PRT,620,25,620,South European Atlantic Shelf,1,25
+Spain,Thunnus thynnus,37,ESP,724,590.5,724,Alboran Sea,2,295.25
+Spain,Thunnus thynnus,37,ESP,724,590.5,724,Western Mediterranean,2,295.25
+Tunisia,Thunnus thynnus,37,TUN,788,304.6,788,Tunisian Plateau/Gulf of Sidra,1,304.6
+Turkey,Thunnus thynnus,37,TUR,792,545,792,Aegean Sea,3,181.6666667
+Turkey,Thunnus thynnus,37,TUR,792,545,792,Levantine Sea,3,181.6666667
+Brunei Darussalam,Trachinotus blochii,71,BRN,96,9.77,96,Palawan/North Borneo,1,9.77
+China,Trachinotus blochii,61,CHN,156,89100,156,East China Sea,3,29700
+China,Trachinotus blochii,61,CHN,156,89100,156,Yellow Sea,3,29700
+China,Trachinotus blochii,61,CHN,156,89100,156,Southern China,3,29700
+"China, Hong Kong SAR",Trachinotus blochii,61,HKG,344,62,344,Southern China,1,62
+Philippines,Trachinotus blochii,71,PHL,608,202.6666667,608,Eastern Philippines,2,101.3333334
+Philippines,Trachinotus blochii,71,PHL,608,202.6666667,608,Sulawesi Sea/Makassar Strait,2,101.3333334
+Singapore,Trachinotus blochii,71,SGP,702,108.4564,702,Malacca Strait,1,108.4564
+Japan,Trachurus japonicus,61,JPN,392,1215.2,392,Central Kuroshio Current,4,1173.313478
+Japan,Trachurus japonicus,61,JPN,392,1215.2,392,East China Sea,4,39.02318567
+Japan,Trachurus japonicus,61,JPN,392,1215.2,392,Sea of Japan/East Sea,4,2.863336475
+"Korea, Republic of",Trachurus japonicus,61,KOR,410,14.33333333,410,Yellow Sea,3,4.777777777
+"Korea, Republic of",Trachurus japonicus,61,KOR,410,14.33333333,410,East China Sea,3,4.777777777
+"Korea, Republic of",Trachurus japonicus,61,KOR,410,14.33333333,410,Sea of Japan/East Sea,3,4.777777777

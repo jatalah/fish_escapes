@@ -1,0 +1,882 @@
+ECOREGION,Species,status
+Adriatic Sea,Argyrosomus regius,Native
+Adriatic Sea,Dicentrarchus labrax,Native
+Adriatic Sea,Mugil cephalus,Native
+Adriatic Sea,Salmo salar,Native
+Adriatic Sea,Scophthalmus maximus,Native
+Adriatic Sea,Sparus aurata,Native
+Adriatic Sea,Thunnus thynnus,Native
+Aegean Sea,Argyrosomus regius,Native
+Aegean Sea,Dicentrarchus labrax,Native
+Aegean Sea,Mugil cephalus,Native
+Aegean Sea,Pagrus pagrus,Native
+Aegean Sea,Pseudocaranx dentex,Native
+Aegean Sea,Scophthalmus maximus,Native
+Aegean Sea,Sparus aurata,Native
+Aegean Sea,Thunnus thynnus,Native
+Agulhas Bank,Chanos chanos,Native
+Agulhas Bank,Mugil cephalus,Native
+Agulhas Bank,Pseudocaranx dentex,Native
+Agulhas Bank,Rachycentron canadum,Native
+Agulhas Bank,Thunnus maccoyii,Native
+Agulhas Bank,Thunnus thynnus,Native
+Alboran Sea,Argyrosomus regius,Native
+Alboran Sea,Dicentrarchus labrax,Native
+Alboran Sea,Pagrus pagrus,Native
+Alboran Sea,Pseudocaranx dentex,Native
+Alboran Sea,Scophthalmus maximus,Native
+Alboran Sea,Sparus aurata,Native
+Alboran Sea,Thunnus thynnus,Native
+Aleutian Islands,Oncorhynchus kisutch,Native
+Aleutian Islands,Oncorhynchus tshawytscha,Native
+Amazonia,Rachycentron canadum,Native
+Amazonia,Thunnus thynnus,Native
+Amsterdam-St Paul,Thunnus maccoyii,Native
+Andaman and Nicobar Islands,Chanos chanos,Native
+Andaman and Nicobar Islands,Lates calcarifer,Native
+Andaman and Nicobar Islands,Mugil cephalus,Native
+Andaman and Nicobar Islands,Rachycentron canadum,Native
+Andaman and Nicobar Islands,Trachinotus blochii,Native
+Andaman Sea Coral Coast,Lates calcarifer,Native
+Andaman Sea Coral Coast,Rachycentron canadum,Native
+Andaman Sea Coral Coast,Trachinotus blochii,Native
+Angolan,Mugil cephalus,Native
+Angolan,Pagrus pagrus,Native
+Arabian (Persian) Gulf,Chanos chanos,Native
+Arabian (Persian) Gulf,Rachycentron canadum,Native
+Arabian (Persian) Gulf,Trachinotus blochii,Native
+Arafura Sea,Lates calcarifer,Native
+Arafura Sea,Rachycentron canadum,Native
+Arafura Sea,Thunnus orientalis,Native
+Arnhem Coast to Gulf of Carpenteria,Chanos chanos,Native
+Arnhem Coast to Gulf of Carpenteria,Lates calcarifer,Native
+Arnhem Coast to Gulf of Carpenteria,Mugil cephalus,Native
+Arnhem Coast to Gulf of Carpenteria,Rachycentron canadum,Native
+Arnhem Coast to Gulf of Carpenteria,Trachinotus blochii,Native
+Auckland Island,Thunnus maccoyii,Native
+Azores Canaries Madeira,Dicentrarchus labrax,Native
+Azores Canaries Madeira,Mugil cephalus,Native
+Azores Canaries Madeira,Pagrus pagrus,Native
+Azores Canaries Madeira,Pseudocaranx dentex,Native
+Azores Canaries Madeira,Sparus aurata,Native
+Azores Canaries Madeira,Thunnus thynnus,Native
+Baffin Bay - Davis Strait,Gadus morhua,Native
+Baffin Bay - Davis Strait,Hippoglossus hippoglossus,Native
+Bahamian,Rachycentron canadum,Native
+Bahamian,Thunnus thynnus,Native
+Baltic Sea,Argyrosomus regius,Native
+Baltic Sea,Dicentrarchus labrax,Native
+Baltic Sea,Gadus morhua,Native
+Baltic Sea,Hippoglossus hippoglossus,Native
+Baltic Sea,Mugil cephalus,Native
+Baltic Sea,Salmo salar,Native
+Baltic Sea,Scophthalmus maximus,Native
+Baltic Sea,Thunnus thynnus,Native
+Banda Sea,Chanos chanos,Native
+Banda Sea,Rachycentron canadum,Native
+Banda Sea,Thunnus maccoyii,Native
+Banda Sea,Trachinotus blochii,Native
+Bassian,Chanos chanos,Native
+Bassian,Mugil cephalus,Native
+Bassian,Pseudocaranx dentex,Native
+Bassian,Thunnus maccoyii,Native
+Beaufort Sea - continental coast and shelf,Oncorhynchus kisutch,Native
+Beaufort Sea - continental coast and shelf,Oncorhynchus tshawytscha,Native
+Bermuda,Pagrus pagrus,Native
+Bermuda,Pseudocaranx dentex,Native
+Bermuda,Rachycentron canadum,Native
+Bermuda,Thunnus thynnus,Native
+Bight of Sofala/Swamp Coast,Chanos chanos,Native
+Bight of Sofala/Swamp Coast,Mugil cephalus,Native
+Bight of Sofala/Swamp Coast,Rachycentron canadum,Native
+Bight of Sofala/Swamp Coast,Trachinotus blochii,Native
+Bismarck Sea,Chanos chanos,Native
+Bismarck Sea,Mugil cephalus,Native
+Bismarck Sea,Thunnus orientalis,Native
+Bismarck Sea,Trachinotus blochii,Native
+Black Sea,Argyrosomus regius,Native
+Black Sea,Dicentrarchus labrax,Native
+Black Sea,Scophthalmus maximus,Native
+Black Sea,Thunnus thynnus,Native
+Bonaparte Coast,Chanos chanos,Native
+Bonaparte Coast,Lates calcarifer,Native
+Bonaparte Coast,Rachycentron canadum,Native
+Bonaparte Coast,Thunnus maccoyii,Native
+Bounty and Antipodes Islands,Thunnus maccoyii,Native
+Bounty and Antipodes Islands,Thunnus orientalis,Native
+Campbell Island,Thunnus maccoyii,Native
+Cape Howe,Chanos chanos,Native
+Cape Howe,Mugil cephalus,Native
+Cape Howe,Pseudocaranx dentex,Native
+Cape Howe,Thunnus maccoyii,Native
+Cape Howe,Thunnus orientalis,Native
+Cape Verde,Argyrosomus regius,Native
+Cape Verde,Mugil cephalus,Native
+Cape Verde,Pagrus pagrus,Native
+Cape Verde,Pseudocaranx dentex,Native
+Cape Verde,Rachycentron canadum,Native
+Cape Verde,Thunnus thynnus,Native
+Cargados Carajos/Tromelin Island,Lates calcarifer,Native
+Cargados Carajos/Tromelin Island,Pseudocaranx dentex,Native
+Cargados Carajos/Tromelin Island,Rachycentron canadum,Native
+Cargados Carajos/Tromelin Island,Thunnus maccoyii,Native
+Cargados Carajos/Tromelin Island,Trachinotus blochii,Native
+Carolinian,Mugil cephalus,Native
+Carolinian,Pagrus pagrus,Native
+Carolinian,Pseudocaranx dentex,Native
+Carolinian,Rachycentron canadum,Native
+Carolinian,Sciaenops ocellatus,Native
+Carolinian,Thunnus thynnus,Native
+Celtic Seas,Argyrosomus regius,Native
+Celtic Seas,Dicentrarchus labrax,Native
+Celtic Seas,Gadus morhua,Native
+Celtic Seas,Hippoglossus hippoglossus,Native
+Celtic Seas,Mugil cephalus,Native
+Celtic Seas,Pagrus pagrus,Native
+Celtic Seas,Salmo salar,Native
+Celtic Seas,Scophthalmus maximus,Native
+Celtic Seas,Sparus aurata,Native
+Celtic Seas,Thunnus thynnus,Native
+Central and Southern Great Barrier Reef,Chanos chanos,Native
+Central and Southern Great Barrier Reef,Lates calcarifer,Native
+Central and Southern Great Barrier Reef,Mugil cephalus,Native
+Central and Southern Great Barrier Reef,Pseudocaranx dentex,Native
+Central and Southern Great Barrier Reef,Rachycentron canadum,Native
+Central and Southern Great Barrier Reef,Thunnus orientalis,Native
+Central and Southern Great Barrier Reef,Trachinotus blochii,Native
+Central Kuroshio Current,Acanthopagrus schlegelii,Native
+Central Kuroshio Current,Larimichthys crocea,Native
+Central Kuroshio Current,Lateolabrax japonicus,Native
+Central Kuroshio Current,Mugil cephalus,Native
+Central Kuroshio Current,Oncorhynchus mykiss,Native
+Central Kuroshio Current,Pagrus auratus,Native
+Central Kuroshio Current,Paralichthys olivaceus,Native
+Central Kuroshio Current,Pseudocaranx dentex,Native
+Central Kuroshio Current,Rachycentron canadum,Native
+Central Kuroshio Current,Sebastes schlegelii,Native
+Central Kuroshio Current,Seriola quinqueradiata,Native
+Central Kuroshio Current,Takifugu rubripes,Native
+Central Kuroshio Current,Thunnus orientalis,Native
+Central Kuroshio Current,Trachurus japonicus,Native
+Central New Zealand,Chanos chanos,Native
+Central New Zealand,Pseudocaranx dentex,Native
+Central New Zealand,Thunnus maccoyii,Native
+Central New Zealand,Thunnus orientalis,Native
+Central Peru,Chanos chanos,Native
+Central Peru,Mugil cephalus,Native
+Central Somali Coast,Chanos chanos,Native
+Central Somali Coast,Pseudocaranx dentex,Native
+Central Somali Coast,Rachycentron canadum,Native
+Central Somali Coast,Trachinotus blochii,Native
+Chagos,Chanos chanos,Native
+Chagos,Rachycentron canadum,Native
+Chagos,Trachinotus blochii,Native
+Chatham Island,Thunnus maccoyii,Native
+Chatham Island,Thunnus orientalis,Native
+Chiapas-Nicaragua,Chanos chanos,Native
+Chiapas-Nicaragua,Mugil cephalus,Native
+Chiapas-Nicaragua,Thunnus orientalis,Native
+Chukchi Sea,Oncorhynchus kisutch,Native
+Clipperton,Chanos chanos,Native
+Cocos-Keeling/Christmas Island,Chanos chanos,Native
+Cocos-Keeling/Christmas Island,Thunnus maccoyii,Native
+Cocos-Keeling/Christmas Island,Trachinotus blochii,Native
+Cocos Islands,Chanos chanos,Native
+Coral Sea,Chanos chanos,Native
+Coral Sea,Mugil cephalus,Native
+Coral Sea,Pseudocaranx dentex,Native
+Coral Sea,Rachycentron canadum,Native
+Coral Sea,Thunnus orientalis,Native
+Coral Sea,Trachinotus blochii,Native
+Cortezian,Chanos chanos,Native
+Cortezian,Mugil cephalus,Native
+Cortezian,Oncorhynchus kisutch,Native
+Cortezian,Thunnus orientalis,Native
+Crozet Islands,Thunnus maccoyii,Native
+Delagoa,Chanos chanos,Native
+Delagoa,Mugil cephalus,Native
+Delagoa,Rachycentron canadum,Native
+Delagoa,Thunnus maccoyii,Native
+Delagoa,Trachinotus blochii,Native
+East African Coral Coast,Chanos chanos,Native
+East African Coral Coast,Rachycentron canadum,Native
+East African Coral Coast,Trachinotus blochii,Native
+East Caroline Islands,Chanos chanos,Native
+East Caroline Islands,Rachycentron canadum,Native
+East Caroline Islands,Thunnus orientalis,Native
+East Caroline Islands,Trachinotus blochii,Native
+East China Sea,Acanthopagrus schlegelii,Native
+East China Sea,Chanos chanos,Native
+East China Sea,Larimichthys crocea,Native
+East China Sea,Lateolabrax japonicus,Native
+East China Sea,Lates calcarifer,Native
+East China Sea,Mugil cephalus,Native
+East China Sea,Pagrus auratus,Native
+East China Sea,Paralichthys olivaceus,Native
+East China Sea,Pseudocaranx dentex,Native
+East China Sea,Rachycentron canadum,Native
+East China Sea,Sebastes schlegelii,Native
+East China Sea,Seriola quinqueradiata,Native
+East China Sea,Takifugu rubripes,Native
+East China Sea,Thunnus orientalis,Native
+East China Sea,Trachinotus blochii,Native
+East China Sea,Trachurus japonicus,Native
+East Greenland Shelf,Gadus morhua,Native
+East Greenland Shelf,Hippoglossus hippoglossus,Native
+East Greenland Shelf,Salmo salar,Native
+East Greenland Shelf,Thunnus thynnus,Native
+Easter Island,Chanos chanos,Native
+Easter Island,Pseudocaranx dentex,Native
+Easter Island,Thunnus maccoyii,Native
+Easter Island,Thunnus orientalis,Native
+Eastern Bering Sea,Oncorhynchus kisutch,Native
+Eastern Bering Sea,Oncorhynchus mykiss,Native
+Eastern Bering Sea,Oncorhynchus tshawytscha,Native
+Eastern Brazil,Pagrus pagrus,Native
+Eastern Brazil,Pseudocaranx dentex,Native
+Eastern Brazil,Rachycentron canadum,Native
+Eastern Brazil,Thunnus maccoyii,Native
+Eastern Brazil,Thunnus thynnus,Native
+Eastern Caribbean,Mugil cephalus,Native
+Eastern Caribbean,Rachycentron canadum,Native
+Eastern Caribbean,Thunnus thynnus,Native
+Eastern Galapagos Islands,Chanos chanos,Native
+Eastern Galapagos Islands,Mugil cephalus,Native
+Eastern India,Chanos chanos,Native
+Eastern India,Lates calcarifer,Native
+Eastern India,Mugil cephalus,Native
+Eastern India,Rachycentron canadum,Native
+Eastern India,Trachinotus blochii,Native
+Eastern Philippines,Chanos chanos,Native
+Eastern Philippines,Lates calcarifer,Native
+Eastern Philippines,Paralichthys olivaceus,Native
+Eastern Philippines,Rachycentron canadum,Native
+Eastern Philippines,Thunnus orientalis,Native
+Eastern Philippines,Trachinotus blochii,Native
+Exmouth to Broome,Chanos chanos,Native
+Exmouth to Broome,Lates calcarifer,Native
+Exmouth to Broome,Mugil cephalus,Native
+Exmouth to Broome,Pseudocaranx dentex,Native
+Exmouth to Broome,Rachycentron canadum,Native
+Exmouth to Broome,Thunnus maccoyii,Native
+Exmouth to Broome,Trachinotus blochii,Native
+Faroe Plateau,Gadus morhua,Native
+Faroe Plateau,Hippoglossus hippoglossus,Native
+Faroe Plateau,Salmo salar,Native
+Faroe Plateau,Scophthalmus maximus,Native
+Faroe Plateau,Thunnus thynnus,Native
+Fernando de Naronha and Atoll das Rocas,Pseudocaranx dentex,Native
+Fernando de Naronha and Atoll das Rocas,Rachycentron canadum,Native
+Fernando de Naronha and Atoll das Rocas,Thunnus thynnus,Native
+Fiji Islands,Chanos chanos,Native
+Fiji Islands,Mugil cephalus,Native
+Fiji Islands,Thunnus orientalis,Native
+Fiji Islands,Trachinotus blochii,Native
+Floridian,Mugil cephalus,Native
+Floridian,Pagrus pagrus,Native
+Floridian,Pseudocaranx dentex,Native
+Floridian,Rachycentron canadum,Native
+Floridian,Sciaenops ocellatus,Native
+Floridian,Thunnus thynnus,Native
+Gilbert/Ellis Islands,Chanos chanos,Native
+Gilbert/Ellis Islands,Thunnus orientalis,Native
+Gilbert/Ellis Islands,Trachinotus blochii,Native
+Great Australian Bight,Chanos chanos,Native
+Great Australian Bight,Pseudocaranx dentex,Native
+Great Australian Bight,Rachycentron canadum,Native
+Great Australian Bight,Thunnus maccoyii,Native
+Great Australian Bight,Trachinotus blochii,Native
+Greater Antilles,Mugil cephalus,Native
+Greater Antilles,Pagrus pagrus,Native
+Greater Antilles,Rachycentron canadum,Native
+Greater Antilles,Thunnus thynnus,Native
+Guayaquil,Chanos chanos,Native
+Guayaquil,Mugil cephalus,Native
+Guayaquil,Thunnus orientalis,Native
+Guianan,Mugil cephalus,Native
+Guianan,Rachycentron canadum,Native
+Guianan,Thunnus thynnus,Native
+Gulf of Aden,Chanos chanos,Native
+Gulf of Aden,Rachycentron canadum,Native
+Gulf of Aden,Trachinotus blochii,Native
+Gulf of Alaska,Oncorhynchus kisutch,Native
+Gulf of Alaska,Oncorhynchus mykiss,Native
+Gulf of Alaska,Oncorhynchus tshawytscha,Native
+Gulf of Alaska,Thunnus orientalis,Native
+Gulf of Guinea Central,Argyrosomus regius,Native
+Gulf of Guinea Central,Mugil cephalus,Native
+Gulf of Guinea Central,Pagrus pagrus,Native
+Gulf of Guinea Central,Rachycentron canadum,Native
+Gulf of Guinea Central,Thunnus thynnus,Native
+Gulf of Guinea Islands,Pagrus pagrus,Native
+Gulf of Guinea Islands,Thunnus thynnus,Native
+Gulf of Guinea South,Argyrosomus regius,Native
+Gulf of Guinea South,Mugil cephalus,Native
+Gulf of Guinea South,Pagrus pagrus,Native
+Gulf of Guinea South,Rachycentron canadum,Native
+Gulf of Guinea South,Thunnus thynnus,Native
+Gulf of Guinea Upwelling,Argyrosomus regius,Native
+Gulf of Guinea Upwelling,Pagrus pagrus,Native
+Gulf of Guinea Upwelling,Rachycentron canadum,Native
+Gulf of Guinea Upwelling,Thunnus thynnus,Native
+Gulf of Guinea West,Argyrosomus regius,Native
+Gulf of Guinea West,Mugil cephalus,Native
+Gulf of Guinea West,Pagrus pagrus,Native
+Gulf of Guinea West,Rachycentron canadum,Native
+Gulf of Guinea West,Thunnus thynnus,Native
+Gulf of Maine/Bay of Fundy,Gadus morhua,Native
+Gulf of Maine/Bay of Fundy,Hippoglossus hippoglossus,Native
+Gulf of Maine/Bay of Fundy,Mugil cephalus,Native
+Gulf of Maine/Bay of Fundy,Salmo salar,Native
+Gulf of Maine/Bay of Fundy,Thunnus thynnus,Native
+Gulf of Oman,Chanos chanos,Native
+Gulf of Oman,Rachycentron canadum,Native
+Gulf of Papua,Lates calcarifer,Native
+Gulf of St. Lawrence - Eastern Scotian Shelf,Gadus morhua,Native
+Gulf of St. Lawrence - Eastern Scotian Shelf,Hippoglossus hippoglossus,Native
+Gulf of St. Lawrence - Eastern Scotian Shelf,Salmo salar,Native
+Gulf of St. Lawrence - Eastern Scotian Shelf,Thunnus thynnus,Native
+Gulf of Thailand,Chanos chanos,Native
+Gulf of Thailand,Lates calcarifer,Native
+Gulf of Thailand,Rachycentron canadum,Native
+Gulf of Thailand,Trachinotus blochii,Native
+Gulf of Tonkin,Acanthopagrus schlegelii,Native
+Gulf of Tonkin,Chanos chanos,Native
+Gulf of Tonkin,Larimichthys crocea,Native
+Gulf of Tonkin,Lateolabrax japonicus,Native
+Gulf of Tonkin,Lates calcarifer,Native
+Gulf of Tonkin,Pagrus auratus,Native
+Gulf of Tonkin,Paralichthys olivaceus,Native
+Gulf of Tonkin,Rachycentron canadum,Native
+Gulf of Tonkin,Trachinotus blochii,Native
+Halmahera,Rachycentron canadum,Native
+Halmahera,Thunnus orientalis,Native
+Hawaii,Chanos chanos,Native
+Hawaii,Mugil cephalus,Native
+Hawaii,Pseudocaranx dentex,Native
+Hawaii,Seriola quinqueradiata,Native
+Hawaii,Thunnus orientalis,Native
+Houtman,Mugil cephalus,Native
+Houtman,Pseudocaranx dentex,Native
+Houtman,Rachycentron canadum,Native
+Houtman,Thunnus maccoyii,Native
+Hudson Complex,Salmo salar,Native
+Humboldtian,Mugil cephalus,Native
+Humboldtian,Thunnus orientalis,Native
+Ionian Sea,Argyrosomus regius,Native
+Ionian Sea,Dicentrarchus labrax,Native
+Ionian Sea,Mugil cephalus,Native
+Ionian Sea,Pseudocaranx dentex,Native
+Ionian Sea,Scophthalmus maximus,Native
+Ionian Sea,Sparus aurata,Native
+Ionian Sea,Thunnus thynnus,Native
+Juan Fernandez and Desventuradas,Pseudocaranx dentex,Native
+Juan Fernandez and Desventuradas,Thunnus maccoyii,Native
+Juan Fernandez and Desventuradas,Thunnus orientalis,Native
+Kamchatka Shelf and Coast,Acanthopagrus schlegelii,Native
+Kamchatka Shelf and Coast,Lateolabrax japonicus,Native
+Kamchatka Shelf and Coast,Oncorhynchus kisutch,Native
+Kamchatka Shelf and Coast,Oncorhynchus mykiss,Native
+Kamchatka Shelf and Coast,Oncorhynchus tshawytscha,Native
+Kamchatka Shelf and Coast,Thunnus orientalis,Native
+Kerguelen Islands,Thunnus maccoyii,Native
+Kermadec Island,Pseudocaranx dentex,Native
+Kermadec Island,Thunnus maccoyii,Native
+Kermadec Island,Thunnus orientalis,Native
+Leeuwin,Chanos chanos,Native
+Leeuwin,Mugil cephalus,Native
+Leeuwin,Pseudocaranx dentex,Native
+Leeuwin,Rachycentron canadum,Native
+Leeuwin,Thunnus maccoyii,Native
+Lesser Sunda,Chanos chanos,Native
+Lesser Sunda,Lates calcarifer,Native
+Lesser Sunda,Rachycentron canadum,Native
+Lesser Sunda,Thunnus maccoyii,Native
+Levantine Sea,Argyrosomus regius,Native
+Levantine Sea,Dicentrarchus labrax,Native
+Levantine Sea,Mugil cephalus,Native
+Levantine Sea,Pagrus pagrus,Native
+Levantine Sea,Pseudocaranx dentex,Native
+Levantine Sea,Scophthalmus maximus,Native
+Levantine Sea,Sparus aurata,Native
+Levantine Sea,Thunnus thynnus,Native
+Line Islands,Chanos chanos,Native
+Line Islands,Pseudocaranx dentex,Native
+Line Islands,Thunnus orientalis,Native
+Line Islands,Trachinotus blochii,Native
+Lord Howe and Norfolk Islands,Chanos chanos,Native
+Lord Howe and Norfolk Islands,Mugil cephalus,Native
+Lord Howe and Norfolk Islands,Pseudocaranx dentex,Native
+Lord Howe and Norfolk Islands,Thunnus maccoyii,Native
+Lord Howe and Norfolk Islands,Thunnus orientalis,Native
+Lord Howe and Norfolk Islands,Trachinotus blochii,Native
+Magdalena Transition,Chanos chanos,Native
+Magdalena Transition,Mugil cephalus,Native
+Magdalena Transition,Thunnus orientalis,Native
+Malacca Strait,Lates calcarifer,Native
+Malacca Strait,Rachycentron canadum,Native
+Malacca Strait,Trachinotus blochii,Native
+Maldives,Chanos chanos,Native
+Maldives,Rachycentron canadum,Native
+Maldives,Trachinotus blochii,Native
+Malvinas/Falklands,Thunnus maccoyii,Native
+Manning-Hawkesbury,Chanos chanos,Native
+Manning-Hawkesbury,Mugil cephalus,Native
+Manning-Hawkesbury,Pseudocaranx dentex,Native
+Manning-Hawkesbury,Thunnus maccoyii,Native
+Manning-Hawkesbury,Thunnus orientalis,Native
+Manning-Hawkesbury,Trachinotus blochii,Native
+Mariana Islands,Chanos chanos,Native
+Mariana Islands,Lates calcarifer,Native
+Mariana Islands,Thunnus orientalis,Native
+Mariana Islands,Trachinotus blochii,Native
+Marquesas,Chanos chanos,Native
+Marquesas,Thunnus orientalis,Native
+Marshall Islands,Chanos chanos,Native
+Marshall Islands,Mugil cephalus,Native
+Marshall Islands,Thunnus orientalis,Native
+Marshall Islands,Trachinotus blochii,Native
+Mascarene Islands,Chanos chanos,Native
+Mascarene Islands,Mugil cephalus,Native
+Mascarene Islands,Pseudocaranx dentex,Native
+Mascarene Islands,Rachycentron canadum,Native
+Mascarene Islands,Thunnus maccoyii,Native
+Mascarene Islands,Trachinotus blochii,Native
+Mexican Tropical Pacific,Chanos chanos,Native
+Mexican Tropical Pacific,Mugil cephalus,Native
+Mexican Tropical Pacific,Thunnus orientalis,Native
+Namaqua,Mugil cephalus,Native
+Namaqua,Pseudocaranx dentex,Native
+Namaqua,Thunnus maccoyii,Native
+Namaqua,Thunnus thynnus,Native
+Namib,Mugil cephalus,Native
+Namib,Pagrus pagrus,Native
+Namib,Pseudocaranx dentex,Native
+Namib,Rachycentron canadum,Native
+Namib,Thunnus maccoyii,Native
+Namib,Thunnus thynnus,Native
+Natal,Chanos chanos,Native
+Natal,Mugil cephalus,Native
+Natal,Pseudocaranx dentex,Native
+Natal,Rachycentron canadum,Native
+Natal,Thunnus maccoyii,Native
+Natal,Trachinotus blochii,Native
+New Caledonia,Chanos chanos,Native
+New Caledonia,Pseudocaranx dentex,Native
+New Caledonia,Thunnus orientalis,Native
+New Caledonia,Trachinotus blochii,Native
+Nicoya,Chanos chanos,Native
+Ningaloo,Mugil cephalus,Native
+Ningaloo,Pseudocaranx dentex,Native
+Ningaloo,Rachycentron canadum,Native
+Ningaloo,Thunnus maccoyii,Native
+North American Pacific Fijordland,Oncorhynchus kisutch,Native
+North American Pacific Fijordland,Oncorhynchus mykiss,Native
+North American Pacific Fijordland,Oncorhynchus tshawytscha,Native
+North American Pacific Fijordland,Thunnus orientalis,Native
+North and East Barents Sea,Gadus morhua,Native
+North and East Barents Sea,Salmo salar,Native
+North and East Iceland,Gadus morhua,Native
+North and East Iceland,Thunnus thynnus,Native
+North Patagonian Gulfs,Pagrus pagrus,Native
+North Sea,Argyrosomus regius,Native
+North Sea,Dicentrarchus labrax,Native
+North Sea,Gadus morhua,Native
+North Sea,Hippoglossus hippoglossus,Native
+North Sea,Salmo salar,Native
+North Sea,Scophthalmus maximus,Native
+North Sea,Sparus aurata,Native
+North Sea,Thunnus thynnus,Native
+Northeastern Brazil,Pseudocaranx dentex,Native
+Northeastern Brazil,Rachycentron canadum,Native
+Northeastern Brazil,Thunnus thynnus,Native
+Northeastern Honshu,Acanthopagrus schlegelii,Native
+Northeastern Honshu,Chanos chanos,Native
+Northeastern Honshu,Larimichthys crocea,Native
+Northeastern Honshu,Lateolabrax japonicus,Native
+Northeastern Honshu,Lates calcarifer,Native
+Northeastern Honshu,Mugil cephalus,Native
+Northeastern Honshu,Oncorhynchus kisutch,Native
+Northeastern Honshu,Oncorhynchus mykiss,Native
+Northeastern Honshu,Oncorhynchus tshawytscha,Native
+Northeastern Honshu,Paralichthys olivaceus,Native
+Northeastern Honshu,Pseudocaranx dentex,Native
+Northeastern Honshu,Rachycentron canadum,Native
+Northeastern Honshu,Sebastes schlegelii,Native
+Northeastern Honshu,Seriola quinqueradiata,Native
+Northeastern Honshu,Takifugu rubripes,Native
+Northeastern Honshu,Thunnus orientalis,Native
+Northeastern Honshu,Trachurus japonicus,Native
+Northeastern New Zealand,Mugil cephalus,Native
+Northeastern New Zealand,Pseudocaranx dentex,Native
+Northeastern New Zealand,Thunnus maccoyii,Native
+Northeastern New Zealand,Thunnus orientalis,Native
+Northern and Central Red Sea,Argyrosomus regius,Native
+Northern and Central Red Sea,Chanos chanos,Native
+Northern and Central Red Sea,Mugil cephalus,Native
+Northern and Central Red Sea,Rachycentron canadum,Native
+Northern and Central Red Sea,Trachinotus blochii,Native
+Northern Bay of Bengal,Chanos chanos,Native
+Northern Bay of Bengal,Lates calcarifer,Native
+Northern Bay of Bengal,Mugil cephalus,Native
+Northern Bay of Bengal,Rachycentron canadum,Native
+Northern Bay of Bengal,Trachinotus blochii,Native
+Northern California,Chanos chanos,Native
+Northern California,Oncorhynchus kisutch,Native
+Northern California,Oncorhynchus mykiss,Native
+Northern California,Oncorhynchus tshawytscha,Native
+Northern California,Thunnus orientalis,Native
+Northern Galapagos Islands,Chanos chanos,Native
+Northern Galapagos Islands,Thunnus orientalis,Native
+Northern Grand Banks - Southern Labrador,Gadus morhua,Native
+Northern Grand Banks - Southern Labrador,Hippoglossus hippoglossus,Native
+Northern Grand Banks - Southern Labrador,Salmo salar,Native
+Northern Grand Banks - Southern Labrador,Thunnus thynnus,Native
+Northern Gulf of Mexico,Mugil cephalus,Native
+Northern Gulf of Mexico,Pagrus pagrus,Native
+Northern Gulf of Mexico,Rachycentron canadum,Native
+Northern Gulf of Mexico,Sciaenops ocellatus,Native
+Northern Gulf of Mexico,Thunnus thynnus,Native
+Northern Labrador,Gadus morhua,Native
+Northern Labrador,Hippoglossus hippoglossus,Native
+Northern Labrador,Salmo salar,Native
+Northern Norway and Finnmark,Dicentrarchus labrax,Native
+Northern Norway and Finnmark,Gadus morhua,Native
+Northern Norway and Finnmark,Hippoglossus hippoglossus,Native
+Northern Norway and Finnmark,Salmo salar,Native
+Northern Norway and Finnmark,Scophthalmus maximus,Native
+Northern Norway and Finnmark,Thunnus thynnus,Native
+Ogasawara Islands,Pseudocaranx dentex,Native
+Ogasawara Islands,Rachycentron canadum,Native
+Ogasawara Islands,Seriola quinqueradiata,Native
+Ogasawara Islands,Thunnus orientalis,Native
+"Oregon, Washington, Vancouver Coast and Shelf",Oncorhynchus kisutch,Native
+"Oregon, Washington, Vancouver Coast and Shelf",Oncorhynchus mykiss,Native
+"Oregon, Washington, Vancouver Coast and Shelf",Oncorhynchus tshawytscha,Native
+"Oregon, Washington, Vancouver Coast and Shelf",Thunnus orientalis,Native
+Oyashio Current,Oncorhynchus kisutch,Native
+Oyashio Current,Paralichthys olivaceus,Native
+Oyashio Current,Thunnus orientalis,Native
+Palawan/North Borneo,Chanos chanos,Native
+Palawan/North Borneo,Lates calcarifer,Native
+Palawan/North Borneo,Paralichthys olivaceus,Native
+Palawan/North Borneo,Rachycentron canadum,Native
+Palawan/North Borneo,Thunnus orientalis,Native
+Palawan/North Borneo,Trachinotus blochii,Native
+Panama Bight,Chanos chanos,Native
+Panama Bight,Mugil cephalus,Native
+Panama Bight,Rachycentron canadum,Native
+Phoenix/Tokelau/Northern Cook Islands,Chanos chanos,Native
+Phoenix/Tokelau/Northern Cook Islands,Thunnus orientalis,Native
+Phoenix/Tokelau/Northern Cook Islands,Trachinotus blochii,Native
+Prince Edward Islands,Thunnus maccoyii,Native
+Puget Trough/Georgia Basin,Oncorhynchus kisutch,Native
+Puget Trough/Georgia Basin,Oncorhynchus mykiss,Native
+Puget Trough/Georgia Basin,Oncorhynchus tshawytscha,Native
+Rapa-Pitcairn,Mugil cephalus,Native
+Rapa-Pitcairn,Pseudocaranx dentex,Native
+Rapa-Pitcairn,Thunnus orientalis,Native
+Revillagigedos,Chanos chanos,Native
+Revillagigedos,Mugil cephalus,Native
+Revillagigedos,Thunnus orientalis,Native
+Rio de la Plata,Mugil cephalus,Native
+Rio de la Plata,Pagrus pagrus,Native
+Rio Grande,Pagrus pagrus,Native
+Rio Grande,Thunnus maccoyii,Native
+Rio Grande,Thunnus thynnus,Native
+Saharan Upwelling,Argyrosomus regius,Native
+Saharan Upwelling,Dicentrarchus labrax,Native
+Saharan Upwelling,Mugil cephalus,Native
+Saharan Upwelling,Pagrus pagrus,Native
+Saharan Upwelling,Scophthalmus maximus,Native
+Saharan Upwelling,Sparus aurata,Native
+Saharan Upwelling,Thunnus thynnus,Native
+Sahelian Upwelling,Argyrosomus regius,Native
+Sahelian Upwelling,Dicentrarchus labrax,Native
+Sahelian Upwelling,Mugil cephalus,Native
+Sahelian Upwelling,Pagrus pagrus,Native
+Sahelian Upwelling,Rachycentron canadum,Native
+Sahelian Upwelling,Thunnus thynnus,Native
+Samoa Islands,Chanos chanos,Native
+Samoa Islands,Pseudocaranx dentex,Native
+Samoa Islands,Thunnus orientalis,Native
+Samoa Islands,Trachinotus blochii,Native
+Scotian Shelf,Gadus morhua,Native
+Scotian Shelf,Hippoglossus hippoglossus,Native
+Scotian Shelf,Mugil cephalus,Native
+Scotian Shelf,Rachycentron canadum,Native
+Scotian Shelf,Salmo salar,Native
+Scotian Shelf,Thunnus thynnus,Native
+Sea of Japan/East Sea,Acanthopagrus schlegelii,Native
+Sea of Japan/East Sea,Chanos chanos,Native
+Sea of Japan/East Sea,Lateolabrax japonicus,Native
+Sea of Japan/East Sea,Oncorhynchus mykiss,Native
+Sea of Japan/East Sea,Oncorhynchus tshawytscha,Native
+Sea of Japan/East Sea,Paralichthys olivaceus,Native
+Sea of Japan/East Sea,Rachycentron canadum,Native
+Sea of Japan/East Sea,Sebastes schlegelii,Native
+Sea of Japan/East Sea,Seriola quinqueradiata,Native
+Sea of Japan/East Sea,Takifugu rubripes,Native
+Sea of Japan/East Sea,Thunnus orientalis,Native
+Sea of Japan/East Sea,Trachurus japonicus,Native
+Sea of Okhotsk,Oncorhynchus kisutch,Native
+Sea of Okhotsk,Oncorhynchus mykiss,Native
+Sea of Okhotsk,Thunnus orientalis,Native
+Seychelles,Chanos chanos,Native
+Seychelles,Rachycentron canadum,Native
+Seychelles,Thunnus maccoyii,Native
+Seychelles,Trachinotus blochii,Native
+Shark Bay,Chanos chanos,Native
+Shark Bay,Mugil cephalus,Native
+Shark Bay,Pseudocaranx dentex,Native
+Shark Bay,Rachycentron canadum,Native
+Shark Bay,Thunnus maccoyii,Native
+Snares Island,Thunnus maccoyii,Native
+Snares Island,Thunnus orientalis,Native
+Society Islands,Chanos chanos,Native
+Society Islands,Mugil cephalus,Native
+Society Islands,Thunnus orientalis,Native
+Solomon Archipelago,Chanos chanos,Native
+Solomon Archipelago,Rachycentron canadum,Native
+Solomon Archipelago,Thunnus orientalis,Native
+Solomon Archipelago,Trachinotus blochii,Native
+Solomon Sea,Chanos chanos,Native
+Solomon Sea,Lates calcarifer,Native
+Solomon Sea,Pseudocaranx dentex,Native
+Solomon Sea,Rachycentron canadum,Native
+Solomon Sea,Thunnus orientalis,Native
+Solomon Sea,Trachinotus blochii,Native
+South and West Iceland,Argyrosomus regius,Native
+South and West Iceland,Dicentrarchus labrax,Native
+South and West Iceland,Gadus morhua,Native
+South and West Iceland,Salmo salar,Native
+South and West Iceland,Scophthalmus maximus,Native
+South and West Iceland,Thunnus thynnus,Native
+South Australian Gulfs,Mugil cephalus,Native
+South Australian Gulfs,Pseudocaranx dentex,Native
+South Australian Gulfs,Thunnus maccoyii,Native
+South China Sea Oceanic Islands,Lates calcarifer,Native
+South China Sea Oceanic Islands,Pagrus auratus,Native
+South China Sea Oceanic Islands,Paralichthys olivaceus,Native
+South China Sea Oceanic Islands,Rachycentron canadum,Native
+South China Sea Oceanic Islands,Thunnus orientalis,Native
+South China Sea Oceanic Islands,Trachinotus blochii,Native
+South European Atlantic Shelf,Argyrosomus regius,Native
+South European Atlantic Shelf,Dicentrarchus labrax,Native
+South European Atlantic Shelf,Gadus morhua,Native
+South European Atlantic Shelf,Mugil cephalus,Native
+South European Atlantic Shelf,Pagrus pagrus,Native
+South European Atlantic Shelf,Salmo salar,Native
+South European Atlantic Shelf,Scophthalmus maximus,Native
+South European Atlantic Shelf,Sparus aurata,Native
+South European Atlantic Shelf,Thunnus thynnus,Native
+South India and Sri Lanka,Chanos chanos,Native
+South India and Sri Lanka,Lates calcarifer,Native
+South India and Sri Lanka,Rachycentron canadum,Native
+South India and Sri Lanka,Trachinotus blochii,Native
+South Kuroshio,Acanthopagrus schlegelii,Native
+South Kuroshio,Chanos chanos,Native
+South Kuroshio,Larimichthys crocea,Native
+South Kuroshio,Lateolabrax japonicus,Native
+South Kuroshio,Lates calcarifer,Native
+South Kuroshio,Mugil cephalus,Native
+South Kuroshio,Pagrus auratus,Native
+South Kuroshio,Paralichthys olivaceus,Native
+South Kuroshio,Pseudocaranx dentex,Native
+South Kuroshio,Rachycentron canadum,Native
+South Kuroshio,Seriola quinqueradiata,Native
+South Kuroshio,Takifugu rubripes,Native
+South Kuroshio,Thunnus orientalis,Native
+South Kuroshio,Trachinotus blochii,Native
+South New Zealand,Pseudocaranx dentex,Native
+South New Zealand,Thunnus maccoyii,Native
+South New Zealand,Thunnus orientalis,Native
+Southeast Madagascar,Chanos chanos,Native
+Southeast Madagascar,Mugil cephalus,Native
+Southeast Madagascar,Pseudocaranx dentex,Native
+Southeast Madagascar,Rachycentron canadum,Native
+Southeast Madagascar,Thunnus maccoyii,Native
+Southeast Madagascar,Trachinotus blochii,Native
+Southeast Papua New Guinea,Chanos chanos,Native
+Southeast Papua New Guinea,Lates calcarifer,Native
+Southeast Papua New Guinea,Pseudocaranx dentex,Native
+Southeast Papua New Guinea,Rachycentron canadum,Native
+Southeast Papua New Guinea,Thunnus orientalis,Native
+Southeast Papua New Guinea,Trachinotus blochii,Native
+Southeastern Brazil,Pagrus pagrus,Native
+Southeastern Brazil,Pseudocaranx dentex,Native
+Southeastern Brazil,Rachycentron canadum,Native
+Southeastern Brazil,Thunnus maccoyii,Native
+Southeastern Brazil,Thunnus thynnus,Native
+Southern California Bight,Chanos chanos,Native
+Southern California Bight,Mugil cephalus,Native
+Southern California Bight,Oncorhynchus kisutch,Native
+Southern California Bight,Oncorhynchus mykiss,Native
+Southern California Bight,Oncorhynchus tshawytscha,Native
+Southern California Bight,Thunnus orientalis,Native
+Southern Caribbean,Pagrus pagrus,Native
+Southern Caribbean,Pseudocaranx dentex,Native
+Southern Caribbean,Rachycentron canadum,Native
+Southern Caribbean,Thunnus thynnus,Native
+Southern China,Acanthopagrus schlegelii,Native
+Southern China,Chanos chanos,Native
+Southern China,Larimichthys crocea,Native
+Southern China,Lateolabrax japonicus,Native
+Southern China,Lates calcarifer,Native
+Southern China,Mugil cephalus,Native
+Southern China,Pagrus auratus,Native
+Southern China,Paralichthys olivaceus,Native
+Southern China,Pseudocaranx dentex,Native
+Southern China,Rachycentron canadum,Native
+Southern China,Seriola quinqueradiata,Native
+Southern China,Takifugu rubripes,Native
+Southern China,Thunnus orientalis,Native
+Southern China,Trachinotus blochii,Native
+Southern Cook/Austral Islands,Chanos chanos,Native
+Southern Cook/Austral Islands,Thunnus orientalis,Native
+Southern Cook/Austral Islands,Trachinotus blochii,Native
+Southern Grand Banks - South Newfoundland,Gadus morhua,Native
+Southern Grand Banks - South Newfoundland,Hippoglossus hippoglossus,Native
+Southern Grand Banks - South Newfoundland,Mugil cephalus,Native
+Southern Grand Banks - South Newfoundland,Salmo salar,Native
+Southern Grand Banks - South Newfoundland,Thunnus thynnus,Native
+Southern Gulf of Mexico,Mugil cephalus,Native
+Southern Gulf of Mexico,Pseudocaranx dentex,Native
+Southern Gulf of Mexico,Rachycentron canadum,Native
+Southern Gulf of Mexico,Sciaenops ocellatus,Native
+Southern Gulf of Mexico,Thunnus thynnus,Native
+Southern Java,Chanos chanos,Native
+Southern Java,Lates calcarifer,Native
+Southern Java,Rachycentron canadum,Native
+Southern Java,Thunnus maccoyii,Native
+Southern Java,Trachinotus blochii,Native
+Southern Norway,Dicentrarchus labrax,Native
+Southern Norway,Gadus morhua,Native
+Southern Norway,Hippoglossus hippoglossus,Native
+Southern Norway,Salmo salar,Native
+Southern Norway,Scophthalmus maximus,Native
+Southern Norway,Thunnus thynnus,Native
+Southern Red Sea,Chanos chanos,Native
+Southern Red Sea,Mugil cephalus,Native
+Southern Red Sea,Rachycentron canadum,Native
+Southern Red Sea,Trachinotus blochii,Native
+Southern Vietnam,Chanos chanos,Native
+Southern Vietnam,Lateolabrax japonicus,Native
+Southern Vietnam,Lates calcarifer,Native
+Southern Vietnam,Mugil cephalus,Native
+Southern Vietnam,Paralichthys olivaceus,Native
+Southern Vietnam,Rachycentron canadum,Native
+Southern Vietnam,Trachinotus blochii,Native
+Southwestern Caribbean,Mugil cephalus,Native
+Southwestern Caribbean,Rachycentron canadum,Native
+Southwestern Caribbean,Thunnus thynnus,Native
+St. Helena and Ascension Islands,Pseudocaranx dentex,Native
+St. Helena and Ascension Islands,Thunnus thynnus,Native
+Sulawesi Sea/Makassar Strait,Rachycentron canadum,Native
+Sulawesi Sea/Makassar Strait,Thunnus orientalis,Native
+Sunda Shelf/Java Sea,Lates calcarifer,Native
+Sunda Shelf/Java Sea,Rachycentron canadum,Native
+Three Kings-North Cape,Pseudocaranx dentex,Native
+Three Kings-North Cape,Thunnus maccoyii,Native
+Three Kings-North Cape,Thunnus orientalis,Native
+Tonga Islands,Chanos chanos,Native
+Tonga Islands,Thunnus orientalis,Native
+Tonga Islands,Trachinotus blochii,Native
+Torres Strait Northern Great Barrier Reef,Chanos chanos,Native
+Torres Strait Northern Great Barrier Reef,Lates calcarifer,Native
+Torres Strait Northern Great Barrier Reef,Rachycentron canadum,Native
+Torres Strait Northern Great Barrier Reef,Thunnus orientalis,Native
+Torres Strait Northern Great Barrier Reef,Trachinotus blochii,Native
+Trindade and Martin Vaz Islands,Thunnus maccoyii,Native
+Trindade and Martin Vaz Islands,Thunnus thynnus,Native
+Tristan Gough,Thunnus maccoyii,Native
+Tristan Gough,Thunnus thynnus,Native
+Tuamotus,Chanos chanos,Native
+Tuamotus,Mugil cephalus,Native
+Tuamotus,Pseudocaranx dentex,Native
+Tuamotus,Thunnus orientalis,Native
+Tunisian Plateau/Gulf of Sidra,Argyrosomus regius,Native
+Tunisian Plateau/Gulf of Sidra,Dicentrarchus labrax,Native
+Tunisian Plateau/Gulf of Sidra,Mugil cephalus,Native
+Tunisian Plateau/Gulf of Sidra,Pagrus pagrus,Native
+Tunisian Plateau/Gulf of Sidra,Pseudocaranx dentex,Native
+Tunisian Plateau/Gulf of Sidra,Scophthalmus maximus,Native
+Tunisian Plateau/Gulf of Sidra,Sparus aurata,Native
+Tunisian Plateau/Gulf of Sidra,Thunnus thynnus,Native
+Tweed-Moreton,Chanos chanos,Native
+Tweed-Moreton,Lates calcarifer,Native
+Tweed-Moreton,Mugil cephalus,Native
+Tweed-Moreton,Pseudocaranx dentex,Native
+Tweed-Moreton,Rachycentron canadum,Native
+Tweed-Moreton,Thunnus maccoyii,Native
+Tweed-Moreton,Thunnus orientalis,Native
+Tweed-Moreton,Trachinotus blochii,Native
+Uruguay-Buenos Aires Shelf,Pagrus pagrus,Native
+Uruguay-Buenos Aires Shelf,Rachycentron canadum,Native
+Uruguay-Buenos Aires Shelf,Thunnus maccoyii,Native
+Uruguay-Buenos Aires Shelf,Thunnus thynnus,Native
+Vanuatu,Chanos chanos,Native
+Vanuatu,Thunnus orientalis,Native
+Vanuatu,Trachinotus blochii,Native
+Virginian,Gadus morhua,Native
+Virginian,Hippoglossus hippoglossus,Native
+Virginian,Mugil cephalus,Native
+Virginian,Pagrus pagrus,Native
+Virginian,Rachycentron canadum,Native
+Virginian,Salmo salar,Native
+Virginian,Sciaenops ocellatus,Native
+Virginian,Thunnus thynnus,Native
+West Caroline Islands,Chanos chanos,Native
+West Caroline Islands,Lates calcarifer,Native
+West Caroline Islands,Mugil cephalus,Native
+West Caroline Islands,Thunnus orientalis,Native
+West Caroline Islands,Trachinotus blochii,Native
+West Greenland Shelf,Gadus morhua,Native
+West Greenland Shelf,Hippoglossus hippoglossus,Native
+West Greenland Shelf,Salmo salar,Native
+West Greenland Shelf,Thunnus thynnus,Native
+Western and Northern Madagascar,Chanos chanos,Native
+Western and Northern Madagascar,Mugil cephalus,Native
+Western and Northern Madagascar,Rachycentron canadum,Native
+Western and Northern Madagascar,Thunnus maccoyii,Native
+Western and Northern Madagascar,Trachinotus blochii,Native
+Western Arabian Sea,Chanos chanos,Native
+Western Arabian Sea,Rachycentron canadum,Native
+Western Arabian Sea,Trachinotus blochii,Native
+Western Bassian,Mugil cephalus,Native
+Western Bassian,Pseudocaranx dentex,Native
+Western Bassian,Thunnus maccoyii,Native
+Western Caribbean,Mugil cephalus,Native
+Western Caribbean,Rachycentron canadum,Native
+Western Caribbean,Thunnus thynnus,Native
+Western Galapagos Islands,Chanos chanos,Native
+Western Galapagos Islands,Mugil cephalus,Native
+Western Galapagos Islands,Thunnus orientalis,Native
+Western India,Chanos chanos,Native
+Western India,Lates calcarifer,Native
+Western India,Mugil cephalus,Native
+Western India,Rachycentron canadum,Native
+Western India,Trachinotus blochii,Native
+Western Mediterranean,Argyrosomus regius,Native
+Western Mediterranean,Dicentrarchus labrax,Native
+Western Mediterranean,Mugil cephalus,Native
+Western Mediterranean,Pagrus pagrus,Native
+Western Mediterranean,Pseudocaranx dentex,Native
+Western Mediterranean,Salmo salar,Native
+Western Mediterranean,Scophthalmus maximus,Native
+Western Mediterranean,Sparus aurata,Native
+Western Mediterranean,Thunnus thynnus,Native
+Western Sumatra,Mugil cephalus,Native
+White Sea,Salmo salar,Native
+Yellow Sea,Lateolabrax japonicus,Native
+Yellow Sea,Takifugu rubripes,Native
+Yellow Sea,Thunnus orientalis,Native
+Yellow Sea,Larimichthys crocea,Native
+Yellow Sea,Pagrus auratus,Native
+Yellow Sea,Acanthopagrus schlegelii,Native
+Yellow Sea,Mugil cephalus,Native
+Yellow Sea,Paralichthys olivaceus,Native
+Yellow Sea,Rachycentron canadum,Native
+Yellow Sea,Sebastes schlegelii,Native
+Yellow Sea,Seriola quinqueradiata,Native
+Yellow Sea,Trachurus japonicus,Native
