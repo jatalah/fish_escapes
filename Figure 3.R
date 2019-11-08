@@ -4,6 +4,7 @@ source('theme_javier.R')
 
 # read data-------------
 std_scores <- read_csv('outputs/std_scores.csv')
+setwd("C:/Users/javiera/OneDrive - Cawthron/fish_escapes/outputs/")
 
 # Supplementary Figure 2 lollipop plot by province--------------------
 province_lollipop <- 
